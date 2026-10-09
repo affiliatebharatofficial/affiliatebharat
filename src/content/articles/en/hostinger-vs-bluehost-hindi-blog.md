@@ -93,6 +93,9 @@ MilesWeb's model — ₹69/mo forever — is the honest outlier. If you hate sur
 
 ## Pros and cons summary
 
+![Hostinger homepage](/screenshots/hostinger-home.png)
+*Hostinger.in homepage — domain search and the free-domain offer sit right at the top*
+
 **Hostinger — pros:** lowest verified intro price in India, clean control panel, free domain on Premium and above, huge tutorial ecosystem. **Cons:** steep renewal jump (₹69 → ₹289), Hindi support not verified, 48-month lock-in needed for best price.
 
 **Bluehost India — pros:** officially WordPress-recommended brand, unmetered storage on Choice Plus, familiar to many Indian bloggers. **Cons:** renewal prices not published, highest intro price of the three (₹299/mo), Hindi support not verified.

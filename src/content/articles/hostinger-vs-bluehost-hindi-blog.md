@@ -109,6 +109,9 @@ Ab seedhi salah, category-wise:
 
 ## Hostinger: pros aur cons
 
+![Hostinger ka homepage](/screenshots/hostinger-home.png)
+*Hostinger.in ka homepage — domain search aur yearly plans par free domain offer sabse upar*
+
 **Pros:**
 - Sabse kam intro price (₹69/mo se shuru)
 - Renewal prices official site par transparent likhe hain — koi chhupa bill nahi

@@ -63,6 +63,9 @@ Agar aapka main kaam **likhna** hai — weekly newsletter, blog updates, online 
 
 ### Funnels + email ek jagah → Systeme.io (free plan)
 
+![Systeme.io ka homepage](/screenshots/systeme-home.png)
+*Systeme.io ka homepage — "free forever" plan aur no-credit-card positioning saaf dikhti hai*
+
 Systeme.io ki sabse badi strength uska **free plan** hai — bina credit card ke aap email marketing ke saath sales funnels, aur hatta ki online course hosting bhi shuru kar sakte ho. Ek early-stage startup ke liye jahan har tool ka alag subscription lena possible nahi, ye "sab kuch ek jagah" approach kaafi attractive hai.
 
 **Le lo agar:** budget zero hai, aur aapko email ke saath landing pages/funnels bhi chahiye bina multiple tools khareede.
@@ -72,6 +75,9 @@ Systeme.io ki sabse badi strength uska **free plan** hai — bina credit card ke
 {{aff:systeme|Systeme.io ka free plan dekho}} — bina paise kharch kiye apni pehli funnel aur email list shuru karo.
 
 ### Automation-heavy marketing → GetResponse
+
+![GetResponse ka homepage](/screenshots/getresponse-home.png)
+*GetResponse ka homepage — automation aur webinar features par focus*
 
 GetResponse ek mature, feature-rich platform hai. Advanced automation workflows, webinar hosting, detailed segmentation — agar aapki marketing strategy me ye sab hai, to ye tool serious kaam ka hai. Thodi learning curve hai, lekin power users ke liye features ki depth kaafi hai.
 

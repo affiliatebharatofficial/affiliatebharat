@@ -43,6 +43,9 @@ Pehle dono plans ko ek table me rakh kar dekhte hain — yehi woh numbers hain j
 | **Backups** | Weekly | Weekly |
 | **Best for** | 1 blog / 1 business site | 2-3 sites ya growth plan |
 
+![Hostinger ke web hosting plans](/screenshots/hostinger-pricing-plans.png)
+*Hostinger.in/web-hosting par chaaron plans ek saath — Single ₹69/mo se Cloud Startup ₹599/mo tak (48-month term par)*
+
 Dekha? Intro price me difference sirf **₹80/month** ka hai (₹149 − ₹69). Yehi woh number hai jo zyadatar log miss kar dete hain. Lekin kahani sirf intro price ki nahi hai — asli game renewal price ka hai, jise hum agle section me kholenge.
 
 Ek aur baat: Hostinger ke India homepage par purana "Business" plan ab nahi dikh raha — uski jagah ab **"Unlimited" plan** hai (₹249/mo intro, ₹649/mo renewal, unlimited sites, 50 GB NVMe, daily backups). Agar aapka kaam Single aur Premium dono se bada hai, to Unlimited bhi ek option hai, lekin is article ka focus Single vs Premium par hai.

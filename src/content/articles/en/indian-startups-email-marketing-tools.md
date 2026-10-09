@@ -76,6 +76,9 @@ If your main job is **writing** — a weekly newsletter, blog updates, an email 
 
 ### Zero budget + funnels in one place → Systeme.io
 
+![Systeme.io homepage](/screenshots/systeme-home.png)
+*Systeme.io homepage — the free-forever plan and no-credit-card pitch are front and centre*
+
 Systeme.io's biggest strength is that its free plan replaces **several subscriptions at once**: email marketing, landing pages, sales funnels, course hosting and a blog. For a startup where every extra tool is a separate bill you cannot afford, the "everything in one dashboard" model is genuinely compelling.
 
 **Pick it if:** your budget is zero and you need email plus landing pages or funnels without buying multiple tools.
@@ -83,6 +86,11 @@ Systeme.io's biggest strength is that its free plan replaces **several subscript
 **Skip it if:** you need enterprise-grade automation or advanced deliverability reporting — dedicated email platforms go deeper there.
 
 ### Automation-heavy marketing → GetResponse
+
+![GetResponse homepage](/screenshots/getresponse-home.png)
+*GetResponse homepage — automation and webinar features lead the pitch*
+
+
 
 GetResponse is the mature, feature-rich option. Advanced automation workflows, webinar hosting (100 attendees on the Creator plan), detailed segmentation and ecommerce features like abandoned-cart recovery. There is a learning curve, but the depth is real for power users.
 

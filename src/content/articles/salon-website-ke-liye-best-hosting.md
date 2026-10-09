@@ -58,6 +58,9 @@ Public specs aur pricing data ke analysis ke basis par, salon website ke liye do
 
 Ye unke liye best hai jo khud thoda technical kaam sambhal sakte hain aur pehle saal kam kharcha rakhna chahte hain.
 
+![Hostinger ka homepage](/screenshots/hostinger-home.png)
+*Hostinger.in — budget pick ka homepage; plans page par Single vs Premium ka farq saaf dikhta hai*
+
 {{aff:hostinger|Hostinger Premium ki aaj ki price dekho}}
 
 ### Pick 2: MilesWeb Business — tension-free pick (₹199/mo, renewal bhi wahi)
@@ -68,6 +71,9 @@ Ye unke liye best hai jo khud thoda technical kaam sambhal sakte hain aur pehle 
 - **Hindi me 24/7 support (verified)** — non-technical salon owners ke liye ye sabse bada plus hai
 
 Agar aapko "site me kuch gadbad hui to kisse poochhunga" wali tension hai, to Hindi support wala ye option seriously consider karo. Raat ko site down ho to Hindi me baat karke problem solve karwana English ticket se kahin easy hai.
+
+![MilesWeb ka homepage](/screenshots/milesweb-home.png)
+*MilesWeb.in ka homepage — Hindi support aur same-price renewal iski sabse badi strengths hain*
 
 {{aff:milesweb|MilesWeb Business plan ki details dekho}}
 
