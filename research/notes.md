@@ -150,3 +150,21 @@ Sources: https://community.funnelish.com/t/whats-clickfunnels-affiliate-payout/8
 8. SEMrush / Kit / Jasper / ClickFunnels official affiliate pages — facts from reputable third-party sources only; terms may change.
 9. Angel One: third-party (lamfindia) says delivery brokerage FREE vs official FAQ text (lower of ₹20/0.1%) — discrepancy unresolved.
 10. Jasper cookie/min-payout details (30-day/$5 vs 45-day/$25) — sources conflict.
+
+---
+
+## 2026-10-09 — EN article: indian-startups-email-marketing-tools (en version of Hinglish seed article)
+
+Topic: English rewrite of `indian-startups-email-marketing-tools.md` (rotation rule: H=6, E=2 → H-E=4 >= 3).
+Target keyword: "email marketing tools for indian startups". Slug: en/indian-startups-email-marketing-tools.
+
+### Verified via browser.search (third-party 2026 reviews; official pricing pages not directly opened)
+- **Systeme.io free plan** — free forever, 2,000 contacts, unlimited email sends, 3 funnels, 1 course, 1 blog, 1 custom domain, no credit card (consistent across 3+ 2026 reviews: aitoolblaze, maisonandmacro, medium). Paid tiers: third-party figures CONFLICT ($17/mo vs $27/mo for Startup) → not stated as fact in article.
+- **Kit free plan** — free up to 10,000 subscribers, unlimited broadcasts/forms/landing pages (consistent: emailtooltester, sendx.io, elitecontentmarketer, startsitenow). Automation on free plan CONFLICTS: emailtooltester (Sept 3, 2026) says automations recently removed; sendx.io lists "1 basic" automation → flagged as conflict in-article; reader told to verify on kit.com. Creator paid: $39/mo (1,000 subs, monthly; $33/mo annual) — consistent across sources; prices raised ~35% in Sept 2025 (homehustlehub).
+- **GetResponse free plan** — $0: 500 contacts, 2,500 newsletters/month, 1 landing page; premium features open first 30 days then limited (emailvendorselection, omnisend, referralsvc read of getresponse.com/pricing 2026-09-07). Paid (referralsvc read of official pricing): Starter $19/mo (1,000 contacts, unlimited sends), Marketer $59/mo, Creator $69/mo (webinars 100 attendees, course builder). India entry ~₹1,480/mo per third-party wpdealsexpert (treated as third-party figure).
+- Affiliate program facts reused from today's earlier research (see §4 above): GetResponse 33% recurring (official), Systeme.io 60% lifetime recurring (official), Kit 30% recurring 24 months (third-party).
+
+### UNVERIFIED / conflicting (stated as such or omitted in article)
+1. Systeme.io exact paid-tier prices — sources conflict; omitted.
+2. Kit free-plan automation access — sources conflict; flagged in-article.
+3. GetResponse India pricing in ₹ — third-party only (₹1,480/mo); omitted, $ figures used with source label.

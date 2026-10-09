@@ -256,6 +256,23 @@ const locale = lang === 'hi' ? 'hi_IN' : 'en_US';
   .article-body th, .article-body td { border: 1px solid var(--border); padding: 0.6rem 0.8rem; text-align: left; }
   .article-body th { background: #faf5ea; }
 
+  /* Comparison screenshots: responsive, framed, with caption line.
+     Convention in markdown: image, then an italic-only line as caption. */
+  .article-body p:has(img) img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--border);
+    border-radius: 0.8rem;
+    background: #fff;
+  }
+  .article-body p:has(img) { margin-bottom: 0.35rem; }
+  .article-body p:has(img) + p:has(em:only-child) {
+    font-size: 0.88rem;
+    color: #6b6257;
+    text-align: center;
+    margin: 0 0 1.6rem;
+  }
+
   /* FAQ accordion */
   .faq-list details {
     background: var(--surface);

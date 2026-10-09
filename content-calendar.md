@@ -35,3 +35,7 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 - [ ] slug: `semrush-trial-vs-discount-students-india` — Target keyword: "semrush trial vs discount india" (deals)
 - [ ] slug: `diwali-hosting-offers-india-genuine` — Target keyword: "diwali hosting offers india" (deals)
 - [ ] slug: `getresponse-annual-vs-monthly-savings-india` — Target keyword: "getresponse annual vs monthly price india" (deals)
+
+## English versions published (rotation rule: H − E ≥ 3)
+
+- [x] `indian-startups-email-marketing-tools` → `/en/indian-startups-email-marketing-tools/` (2026-10-09; rewrite of Hinglish seed article, not translation)
