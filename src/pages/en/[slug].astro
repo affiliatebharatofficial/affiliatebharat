@@ -49,7 +49,7 @@ const jsonLd: object[] = [
     description: data.description,
     datePublished: data.date.toISOString(),
     dateModified: (data.updated ?? data.date).toISOString(),
-    author: { '@type': 'Organization', name: 'AffiliateBharat', url: 'https://affiliatebharat.com' },
+    author: { '@type': 'Person', name: 'Firoz Khan', url: 'https://affiliatebharat.com/en/about/' },
     publisher: { '@type': 'Organization', name: 'AffiliateBharat', url: 'https://affiliatebharat.com' },
     mainEntityOfPage: canonicalUrl,
     inLanguage: 'en',
@@ -106,7 +106,8 @@ const hreflang = hasHindi
       <h1>{data.title}</h1>
       <p class="desc">{data.description}</p>
       <div class="meta">
-        <span>📅 {fmt(data.date)}</span>
+        <span>✍️ <a href="/en/about/">Firoz Khan</a></span>
+        <span>· 📅 {fmt(data.date)}</span>
         {data.updated && <span>· Updated: {fmt(data.updated)}</span>}
         {data.tags.length > 0 && <span>· 🏷️ {data.tags.join(', ')}</span>}
       </div>
