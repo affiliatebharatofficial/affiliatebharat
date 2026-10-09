@@ -168,3 +168,25 @@ Target keyword: "email marketing tools for indian startups". Slug: en/indian-sta
 1. Systeme.io exact paid-tier prices — sources conflict; omitted.
 2. Kit free-plan automation access — sources conflict; flagged in-article.
 3. GetResponse India pricing in ₹ — third-party only (₹1,480/mo); omitted, $ figures used with source label.
+
+## 2026-10-09 (evening) — PRE-RESEARCH for 2026-10-10 cron run: EN version of hostinger-single-vs-premium-plan
+
+Topic (deterministic per skill tiebreaker rule added 2026-10-09): H=6, E=3 → H−E=3 ≥ 3, so English version of oldest Hinglish article without EN counterpart. Three candidates share date 2026-10-09 → alphabetical tiebreak → `hostinger-single-vs-premium-plan` (h < s).
+Target keywords (English): "hostinger single vs premium", "which hostinger plan should i choose", "hostinger single vs premium india". Slug: en/hostinger-single-vs-premium-plan.
+Screenshot already in repo: /screenshots/hostinger-pricing-plans.png (all four plan cards, captured 2026-10-09) — reuse, no new capture needed.
+
+### Prices RE-VERIFIED 2026-10-09 (evening) — UNCHANGED since 2026-10-09 morning verification
+Corroborated by 3 independent third-party pages reading Hostinger's official India pricing page:
+- Single: ₹69/mo intro (48-mo term, ₹3,312 total) → renews ₹289/mo. 1 website, 10 GB SSD, weekly backups.
+- Premium: ₹149/mo intro (48-mo term, ₹7,152 total) → renews ₹449/mo. 3 websites, 20 GB SSD, free domain 1 yr, weekly backups.
+- Unlimited: ₹249/mo intro (₹11,952 total) → renews ₹649/mo. Unlimited sites, 50 GB NVMe, daily backups.
+- Cloud Startup: ₹599/mo intro (₹28,752 total) → renews ₹1,599/mo.
+- 48-mo math: Single ₹3,312 vs Premium ₹7,152 → difference ₹3,840 = ₹80/mo. Renewal jumps: Single 4.2x, Premium 3x.
+Sources (accessed 2026-10-09): https://gauravtiwari.org/deal/hostinger-coupon-code/ (price table), https://superbuzzmedia.com/hostinger-review-2026/ (review, updated ~3 days ago), https://zoutons.com/news/hostinger-monsoon-sale-2026-plan-prices-renewal-cost (re-verified 2026-09-02, explicit update log).
+
+### Notes for the EN rewrite
+- Prices EXCLUDE 18% GST at checkout (multiple sources) — worth one honest line; Hinglish seed version omits this.
+- "Business" plan is gone from India lineup → replaced by "Unlimited" (verified 2026-10-09 morning; still true per evening sources).
+- Upgrade path Single → Premium exists via hPanel (from Hinglish article; treat as product fact, low risk).
+- Do NOT claim personal testing. Frame as public pricing data analysis. Include lastVerified 2026-10-10 and methodology note.
+- Internal links: /en/hostinger-vs-bluehost-hindi-blog/, /en/wordpress-blog-start-kitna-kharcha/, /tools/hosting-compare/.
