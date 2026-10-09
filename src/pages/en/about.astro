@@ -41,6 +41,25 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
       <li>Verify facts before publishing and note the verification date.</li>
     </ol>
 
+    <h2>Founder</h2>
+    <div class="founder">
+      <img src="/images/firoz-khan.jpg" alt="Firoz Khan — founder of AffiliateBharat" width="160" height="160" loading="lazy" />
+      <div>
+        <p class="founder-name"><strong>Firoz Khan</strong></p>
+        <p>
+          Firoz Khan is a technology-focused content creator and developer who works on
+          practical online tools and digital resources. He is the founder/creator behind
+          FurTools, a pet-focused platform designed to make everyday pet care information,
+          calculations, planning, and educational resources easier to access.
+        </p>
+        <p class="socials">
+          <a href="https://www.youtube.com/@fkdigitalmedia" target="_blank" rel="noopener">▶ YouTube</a>
+          <a href="https://www.instagram.com/rtibyfiroz" target="_blank" rel="noopener">📸 Instagram</a>
+          <a href="https://github.com/fkdigitalmedia" target="_blank" rel="noopener">💻 GitHub</a>
+        </p>
+      </div>
+    </div>
+
     <h2>How we make money</h2>
     <p>
       When you buy through our affiliate links we may earn a commission —
@@ -63,4 +82,10 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
   .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
   .page ul, .page ol { padding-left: 1.4rem; }
   .page li { margin-bottom: 0.5rem; }
+  .founder { display: flex; gap: 1.25rem; align-items: flex-start; margin: 0.5rem 0 1rem; }
+  .founder img { border-radius: 50%; border: 3px solid var(--border); flex-shrink: 0; }
+  .founder-name { font-size: 1.15rem; margin: 0 0 0.4rem; }
+  .founder p { margin: 0 0 0.7rem; }
+  .socials a { margin-right: 1rem; white-space: nowrap; }
+  @media (max-width: 560px) { .founder { flex-direction: column; } }
 </style>
