@@ -9,7 +9,7 @@ const articleSchema = z.object({
   description: z.string(),
   date: z.coerce.date(),
   updated: z.coerce.date().optional(),
-  category: z.enum(['hosting', 'saas-tools', 'finance', 'deals']),
+  category: z.enum(['hosting', 'saas-tools', 'deals']),
   tags: z.array(z.string()).default([]),
   products: z.array(z.string()).default([]),
   tools: z.array(z.string()).default([]),

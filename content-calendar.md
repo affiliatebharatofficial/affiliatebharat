@@ -1,6 +1,7 @@
 # Content Calendar — AffiliateBharat
 
-30 long-tail topics. Flank strategy: specific use-cases, comparisons, cost questions.
+23 long-tail topics. Flank strategy: specific use-cases, comparisons, cost questions.
+(Finance category removed 2026-10-09 — SEBI/YMYL risk; revisit after domain authority builds.)
 NO head keywords like "best hosting" — every topic targets a concrete buyer question.
 
 ## Hosting (10)
@@ -26,16 +27,6 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 - [ ] slug: `free-crm-small-business-india-hindi` — Target keyword: "free crm small business india" (saas-tools)
 - [ ] slug: `canva-pro-vs-free-youtubers-india` — Target keyword: "canva pro vs free youtubers india worth it" (saas-tools)
 - [ ] slug: `notion-vs-google-workspace-freelancers-india` — Target keyword: "notion vs google workspace freelancers india" (saas-tools)
-
-## Finance (7)
-
-- [ ] slug: `zerodha-vs-groww-brokerage-beginners` — Target keyword: "zerodha vs groww brokerage charges beginners" (finance)
-- [ ] slug: `upstox-vs-angel-one-intraday-charges` — Target keyword: "upstox vs angel one intraday charges" (finance)
-- [ ] slug: `demat-account-amc-hidden-charges-india` — Target keyword: "demat account amc hidden charges india" (finance)
-- [ ] slug: `best-credit-card-online-shopping-india-no-annual-fee` — Target keyword: "best credit card online shopping india no annual fee" (finance)
-- [ ] slug: `groww-mutual-fund-regular-vs-direct` — Target keyword: "groww mutual fund regular vs direct plan" (finance)
-- [ ] slug: `zerodha-coin-vs-groww-mutual-fund` — Target keyword: "zerodha coin vs groww mutual fund" (finance)
-- [ ] slug: `ppf-vs-nps-tax-saving-salaried-2026` — Target keyword: "ppf vs nps tax saving salaried 2026" (finance)
 
 ## Deals (5)
 

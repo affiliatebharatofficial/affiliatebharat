@@ -8,7 +8,7 @@
 export interface Affiliate {
   id: string;
   name: string;
-  category: 'hosting' | 'finance' | 'saas-tools';
+  category: 'hosting' | 'saas-tools';
   officialUrl: string;
   /** Real affiliate/tracking link. EMPTY placeholder until filled. */
   affiliateUrl: string;
@@ -22,10 +22,6 @@ export const AFFILIATES: Affiliate[] = [
   { id: 'hostgator-in', name: 'HostGator India', category: 'hosting', officialUrl: 'https://www.hostgator.in', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'milesweb', name: 'MilesWeb', category: 'hosting', officialUrl: 'https://www.milesweb.in', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'a2hosting', name: 'A2 Hosting', category: 'hosting', officialUrl: 'https://www.a2hosting.com', affiliateUrl: '', payoutNote: 'TBD' },
-  { id: 'zerodha', name: 'Zerodha', category: 'finance', officialUrl: 'https://zerodha.com', affiliateUrl: '', payoutNote: 'TBD' },
-  { id: 'groww', name: 'Groww', category: 'finance', officialUrl: 'https://groww.in', affiliateUrl: '', payoutNote: 'TBD' },
-  { id: 'upstox', name: 'Upstox', category: 'finance', officialUrl: 'https://www.upstox.com', affiliateUrl: '', payoutNote: 'TBD' },
-  { id: 'angelone', name: 'Angel One', category: 'finance', officialUrl: 'https://www.angelone.in', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'getresponse', name: 'GetResponse', category: 'saas-tools', officialUrl: 'https://www.getresponse.com', affiliateUrl: '', payoutNote: '33% recurring' },
   { id: 'semrush', name: 'Semrush', category: 'saas-tools', officialUrl: 'https://www.semrush.com', affiliateUrl: '', payoutNote: '$200/sale (public info)' },
   { id: 'kit', name: 'Kit (ConvertKit)', category: 'saas-tools', officialUrl: 'https://kit.com', affiliateUrl: '', payoutNote: 'Up to 30% recurring for 24 months' },

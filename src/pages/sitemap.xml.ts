@@ -9,7 +9,6 @@ export async function GET(): Promise<Response> {
     '/',
     '/hosting/',
     '/saas-tools/',
-    '/finance/',
     '/deals/',
     '/tools/',
     '/tools/website-cost-calculator/',

@@ -13,12 +13,6 @@ export const CATEGORIES = {
     icon: '🛠️',
     blurb: 'Email marketing, SEO, AI aur business tools ki honest comparisons.',
   },
-  finance: {
-    slug: 'finance',
-    label: 'Finance',
-    icon: '💳',
-    blurb: 'Demat accounts, credit cards aur money tools — charges samajh ke chuno.',
-  },
   deals: {
     slug: 'deals',
     label: 'Deals',
