@@ -1,0 +1,28 @@
+---
+// Amber disclosure box shown at the top of every article.
+interface Props {
+  lang?: 'hi' | 'en';
+}
+const { lang = 'hi' } = Astro.props;
+---
+
+<aside class="aff-disclosure" role="note">
+  <strong>⚠️ {lang === 'hi' ? 'Affiliate Disclosure' : 'Affiliate Disclosure'}:</strong>
+  {lang === 'hi'
+    ? ' Is article me affiliate links hain. Agar aap in links se kharidte hain to humein commission mil sakta hai, bina aapke liye extra cost ke. Ye hamari research ko influence nahi karta. Puri policy yahan: '
+    : ' This article contains affiliate links. If you buy through them we may earn a commission at no extra cost to you. This does not influence our research. Full policy: '}
+  <a href={lang === 'hi' ? '/disclosure/' : '/en/disclosure/'}>{lang === 'hi' ? '/disclosure/' : '/en/disclosure/'}</a>
+</aside>
+
+<style>
+  .aff-disclosure {
+    background: var(--warn-bg);
+    border: 1px solid #f0c987;
+    border-radius: 0.8rem;
+    padding: 0.9rem 1.1rem;
+    font-size: 0.92rem;
+    margin-bottom: 1.75rem;
+    max-width: 760px;
+  }
+  .aff-disclosure a { font-weight: 700; }
+</style>

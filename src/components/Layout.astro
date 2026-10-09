@@ -1,0 +1,282 @@
+---
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  lang?: 'hi' | 'en';
+  canonicalPath?: string;
+  jsonLd?: object[];
+  ogType?: string;
+  hreflang?: { href: string; lang: string }[];
+}
+
+const {
+  title,
+  description,
+  lang = 'hi',
+  canonicalPath,
+  jsonLd = [],
+  ogType = 'website',
+  hreflang = [],
+} = Astro.props;
+
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site ?? 'https://affiliatebharat.com');
+const locale = lang === 'hi' ? 'hi_IN' : 'en_US';
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | AffiliateBharat</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="AffiliateBharat" />
+    <meta property="og:title" content={`${title} | AffiliateBharat`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={locale} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={`${title} | AffiliateBharat`} />
+    <meta name="twitter:description" content={description} />
+
+    {hreflang.map((h) => <link rel="alternate" hreflang={h.lang} href={h.href} />)}
+
+    {jsonLd.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>₹</text></svg>" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <Header lang={lang} />
+    <main>
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>
+
+<style is:global>
+  *, *::before, *::after { box-sizing: border-box; }
+
+  :root {
+    --bg: #fffdf7;
+    --surface: #ffffff;
+    --ink: #1c1a17;
+    --muted: #6b6459;
+    --accent: #d9480f;
+    --accent-dark: #b03a0c;
+    --trust: #2f9e44;
+    --border: #ece4d4;
+    --warn-bg: #fff4e5;
+  }
+
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.65;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 0;
+  }
+
+  section { margin-bottom: 3.5rem; }
+
+  .section-title { font-size: 1.6rem; margin: 0 0 0.4rem; }
+  .section-sub { color: var(--muted); margin: 0 0 1.5rem; font-size: 0.98rem; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.7rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s ease, transform 0.1s ease;
+  }
+  .btn:hover { background: var(--accent-dark); color: #fff; }
+  .btn:active { transform: scale(0.98); }
+
+  .btn-outline {
+    display: inline-block;
+    background: transparent;
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.7rem;
+    border: 2px solid var(--accent);
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .btn-outline:hover { background: rgba(217, 72, 15, 0.08); color: var(--accent-dark); }
+
+  /* Affiliate CTA rendered by the remark plugin inside article content */
+  .aff-link {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff !important;
+    font-weight: 700;
+    text-decoration: none !important;
+    padding: 0.55rem 1.15rem;
+    border-radius: 0.6rem;
+    margin: 0.25rem 0.1rem;
+    transition: background 0.15s ease;
+  }
+  .aff-link:hover { background: var(--accent-dark); }
+
+  /* Cards */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    padding: 1.4rem;
+    box-shadow: 0 2px 10px rgba(28, 26, 23, 0.05);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .card:hover { box-shadow: 0 6px 22px rgba(28, 26, 23, 0.1); }
+  .card h3 { margin: 0.5rem 0 0.5rem; font-size: 1.15rem; }
+  .card h3 a { color: var(--ink); text-decoration: none; }
+  .card h3 a:hover { color: var(--accent); }
+  .card p { color: var(--muted); font-size: 0.95rem; margin: 0 0 0.75rem; }
+
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    background: rgba(217, 72, 15, 0.1);
+    color: var(--accent-dark);
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+  }
+  .badge.trust { background: rgba(47, 158, 68, 0.12); color: #1e7e34; }
+
+  .card-meta { font-size: 0.82rem; color: var(--muted); }
+
+  /* Tables */
+  .table-scroll {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 0.9rem;
+    background: var(--surface);
+  }
+  table.data {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+    min-width: 640px;
+  }
+  table.data th, table.data td {
+    padding: 0.7rem 0.9rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  table.data thead th {
+    background: #faf5ea;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+  }
+  table.data tbody tr:nth-child(even) { background: #fffaf0; }
+  table.data tbody tr:hover { background: #fdf3e3; }
+
+  @media (max-width: 720px) {
+    /* Sticky first column on small screens for wide comparison tables */
+    table.data th:first-child, table.data td:first-child {
+      position: sticky;
+      left: 0;
+      background: var(--surface);
+      box-shadow: 2px 0 4px rgba(28, 26, 23, 0.06);
+      z-index: 1;
+    }
+    table.data thead th:first-child { background: #faf5ea; }
+  }
+
+  /* Article body typography */
+  .article-body { font-size: 1.06rem; max-width: 760px; }
+  .article-body p { margin: 0 0 1.25rem; }
+  .article-body h2 { margin: 2.2rem 0 0.9rem; font-size: 1.5rem; }
+  .article-body h3 { margin: 1.8rem 0 0.7rem; font-size: 1.22rem; }
+  .article-body ul, .article-body ol { margin: 0 0 1.25rem; padding-left: 1.4rem; }
+  .article-body li { margin-bottom: 0.45rem; }
+  .article-body a { color: var(--accent); font-weight: 600; }
+  .article-body a:hover { color: var(--accent-dark); }
+  .article-body blockquote {
+    border-left: 4px solid var(--accent);
+    margin: 0 0 1.25rem;
+    padding: 0.6rem 1.1rem;
+    background: var(--warn-bg);
+    border-radius: 0 0.6rem 0.6rem 0;
+  }
+  .article-body table { width: 100%; border-collapse: collapse; font-size: 0.95rem; margin: 0 0 1.5rem; }
+  .article-body th, .article-body td { border: 1px solid var(--border); padding: 0.6rem 0.8rem; text-align: left; }
+  .article-body th { background: #faf5ea; }
+
+  /* FAQ accordion */
+  .faq-list details {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 0.8rem;
+    margin-bottom: 0.75rem;
+    padding: 0.9rem 1.1rem;
+  }
+  .faq-list summary {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    list-style: none;
+  }
+  .faq-list summary::-webkit-details-marker { display: none; }
+  .faq-list summary::before { content: '▸ '; color: var(--accent); }
+  .faq-list details[open] summary::before { content: '▾ '; }
+  .faq-list details p { margin: 0.7rem 0 0.2rem; color: var(--muted); }
+
+  a { color: var(--accent); }
+  a:hover { color: var(--accent-dark); }
+
+  ::selection { background: rgba(217, 72, 15, 0.2); }
+</style>

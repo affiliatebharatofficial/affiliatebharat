@@ -1,0 +1,100 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../components/Layout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+
+// English mirror homepage — simpler than the Hinglish home.
+const articles = (await getCollection('articlesEn'))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const slugOf = (id: string) => id.replace(/\.md$/, '');
+---
+
+<Layout
+  title="India's Honest Buying Guide"
+  description="Researched product comparisons, cost calculators and deals in plain English — no fake 'we tested it' claims. Hosting, SaaS tools, finance and deals."
+  lang="en"
+  canonicalPath="/en/"
+  hreflang={[
+    { href: 'https://affiliatebharat.com/', lang: 'hi' },
+    { href: 'https://affiliatebharat.com/en/', lang: 'en' },
+  ]}
+>
+  <section class="hero">
+    <h1>India's Honest Buying Guide</h1>
+    <p class="hero-sub">
+      Researched product comparisons, cost calculators and deals in plain English —
+      no fake 'we tested it' claims.
+    </p>
+    <div class="hero-ctas">
+      <a class="btn" href="/tools/hosting-compare/">Compare hosting</a>
+      <a class="btn-outline" href="/tools/website-cost-calculator/">Website cost calculator</a>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Free Tools</h2>
+    <div class="grid">
+      <article class="card">
+        <span class="badge">🧮 Tool</span>
+        <h3><a href="/tools/hosting-compare/">Hosting Compare Tool</a></h3>
+        <p>Filter hosting plans by budget, type and use-case — intro vs renewal price side by side.</p>
+      </article>
+      <article class="card">
+        <span class="badge">💰 Tool</span>
+        <h3><a href="/tools/website-cost-calculator/">Website Cost Calculator</a></h3>
+        <p>Itemized cost estimate for a blog, business site, portfolio or online store.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Latest Articles</h2>
+    {articles.length > 0 ? (
+      <div class="grid">
+        {articles.slice(0, 6).map((a) => (
+          <ArticleCard
+            href={`/en/${slugOf(a.id)}/`}
+            title={a.data.title}
+            description={a.data.description}
+            category={a.data.category}
+            date={a.data.date}
+          />
+        ))}
+      </div>
+    ) : (
+      <p>English articles are on the way — our <a href="/">Hinglish guides</a> are already live.</p>
+    )}
+  </section>
+
+  <section class="earn-teaser">
+    <h2 class="section-title">How we make money</h2>
+    <p>
+      AffiliateBharat is reader-supported — when you buy through our links we may earn a
+      commission at no extra cost to you. Rankings are never for sale.
+    </p>
+    <a class="btn-outline" href="/en/disclosure/">Read the full disclosure</a>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    text-align: center;
+    padding: 3.5rem 1rem 3rem;
+    background: linear-gradient(180deg, #fff3e6 0%, var(--bg) 100%);
+    border-radius: 1.25rem;
+    margin-bottom: 3rem;
+  }
+  .hero h1 { font-size: clamp(2rem, 6vw, 3.2rem); margin: 0 0 0.9rem; font-weight: 800; }
+  .hero-sub { font-size: 1.12rem; color: var(--muted); max-width: 620px; margin: 0 auto 1.8rem; }
+  .hero-ctas { display: flex; gap: 0.9rem; justify-content: center; flex-wrap: wrap; }
+  .earn-teaser {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1.25rem;
+    padding: 2.2rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(28, 26, 23, 0.05);
+  }
+  .earn-teaser p { color: var(--muted); max-width: 640px; margin: 0 auto 1.4rem; }
+</style>

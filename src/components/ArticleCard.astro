@@ -1,0 +1,21 @@
+---
+import { CATEGORIES, type CategorySlug } from '../data/categories';
+
+// Card used for article listings on home, hubs and related sections.
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  category: CategorySlug;
+  date: Date;
+}
+const { href, title, description, category, date } = Astro.props;
+const formatted = date.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+---
+
+<article class="card">
+  <span class="badge">{CATEGORIES[category].icon} {CATEGORIES[category].label}</span>
+  <h3><a href={href}>{title}</a></h3>
+  <p>{description}</p>
+  <div class="card-meta">{formatted}</div>
+</article>

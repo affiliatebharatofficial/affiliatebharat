@@ -1,0 +1,280 @@
+---
+import Layout from '../../components/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { HOSTING_PLANS, BEST_FOR_LABELS, lastVerified } from '../../data/hosting-plans';
+import { affUrl, affiliateName } from '../../data/affiliates';
+
+// Server-rendered rows (good for SEO); client JS only filters/sorts them.
+// Approx INR used ONLY for budget filtering/sorting of USD plans.
+const USD_TO_INR = 83;
+const introInr = (p: (typeof HOSTING_PLANS)[number]) =>
+  p.introMonthly === null ? Number.POSITIVE_INFINITY : p.currency === 'INR' ? p.introMonthly : Math.round(p.introMonthly * USD_TO_INR);
+const renewalInr = (p: (typeof HOSTING_PLANS)[number]) =>
+  p.renewalMonthly === null ? Number.POSITIVE_INFINITY : p.currency === 'INR' ? p.renewalMonthly : Math.round(p.renewalMonthly * USD_TO_INR);
+
+const priceCell = (v: number | null, currency: 'INR' | 'USD') => {
+  if (v === null) return '—';
+  const sym = currency === 'INR' ? '₹' : '$';
+  return `${sym}${v.toLocaleString('en-IN')}/mo`;
+};
+
+const storageSortVal = (s: string) => {
+  const m = s.match(/([\d.]+)\s*GB/i);
+  if (m) return parseFloat(m[1]);
+  if (/unmetered|unlimited/i.test(s)) return Number.POSITIVE_INFINITY;
+  return 0;
+};
+---
+
+<Layout
+  title="Hosting Compare Tool"
+  description="Hosting plans ko side-by-side compare karo — budget, plan type aur use-case ke hisaab se filter karo. Intro price vs renewal price, storage, free domain sab ek jagah."
+  canonicalPath="/tools/hosting-compare/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools/' }, { label: 'Hosting Compare' }]} />
+  <h1>🖥️ Hosting Compare Tool</h1>
+  <p class="intro">
+    Saste intro price ke peeche chhupa renewal price hi asli cost hai. Neeche filter lagao,
+    sort karo, aur apne use-case ka plan chuno.
+  </p>
+
+  <section class="card filters" aria-label="Filters">
+    <div class="filter-grid">
+      <label class="field">
+        <span>Max budget: <strong id="budgetVal">₹2000/mo</strong></span>
+        <input type="range" id="budget" min="100" max="2000" step="50" value="2000" />
+      </label>
+      <label class="field">
+        <span>Plan type</span>
+        <select id="typeFilter">
+          <option value="all">Sabhi</option>
+          <option value="shared">Shared</option>
+          <option value="cloud">Cloud</option>
+          <option value="vps">VPS</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Use-case</span>
+        <select id="useFilter">
+          <option value="all">Sabhi</option>
+          <option value="hindi-blog">Hindi Blog</option>
+          <option value="business">Business</option>
+          <option value="ecommerce">E-commerce</option>
+          <option value="portfolio">Portfolio</option>
+        </select>
+      </label>
+      <div class="field btn-field">
+        <button class="btn-outline" id="resetBtn" type="button">Reset</button>
+      </div>
+    </div>
+    <p class="count"><strong id="planCount">{HOSTING_PLANS.length}</strong> plans dikh rahe hain</p>
+  </section>
+
+  <div class="table-scroll">
+    <table class="data" id="plansTable">
+      <thead>
+        <tr>
+          <th>Plan</th>
+          <th><button type="button" class="sort-btn" data-sort="intro">Intro price <span class="arrow"></span></button></th>
+          <th><button type="button" class="sort-btn" data-sort="renewal">Renewal price <span class="arrow"></span></button></th>
+          <th><button type="button" class="sort-btn" data-sort="storage">Storage <span class="arrow"></span></button></th>
+          <th>Websites</th>
+          <th>Free domain</th>
+          <th>Free SSL</th>
+          <th>Hindi support</th>
+          <th>Best for</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {HOSTING_PLANS.map((p) => {
+          const ii = introInr(p);
+          const ri = renewalInr(p);
+          return (
+            <tr
+              data-intro={Number.isFinite(ii) ? String(ii) : 'inf'}
+              data-renewal={Number.isFinite(ri) ? String(ri) : 'inf'}
+              data-type={p.type}
+              data-bestfor={p.bestFor.join(' ')}
+              data-storage={(() => { const s = storageSortVal(p.storage); return Number.isFinite(s) ? String(s) : 'inf'; })()}
+            >
+              <td><strong>{p.provider}</strong><br /><span class="plan-name">{p.plan}</span></td>
+              <td class="price">{priceCell(p.introMonthly, p.currency)}</td>
+              <td class="price renew">{priceCell(p.renewalMonthly, p.currency)}</td>
+              <td>{p.storage}</td>
+              <td>{p.websites}</td>
+              <td class="tick">{p.freeDomain === null ? '—' : p.freeDomain ? '✓' : '✗'}</td>
+              <td class="tick">{p.freeSSL === null ? '—' : p.freeSSL ? '✓' : '✗'}</td>
+              <td class="tick">{p.hindiSupport === null ? '—' : p.hindiSupport ? '✓' : '✗'}</td>
+              <td>{p.bestFor.map((b) => <span class="mini-badge">{BEST_FOR_LABELS[b]}</span>)}</td>
+              <td>
+                <a class="btn btn-sm" href={affUrl(p.affiliateId)} rel="sponsored nofollow noopener">
+                  {affiliateName(p.affiliateId)} →
+                </a>
+              </td>
+            </tr>
+          );
+        })}
+        <tr id="noResults" hidden>
+          <td colspan="10">Koi plan match nahi hua — filter thoda loose karke dekho.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="verified">Prices last verified: <strong>{lastVerified}</strong></p>
+  <section class="notes">
+    <h2 class="section-title">Methodology note</h2>
+    <ul>
+      <li>Ye prices official pricing pages se liye gaye hain (last verified {lastVerified}).</li>
+      <li>Hum products ko khud test karne ka daava nahi karte.</li>
+      <li>Prices change hote rehte hain — kharidne se pehle official site par price confirm karo.</li>
+      <li>Intro price sirf pehle billing term ke liye hota hai; renewal price hi asli long-term cost hai.</li>
+    </ul>
+  </section>
+</Layout>
+
+<script>
+  function el(id: string): HTMLElement {
+    const node = document.getElementById(id);
+    if (!node) throw new Error('Missing element #' + id);
+    return node;
+  }
+
+  const tbodyEl = document.querySelector<HTMLTableSectionElement>('#plansTable tbody');
+  if (!tbodyEl) throw new Error('Missing plans tbody');
+  const tbody: HTMLTableSectionElement = tbodyEl;
+  const rows = Array.from(tbody.rows).filter((r: HTMLTableRowElement) => r.id !== 'noResults');
+  const noResults = el('noResults') as HTMLTableRowElement;
+  const budget = el('budget') as HTMLInputElement;
+  const budgetVal = el('budgetVal');
+  const typeFilter = el('typeFilter') as HTMLSelectElement;
+  const useFilter = el('useFilter') as HTMLSelectElement;
+  const planCount = el('planCount');
+  let sortKey: string | null = null;
+  let sortDir = 1;
+
+  function numOrInf(v: string | undefined): number {
+    return v === undefined || v === 'inf' ? Infinity : parseFloat(v);
+  }
+
+  function applyFilters(): void {
+    const maxBudget = parseInt(budget.value, 10);
+    budgetVal.textContent = '\u20B9' + maxBudget.toLocaleString('en-IN') + '/mo';
+    const type = typeFilter.value;
+    const use = useFilter.value;
+    let shown = 0;
+    rows.forEach((r: HTMLTableRowElement) => {
+      const okBudget = numOrInf(r.dataset.intro) <= maxBudget;
+      const okType = type === 'all' || r.dataset.type === type;
+      const okUse = use === 'all' || (r.dataset.bestfor || '').split(' ').indexOf(use) !== -1;
+      const show = okBudget && okType && okUse;
+      r.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    noResults.hidden = shown !== 0;
+    planCount.textContent = String(shown);
+  }
+
+  function sortBy(key: string): void {
+    if (sortKey === key) {
+      sortDir = -sortDir;
+    } else {
+      sortKey = key;
+      sortDir = 1;
+    }
+    const visible = rows.filter((r: HTMLTableRowElement) => r.style.display !== 'none');
+    const hidden = rows.filter((r: HTMLTableRowElement) => r.style.display === 'none');
+    visible.sort(
+      (a: HTMLTableRowElement, b: HTMLTableRowElement) =>
+        (numOrInf(a.dataset[key]) - numOrInf(b.dataset[key])) * sortDir,
+    );
+    visible
+      .concat(hidden)
+      .forEach((r: HTMLTableRowElement) => {
+        tbody.insertBefore(r, noResults);
+      });
+    document.querySelectorAll('.sort-btn').forEach((btn: Element) => {
+      const arrow = btn.querySelector('.arrow');
+      const btnKey = (btn as HTMLButtonElement).dataset.sort;
+      if (arrow && btnKey === sortKey) {
+        arrow.textContent = sortDir === 1 ? ' \u25B2' : ' \u25BC';
+        btn.setAttribute('aria-sort', sortDir === 1 ? 'ascending' : 'descending');
+      } else if (arrow) {
+        arrow.textContent = '';
+        btn.removeAttribute('aria-sort');
+      }
+    });
+  }
+
+  budget.addEventListener('input', applyFilters);
+  typeFilter.addEventListener('change', applyFilters);
+  useFilter.addEventListener('change', applyFilters);
+  el('resetBtn').addEventListener('click', () => {
+    budget.value = '2000';
+    typeFilter.value = 'all';
+    useFilter.value = 'all';
+    sortKey = null;
+    document.querySelectorAll('.sort-btn .arrow').forEach((a: Element) => {
+      a.textContent = '';
+    });
+    applyFilters();
+    // restore original row order
+    rows.forEach((r: HTMLTableRowElement) => {
+      tbody.insertBefore(r, noResults);
+    });
+  });
+  document.querySelectorAll('.sort-btn').forEach((btn: Element) => {
+    btn.addEventListener('click', () => {
+      const k = (btn as HTMLButtonElement).dataset.sort;
+      if (k) sortBy(k);
+    });
+  });
+  applyFilters();
+</script>
+
+<style>
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .intro { color: var(--muted); max-width: 720px; margin: 0 0 1.75rem; font-size: 1.05rem; }
+  .filters { margin-bottom: 1.25rem; }
+  .filter-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr auto;
+    gap: 1rem;
+    align-items: end;
+  }
+  .field { display: block; }
+  .field > span { display: block; font-weight: 700; margin-bottom: 0.4rem; font-size: 0.92rem; }
+  select {
+    width: 100%; padding: 0.6rem 0.75rem; font-size: 0.95rem;
+    border: 1px solid var(--border); border-radius: 0.6rem; background: var(--bg); font-family: inherit;
+  }
+  input[type="range"] { width: 100%; accent-color: var(--accent); }
+  .btn-field { padding-bottom: 0.1rem; }
+  .count { margin: 0.9rem 0 0; color: var(--muted); font-size: 0.92rem; }
+  .plan-name { color: var(--muted); font-size: 0.88rem; }
+  .price { font-weight: 700; color: var(--accent-dark); }
+  .price.renew { color: var(--ink); }
+  .tick { text-align: center; font-weight: 700; }
+  .mini-badge {
+    display: inline-block; font-size: 0.72rem; font-weight: 600;
+    background: rgba(47, 158, 68, 0.1); color: #1e7e34;
+    padding: 0.15rem 0.5rem; border-radius: 999px; margin: 0.1rem 0.15rem 0.1rem 0;
+    white-space: nowrap;
+  }
+  .btn-sm { padding: 0.5rem 0.9rem; font-size: 0.85rem; white-space: nowrap; }
+  .sort-btn {
+    background: none; border: none; padding: 0; cursor: pointer;
+    font: inherit; color: inherit; text-transform: inherit; letter-spacing: inherit; font-weight: inherit;
+  }
+  .sort-btn:hover { color: var(--accent-dark); }
+  .arrow { color: var(--accent); }
+  .verified { margin-top: 1rem; color: var(--muted); font-size: 0.92rem; }
+  .notes { margin: 2rem 0 3rem; max-width: 760px; }
+  .notes ul { color: var(--muted); padding-left: 1.3rem; font-size: 0.95rem; }
+  .notes li { margin-bottom: 0.4rem; }
+  @media (max-width: 720px) {
+    .filter-grid { grid-template-columns: 1fr 1fr; }
+    .btn-field { grid-column: 1 / -1; }
+  }
+</style>

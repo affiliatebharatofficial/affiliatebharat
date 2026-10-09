@@ -1,0 +1,78 @@
+---
+// Site footer: category links, tool links, company links + the short
+// disclosure paragraph that appears on every page.
+interface Props {
+  lang?: 'hi' | 'en';
+}
+const { lang = 'hi' } = Astro.props;
+const year = new Date().getFullYear();
+const hi = lang === 'hi';
+---
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-cols">
+      <div>
+        <h4>{hi ? 'Categories' : 'Categories'}</h4>
+        <ul>
+          <li><a href="/hosting/">Hosting</a></li>
+          <li><a href="/saas-tools/">SaaS Tools</a></li>
+          <li><a href="/finance/">Finance</a></li>
+          <li><a href="/deals/">Deals</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>{hi ? 'Tools' : 'Tools'}</h4>
+        <ul>
+          <li><a href="/tools/hosting-compare/">{hi ? 'Hosting Compare' : 'Compare Hosting'}</a></li>
+          <li><a href="/tools/website-cost-calculator/">{hi ? 'Website Cost Calculator' : 'Website Cost Calculator'}</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>{hi ? 'Company' : 'Company'}</h4>
+        <ul>
+          <li><a href="/about/">{hi ? 'About' : 'About'}</a></li>
+          <li><a href="/disclosure/">{hi ? 'Disclosure' : 'Disclosure'}</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclosure">
+      {hi
+        ? "Disclosure: AffiliateBharat reader-supported hai. Jab aap hamare affiliate links se kuch kharidte hain to humein commission mil sakta hai — aapko koi extra cost nahi lagta. Hum kabhi fake 'tested' claims nahi karte; hamari methodology /about/ par padhein."
+        : "Disclosure: AffiliateBharat is reader-supported. When you buy through our affiliate links we may earn a commission — at no extra cost to you. We never make fake 'tested' claims; read our methodology on /about/."}
+    </p>
+    <p class="copyright">© {year} AffiliateBharat. {hi ? 'Sabhi adhikaar surakshit.' : 'All rights reserved.'}</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--border);
+    margin-top: 4rem;
+    background: #faf5ea;
+  }
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 1.5rem;
+  }
+  .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .footer-cols h4 { margin: 0 0 0.6rem; font-size: 0.95rem; }
+  .footer-cols ul { list-style: none; margin: 0; padding: 0; }
+  .footer-cols li { margin-bottom: 0.4rem; }
+  .footer-cols a { color: var(--muted); text-decoration: none; font-size: 0.93rem; }
+  .footer-cols a:hover { color: var(--accent); }
+  .disclosure {
+    font-size: 0.85rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    padding-top: 1.25rem;
+    max-width: 760px;
+  }
+  .copyright { font-size: 0.82rem; color: var(--muted); }
+</style>

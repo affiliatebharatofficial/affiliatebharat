@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../components/Layout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const articles = (await getCollection('articles'))
+  .filter((a) => a.data.category === 'deals')
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const slugOf = (id: string) => id.replace(/\.md$/, '');
+---
+
+<Layout
+  title="Deals"
+  description="Hosting aur SaaS tools par chal rahe genuine offers aur discount alerts — expiry dates ke saath, bina fake urgency ke."
+  canonicalPath="/deals/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Deals' }]} />
+  <h1>🏷️ Deals</h1>
+  <p class="intro">
+    Sirf genuine, verify kiye gaye offers — har deal ke saath expiry date aur terms.
+    'Sirf aaj!' wali fake urgency hum nahi karte.
+  </p>
+
+  {articles.length > 0 ? (
+    <div class="grid">
+      {articles.map((a) => (
+        <ArticleCard
+          href={`/${slugOf(a.id)}/`}
+          title={a.data.title}
+          description={a.data.description}
+          category={a.data.category}
+          date={a.data.date}
+        />
+      ))}
+    </div>
+  ) : (
+    <p class="empty">Jald aa raha hai — pehle verified deals bahut jald yahan dikhenge.</p>
+  )}
+</Layout>
+
+<style>
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .intro { color: var(--muted); max-width: 720px; margin: 0 0 2rem; font-size: 1.05rem; }
+  .empty { color: var(--muted); background: var(--surface); border: 1px dashed var(--border); border-radius: 0.9rem; padding: 1.5rem; }
+</style>

@@ -1,0 +1,130 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../components/Layout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { CATEGORIES, type CategorySlug } from '../data/categories';
+
+const articles = await getCollection('articles');
+const sorted = [...articles].sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const latest = sorted.slice(0, 6);
+
+const counts = (Object.keys(CATEGORIES) as CategorySlug[]).map((slug) => ({
+  ...CATEGORIES[slug],
+  count: articles.filter((a) => a.data.category === slug).length,
+}));
+
+const slugOf = (id: string) => id.replace(/\.md$/, '');
+---
+
+<Layout
+  title="Bharat ka Honest Buying Guide"
+  description="Hinglish me researched product comparisons, cost calculators aur deals — bina fake 'maine test kiya' claims ke. Hosting, SaaS tools, finance aur deals."
+  canonicalPath="/"
+>
+  <section class="hero">
+    <h1>Bharat ka Honest Buying Guide</h1>
+    <p class="hero-sub">
+      Hinglish me researched product comparisons, cost calculators aur deals —
+      bina fake 'maine test kiya' claims ke.
+    </p>
+    <div class="hero-ctas">
+      <a class="btn" href="/tools/hosting-compare/">Hosting compare karo</a>
+      <a class="btn-outline" href="/tools/website-cost-calculator/">Website cost nikalo</a>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Categories</h2>
+    <p class="section-sub">Har category me researched, honestly-labeled guides.</p>
+    <div class="grid">
+      {counts.map((c) => (
+        <article class="card">
+          <span class="badge">{c.icon} {c.label}</span>
+          <h3><a href={`/${c.slug}/`}>{c.label} guides</a></h3>
+          <p>{c.blurb}</p>
+          <div class="card-meta">{c.count} {c.count === 1 ? 'article' : 'articles'}</div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Free Tools</h2>
+    <p class="section-sub">Khud calculate karo — koi sign-up nahi, koi jhanjhat nahi.</p>
+    <div class="grid">
+      <article class="card">
+        <span class="badge">🧮 Tool</span>
+        <h3><a href="/tools/hosting-compare/">Hosting Compare Tool</a></h3>
+        <p>Budget, type aur use-case ke hisaab se hosting plans filter aur compare karo — intro vs renewal price ke saath.</p>
+        <a class="btn-outline" href="/tools/hosting-compare/">Compare karo</a>
+      </article>
+      <article class="card">
+        <span class="badge">💰 Tool</span>
+        <h3><a href="/tools/website-cost-calculator/">Website Cost Calculator</a></h3>
+        <p>Blog, business site ya online store banane me kitna kharcha aayega? Domain se lekar maintenance tak ka estimate.</p>
+        <a class="btn-outline" href="/tools/website-cost-calculator/">Cost nikalo</a>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Latest Articles</h2>
+    <p class="section-sub">Taza researched guides — sabse pehle yahan.</p>
+    {latest.length > 0 ? (
+      <div class="grid">
+        {latest.map((a) => (
+          <ArticleCard
+            href={`/${slugOf(a.id)}/`}
+            title={a.data.title}
+            description={a.data.description}
+            category={a.data.category}
+            date={a.data.date}
+          />
+        ))}
+      </div>
+    ) : (
+      <p>Pehle articles bahut jald aa rahe hain — content calendar par kaam chal raha hai.</p>
+    )}
+  </section>
+
+  <section class="earn-teaser">
+    <h2 class="section-title">Hum paise kaise kamate hain?</h2>
+    <p>
+      AffiliateBharat reader-supported hai — jab aap hamare links se kharidte hain to humein
+      commission mil sakta hai, aapko bina extra cost ke. Rankings kabhi bikau nahi hain.
+    </p>
+    <a class="btn-outline" href="/disclosure/">Puri disclosure padho</a>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    text-align: center;
+    padding: 3.5rem 1rem 3rem;
+    background: linear-gradient(180deg, #fff3e6 0%, var(--bg) 100%);
+    border-radius: 1.25rem;
+    margin-bottom: 3rem;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    margin: 0 0 0.9rem;
+    font-weight: 800;
+  }
+  .hero-sub {
+    font-size: 1.12rem;
+    color: var(--muted);
+    max-width: 620px;
+    margin: 0 auto 1.8rem;
+  }
+  .hero-ctas { display: flex; gap: 0.9rem; justify-content: center; flex-wrap: wrap; }
+
+  .earn-teaser {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1.25rem;
+    padding: 2.2rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(28, 26, 23, 0.05);
+  }
+  .earn-teaser p { color: var(--muted); max-width: 640px; margin: 0 auto 1.4rem; }
+</style>

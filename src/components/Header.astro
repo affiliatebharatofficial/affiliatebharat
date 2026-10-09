@@ -1,0 +1,122 @@
+---
+// Sticky site header. Mobile menu uses <details>/<summary> — no JS needed.
+interface Props {
+  lang?: 'hi' | 'en';
+}
+const { lang = 'hi' } = Astro.props;
+
+const links = [
+  { href: '/', label: lang === 'hi' ? 'Home' : 'Home' },
+  { href: '/hosting/', label: 'Hosting' },
+  { href: '/saas-tools/', label: lang === 'hi' ? 'SaaS Tools' : 'SaaS Tools' },
+  { href: '/finance/', label: lang === 'hi' ? 'Finance' : 'Finance' },
+  { href: '/deals/', label: lang === 'hi' ? 'Deals' : 'Deals' },
+  { href: '/tools/', label: lang === 'hi' ? 'Tools' : 'Tools' },
+  { href: '/about/', label: lang === 'hi' ? 'About' : 'About' },
+];
+---
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo"><span class="logo-mark">₹</span> AffiliateBharat</a>
+    <nav class="desktop-nav" aria-label="Main">
+      {links.map((l) => <a href={l.href}>{l.label}</a>)}
+    </nav>
+    <details class="mobile-nav">
+      <summary class="hamburger" aria-label="Menu">☰</summary>
+      <nav class="mobile-links" aria-label="Main">
+        {links.map((l) => <a href={l.href}>{l.label}</a>)}
+      </nav>
+    </details>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(255, 253, 247, 0.96);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(6px);
+  }
+  .header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.8rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .logo {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: var(--ink);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .logo-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.9rem;
+    height: 1.9rem;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 0.55rem;
+    font-size: 1.05rem;
+    margin-right: 0.45rem;
+    vertical-align: -0.3rem;
+  }
+  .desktop-nav { display: flex; gap: 0.25rem; flex-wrap: wrap; }
+  .desktop-nav a {
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.93rem;
+    padding: 0.45rem 0.75rem;
+    border-radius: 0.55rem;
+  }
+  .desktop-nav a:hover { background: rgba(217, 72, 15, 0.08); color: var(--accent-dark); }
+
+  .mobile-nav { display: none; position: relative; }
+  .hamburger {
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0.25rem 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: 0.6rem;
+    background: var(--surface);
+    user-select: none;
+  }
+  .hamburger::-webkit-details-marker { display: none; }
+  .mobile-links {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 0.5rem);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 0.8rem;
+    box-shadow: 0 8px 28px rgba(28, 26, 23, 0.12);
+    min-width: 200px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-links a {
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.65rem 0.9rem;
+    border-radius: 0.5rem;
+  }
+  .mobile-links a:hover { background: rgba(217, 72, 15, 0.08); }
+
+  @media (max-width: 760px) {
+    .desktop-nav { display: none; }
+    .mobile-nav { display: block; }
+  }
+</style>

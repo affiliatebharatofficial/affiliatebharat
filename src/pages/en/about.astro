@@ -1,0 +1,60 @@
+---
+import Layout from '../../components/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="About"
+  description="What AffiliateBharat is, how we research, and what we never do — our honest methodology."
+  lang="en"
+  canonicalPath="/en/about/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/en/' }, { label: 'About' }]} />
+  <article class="page">
+    <h1>About AffiliateBharat</h1>
+    <p class="lede">
+      AffiliateBharat is <strong>India's honest buying guide</strong> — researched product
+      comparisons, cost calculators and deals.
+    </p>
+
+    <h2>What we do</h2>
+    <ul>
+      <li>Dig through official pricing pages, terms &amp; conditions and public documents.</li>
+      <li>Extract real user patterns from review aggregates (Trustpilot, G2 and similar).</li>
+      <li>Build free tools — hosting comparison, website cost calculator — so you can decide yourself.</li>
+      <li>Stamp every article with a <em>last verified</em> date so you know how fresh the facts are.</li>
+    </ul>
+
+    <h2>What we NEVER do</h2>
+    <ul>
+      <li>❌ Fake 'we tested it' claims — if we didn't test it, we don't say we did.</li>
+      <li>❌ Paid rankings — no product can buy its way up our lists.</li>
+      <li>❌ Fake urgency — no bogus 'only today!' countdowns.</li>
+      <li>❌ Hidden sponsorships — every affiliate relationship is disclosed openly.</li>
+    </ul>
+
+    <h2>How we research</h2>
+    <ol>
+      <li>Read the official pricing and terms (with special attention to intro vs renewal pricing).</li>
+      <li>Look for complaint patterns on independent review platforms.</li>
+      <li>Check the public terms of affiliate programs — so even our own bias stays transparent.</li>
+      <li>Verify facts before publishing and note the verification date.</li>
+    </ol>
+
+    <h2>How we make money</h2>
+    <p>
+      When you buy through our affiliate links we may earn a commission —
+      <strong>at no extra cost to you</strong>. Commissions never influence our rankings or verdicts.
+      Read the full policy on the <a href="/en/disclosure/">disclosure page</a>.
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .page { max-width: 760px; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .lede { font-size: 1.12rem; color: var(--muted); margin-bottom: 2rem; }
+  .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
+  .page ul, .page ol { padding-left: 1.4rem; }
+  .page li { margin-bottom: 0.5rem; }
+</style>

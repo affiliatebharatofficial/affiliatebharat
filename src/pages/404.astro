@@ -1,0 +1,27 @@
+---
+import Layout from '../components/Layout.astro';
+---
+
+<Layout
+  title="Page nahi mila (404)"
+  description="Ye page exist nahi karta. AffiliateBharat ke guides aur tools yahan se dhoondo."
+  canonicalPath="/404/"
+>
+  <section class="notfound">
+    <div class="big">🔍</div>
+    <h1>404 — Page nahi mila</h1>
+    <p>Lagta hai ye link toot gaya hai ya page hata diya gaya hai. Koi baat nahi — yahan se shuru karo:</p>
+    <div class="cta-row">
+      <a class="btn" href="/">Home jao</a>
+      <a class="btn-outline" href="/tools/">Tools dekho</a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .notfound { text-align: center; padding: 4rem 1rem; max-width: 560px; margin: 0 auto; }
+  .big { font-size: 4rem; }
+  h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); margin: 1rem 0 0.8rem; }
+  .notfound p { color: var(--muted); margin-bottom: 1.8rem; }
+  .cta-row { display: flex; gap: 0.9rem; justify-content: center; flex-wrap: wrap; }
+</style>

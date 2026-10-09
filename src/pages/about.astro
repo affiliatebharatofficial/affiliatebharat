@@ -1,0 +1,59 @@
+---
+import Layout from '../components/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="About"
+  description="AffiliateBharat kya hai, hum kaise research karte hain, aur kya-kya hum kabhi nahi karte — hamari honest methodology."
+  canonicalPath="/about/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
+  <article class="page">
+    <h1>About AffiliateBharat</h1>
+    <p class="lede">
+      AffiliateBharat <strong>Bharat ka honest buying-guide</strong> hai — Hinglish me researched
+      product comparisons, cost calculators aur deals.
+    </p>
+
+    <h2>Hum kya karte hain</h2>
+    <ul>
+      <li>Official pricing pages, terms &amp; conditions aur public documents ko khangalte hain.</li>
+      <li>Review aggregates (Trustpilot, G2 jaise platforms) se real user patterns nikalte hain.</li>
+      <li>Free tools banate hain — hosting compare, website cost calculator — taaki aap khud decide kar sako.</li>
+      <li>Har article me <em>last verified</em> date likhte hain, taaki pata rahe ye info kitni taza hai.</li>
+    </ul>
+
+    <h2>Hum kya NAHI karte</h2>
+    <ul>
+      <li>❌ Fake 'humne khud test kiya' claims — jo test nahi kiya, wo nahi bolte.</li>
+      <li>❌ Paid rankings — paise dekar koi product hamari list me upar nahi aa sakta.</li>
+      <li>❌ Fake urgency — 'sirf aaj!' wale jhoothe countdowns nahi lagate.</li>
+      <li>❌ Chhupi hui sponsorships — har affiliate relationship openly disclose hoti hai.</li>
+    </ul>
+
+    <h2>Hum research kaise karte hain</h2>
+    <ol>
+      <li>Product ki official pricing aur terms padhte hain (intro vs renewal price par khaas dhyaan).</li>
+      <li>Independent review platforms par user complaints ke patterns dekhte hain.</li>
+      <li>Affiliate program ke public terms check karte hain — taaki hamari apni bias bhi transparent rahe.</li>
+      <li>Article publish karne se pehle facts verify karte hain aur date note karte hain.</li>
+    </ol>
+
+    <h2>Hum paise kaise kamate hain</h2>
+    <p>
+      Jab aap hamare affiliate links se kuch kharidte hain to humein commission mil sakta hai —
+      <strong>aapko koi extra cost nahi lagta</strong>. Ye commission hamari rankings ya verdicts
+      ko influence nahi karta. Puri policy <a href="/disclosure/">disclosure page</a> par padhein.
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .page { max-width: 760px; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .lede { font-size: 1.12rem; color: var(--muted); margin-bottom: 2rem; }
+  .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
+  .page ul, .page ol { padding-left: 1.4rem; }
+  .page li { margin-bottom: 0.5rem; }
+</style>

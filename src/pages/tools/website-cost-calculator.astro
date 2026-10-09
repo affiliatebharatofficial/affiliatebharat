@@ -1,0 +1,234 @@
+---
+import Layout from '../../components/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+// Vanilla JS island: no framework, plain <script> at the bottom.
+// Estimates are ranges in INR; nothing here is a quote.
+---
+
+<Layout
+  title="Website Cost Calculator"
+  description="Website banane me kitna kharcha? Domain, hosting, design, content aur maintenance ka free itemized cost estimate — blog, business, portfolio ya ecommerce ke liye."
+  canonicalPath="/tools/website-cost-calculator/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools/' }, { label: 'Website Cost Calculator' }]} />
+  <h1>💰 Website Cost Calculator</h1>
+  <p class="intro">
+    Website banane me <em>asli</em> me kitna kharcha aata hai? Neeche apni requirements chuno —
+    calculator domain se lekar yearly maintenance tak ka itemized estimate dega.
+  </p>
+
+  <div class="calc-grid">
+    <section class="card inputs" aria-label="Inputs">
+      <h2>Apni requirements chuno</h2>
+
+      <label class="field">
+        <span>Website ka type</span>
+        <select id="siteType">
+          <option value="blog">Blog / News site</option>
+          <option value="business">Business website</option>
+          <option value="portfolio">Portfolio</option>
+          <option value="ecommerce">Online store (E-commerce)</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Kitne pages honge? <strong id="pagesVal">10</strong></span>
+        <input type="range" id="pages" min="1" max="100" value="10" />
+      </label>
+
+      <fieldset class="field">
+        <legend>Design kaise banega?</legend>
+        <label class="radio"><input type="radio" name="design" value="template" checked /> Ready template / theme</label>
+        <label class="radio"><input type="radio" name="design" value="custom" /> Custom design (developer se)</label>
+      </fieldset>
+
+      <fieldset class="field">
+        <legend>Content kaun likhega?</legend>
+        <label class="radio"><input type="radio" name="content" value="self" checked /> Khud likhenge (₹0)</label>
+        <label class="radio"><input type="radio" name="content" value="some" /> Thodi help chahiye (editing/proofreading)</label>
+        <label class="radio"><input type="radio" name="content" value="full" /> Pura content writer se</label>
+      </fieldset>
+
+      <label class="check">
+        <input type="checkbox" id="maintenance" checked />
+        <span>Yearly maintenance chahiye (updates, backup, security)</span>
+      </label>
+    </section>
+
+    <section class="card results" aria-label="Estimate" aria-live="polite">
+      <h2>Tumhara estimate</h2>
+      <div class="table-scroll">
+        <table class="data">
+          <thead><tr><th>Kharcha</th><th>Estimate</th><th>Note</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div class="totals">
+        <div class="total-row"><span>Pehle saal ka total</span><strong id="yearOne">—</strong></div>
+        <div class="total-row recur"><span>Har saal recurring</span><strong id="recurring">—</strong></div>
+      </div>
+      <p class="fine">⚠️ Yeh estimates hain, actual quotes alag ho sakte hain. Domain renewal pehle saal ke promo price se zyada hota hai — hamesha renewal price check karo.</p>
+    </section>
+  </div>
+
+  <section class="next-steps">
+    <h2 class="section-title">Agla step</h2>
+    <div class="cta-row">
+      <a class="btn" href="/tools/hosting-compare/">Hosting plans compare karo</a>
+      <a class="btn-outline" href="/wordpress-blog-start-kitna-kharcha/">Blog shuru karne ki puri guide</a>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  // --- Cost model (INR ranges). Conservative market estimates, not quotes. ---
+  const WORDS_PER_PAGE = 600;
+  const DOMAIN_FIRST: [number, number] = [700, 1000]; // promo first-year .com/.in
+  const DOMAIN_RENEW: [number, number] = [1200, 1500]; // renewal per year
+  const HOSTING_MO: Record<string, [number, number]> = {
+    blog: [150, 350],
+    business: [200, 500],
+    portfolio: [150, 350],
+    ecommerce: [500, 1200],
+  };
+  const DESIGN: Record<string, Record<string, [number, number]>> = {
+    template: { blog: [0, 4000], business: [0, 5000], portfolio: [0, 4000], ecommerce: [3000, 12000] },
+    custom: { blog: [20000, 60000], business: [25000, 80000], portfolio: [15000, 50000], ecommerce: [60000, 200000] },
+  };
+  const CONTENT_PER_WORD: Record<string, [number, number]> = { self: [0, 0], some: [0.8, 1.5], full: [1.5, 3] };
+  const MAINT_YR: Record<string, [number, number]> = {
+    blog: [6000, 15000],
+    business: [8000, 20000],
+    portfolio: [6000, 15000],
+    ecommerce: [12000, 30000],
+  };
+
+  function el(id: string): HTMLElement {
+    const node = document.getElementById(id);
+    if (!node) throw new Error('Missing element #' + id);
+    return node;
+  }
+  function pair(obj: Record<string, [number, number]>, key: string): [number, number] {
+    const v = obj[key];
+    if (!v) throw new Error('Unknown key: ' + key);
+    return v;
+  }
+  function inr(n: number): string {
+    return '\u20B9' + Math.round(n).toLocaleString('en-IN');
+  }
+  function range(lo: number, hi: number): string {
+    return inr(lo) + ' \u2013 ' + inr(hi);
+  }
+  function checked(name: string): string {
+    const input = document.querySelector<HTMLInputElement>('input[name="' + name + '"]:checked');
+    return input ? input.value : '';
+  }
+
+  function calc(): void {
+    const siteType = (el('siteType') as HTMLSelectElement).value;
+    const pages = parseInt((el('pages') as HTMLInputElement).value, 10);
+    const design = checked('design');
+    const content = checked('content');
+    const maint = (el('maintenance') as HTMLInputElement).checked;
+
+    el('pagesVal').textContent = String(pages);
+
+    const hosting = pair(HOSTING_MO, siteType);
+    const hostingYr: [number, number] = [hosting[0] * 12, hosting[1] * 12];
+    const designByType = DESIGN[design];
+    if (!designByType) throw new Error('Unknown design: ' + design);
+    const designCost = pair(designByType, siteType);
+    const rate = pair(CONTENT_PER_WORD, content);
+    const words = pages * WORDS_PER_PAGE;
+    const contentCost: [number, number] = [words * rate[0], words * rate[1]];
+    const maintCost: [number, number] = maint ? pair(MAINT_YR, siteType) : [0, 0];
+
+    const rows: Array<[string, string, string]> = [
+      ['Domain (pehla saal)', range(DOMAIN_FIRST[0], DOMAIN_FIRST[1]), 'Promo price; renewal zyada hota hai'],
+      ['Hosting (1 saal)', range(hostingYr[0], hostingYr[1]), 'Shared/VPS plan ke hisaab se'],
+      ['Design & development (one-time)', range(designCost[0], designCost[1]), design === 'template' ? 'Theme + setup' : 'Developer charges'],
+      ['Content (one-time)', range(contentCost[0], contentCost[1]), pages + ' pages x ~' + WORDS_PER_PAGE + ' words'],
+      ['Maintenance (saal ka)', maint ? range(maintCost[0], maintCost[1]) : inr(0), maint ? 'Updates, backup, security' : 'Skip kiya'],
+    ];
+
+    el('rows').innerHTML = rows
+      .map((r) => '<tr><td>' + r[0] + '</td><td><strong>' + r[1] + '</strong></td><td>' + r[2] + '</td></tr>')
+      .join('');
+
+    const yearOne: [number, number] = [0, 0];
+    const recur: [number, number] = [0, 0];
+    yearOne[0] += DOMAIN_FIRST[0];
+    yearOne[1] += DOMAIN_FIRST[1];
+    recur[0] += DOMAIN_RENEW[0];
+    recur[1] += DOMAIN_RENEW[1];
+    yearOne[0] += hostingYr[0];
+    yearOne[1] += hostingYr[1];
+    recur[0] += hostingYr[0];
+    recur[1] += hostingYr[1];
+    yearOne[0] += designCost[0];
+    yearOne[1] += designCost[1];
+    yearOne[0] += contentCost[0];
+    yearOne[1] += contentCost[1];
+    if (maint) {
+      yearOne[0] += maintCost[0];
+      yearOne[1] += maintCost[1];
+      recur[0] += maintCost[0];
+      recur[1] += maintCost[1];
+    }
+
+    el('yearOne').textContent = range(yearOne[0], yearOne[1]);
+    el('recurring').textContent = range(recur[0], recur[1]);
+  }
+
+  ['siteType', 'pages', 'maintenance'].forEach((id: string) => {
+    const node = el(id);
+    node.addEventListener('input', calc);
+    node.addEventListener('change', calc);
+  });
+  document.querySelectorAll('input[name="design"], input[name="content"]').forEach((node: Element) => {
+    node.addEventListener('change', calc);
+  });
+  calc();
+</script>
+
+<style>
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .intro { color: var(--muted); max-width: 720px; margin: 0 0 2rem; font-size: 1.05rem; }
+  .calc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 1.25rem;
+    align-items: start;
+    margin-bottom: 3rem;
+  }
+  .card h2 { margin: 0 0 1.1rem; font-size: 1.25rem; }
+  .field { display: block; margin-bottom: 1.15rem; border: none; padding: 0; }
+  .field > span, .field > legend {
+    display: block; font-weight: 700; margin-bottom: 0.45rem; font-size: 0.95rem; padding: 0;
+  }
+  select {
+    width: 100%; padding: 0.65rem 0.8rem; font-size: 1rem;
+    border: 1px solid var(--border); border-radius: 0.6rem; background: var(--bg);
+    font-family: inherit;
+  }
+  input[type="range"] { width: 100%; accent-color: var(--accent); }
+  .radio { display: block; font-weight: 500; margin-bottom: 0.4rem; cursor: pointer; font-size: 0.95rem; }
+  .radio input { accent-color: var(--accent); margin-right: 0.45rem; }
+  .check { display: flex; gap: 0.6rem; align-items: flex-start; cursor: pointer; font-size: 0.95rem; }
+  .check input { accent-color: var(--accent); margin-top: 0.3rem; }
+  .totals { margin-top: 1.1rem; }
+  .total-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 0.85rem 1rem; border-radius: 0.7rem; margin-bottom: 0.6rem;
+    background: rgba(217, 72, 15, 0.08); font-size: 1.05rem;
+  }
+  .total-row strong { color: var(--accent-dark); font-size: 1.15rem; }
+  .total-row.recur { background: rgba(47, 158, 68, 0.08); }
+  .total-row.recur strong { color: #1e7e34; }
+  .fine { font-size: 0.85rem; color: var(--muted); margin: 1rem 0 0; }
+  .next-steps { margin-bottom: 3rem; }
+  .cta-row { display: flex; gap: 0.9rem; flex-wrap: wrap; }
+  table.data td:nth-child(3) { white-space: normal; color: var(--muted); font-size: 0.85rem; }
+  @media (max-width: 860px) { .calc-grid { grid-template-columns: 1fr; } }
+</style>

@@ -1,0 +1,58 @@
+---
+import Layout from '../../components/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="Affiliate Disclosure"
+  description="AffiliateBharat's full affiliate disclosure policy — how we make money, how commissions (don't) affect prices, and how rankings are built."
+  lang="en"
+  canonicalPath="/en/disclosure/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/en/' }, { label: 'Disclosure' }]} />
+  <article class="page">
+    <h1>Affiliate Disclosure</h1>
+    <p class="lede">Straight talk, no fine print.</p>
+
+    <h2>Reader-supported model</h2>
+    <p>
+      AffiliateBharat is reader-supported. Some links on this site are <strong>affiliate links</strong> —
+      meaning if you buy through them, we may earn a commission from that company.
+    </p>
+
+    <h2>No extra cost to you</h2>
+    <p>
+      The commission comes out of the company's pocket. The price you see is the price you pay —
+      buying through our link <strong>never costs you more</strong>.
+    </p>
+
+    <h2>Rankings are not for sale</h2>
+    <p>
+      No company can pay to rank higher in our comparisons. Our verdicts are based on research —
+      not commission rates. Even where we earn more, we write what the data says.
+    </p>
+
+    <h2>What we disclose</h2>
+    <ul>
+      <li>Every article carries an affiliate disclosure box at the top.</li>
+      <li>Affiliate links use <code>rel="sponsored nofollow"</code> — transparent to search engines too.</li>
+      <li>Our methodology is published on the <a href="/en/about/">about page</a>.</li>
+    </ul>
+
+    <h2>Questions?</h2>
+    <p>
+      If you doubt any link or recommendation, check the article's <em>last verified</em> date
+      and confirm on the official site. That's always the safest move.
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .page { max-width: 760px; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .lede { font-size: 1.12rem; color: var(--muted); margin-bottom: 2rem; }
+  .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
+  .page p, .page li { font-size: 1.02rem; }
+  .page ul { padding-left: 1.4rem; }
+  .page li { margin-bottom: 0.5rem; }
+</style>

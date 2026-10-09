@@ -1,0 +1,38 @@
+---
+// Honesty box: what we did NOT do (no fake testing claims), our sources,
+// and when the facts were last verified.
+interface Props {
+  sources?: string[];
+  lastVerified: string;
+  lang?: 'hi' | 'en';
+}
+const {
+  sources = ['Official pricing pages', 'Review aggregates (Trustpilot, G2)', 'Public affiliate program terms'],
+  lastVerified,
+  lang = 'hi',
+} = Astro.props;
+const hi = lang === 'hi';
+---
+
+<aside class="method-box">
+  <h2>{hi ? '🔍 Research methodology' : '🔍 Research methodology'}</h2>
+  <ul>
+    <li>{hi ? 'Humne products ko khud test karne ka daava nahi karte.' : 'We do not claim to have personally tested these products.'}</li>
+    {sources.map((s) => <li>{hi ? `Source: ${s}` : `Source: ${s}`}</li>)}
+    <li>{hi ? `Last verified: ${lastVerified}` : `Last verified: ${lastVerified}`}</li>
+  </ul>
+</aside>
+
+<style>
+  .method-box {
+    background: #f7f3ea;
+    border: 1px solid var(--border);
+    border-radius: 0.9rem;
+    padding: 1.2rem 1.35rem;
+    margin: 2rem 0;
+    max-width: 760px;
+  }
+  .method-box h2 { margin: 0 0 0.6rem; font-size: 1.1rem; }
+  .method-box ul { margin: 0; padding-left: 1.25rem; font-size: 0.95rem; color: var(--muted); }
+  .method-box li { margin-bottom: 0.35rem; }
+</style>

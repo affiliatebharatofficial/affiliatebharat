@@ -1,0 +1,35 @@
+---
+import Layout from '../../components/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="Free Tools"
+  description="Free calculators aur comparison tools — website cost nikalo ya hosting plans compare karo. Koi sign-up nahi."
+  canonicalPath="/tools/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Tools' }]} />
+  <h1>🧰 Free Tools</h1>
+  <p class="intro">Khud calculate karo, khud compare karo — koi sign-up nahi, koi jhanjhat nahi.</p>
+
+  <div class="grid">
+    <article class="card">
+      <span class="badge">🧮 Calculator</span>
+      <h3><a href="/tools/hosting-compare/">Hosting Compare Tool</a></h3>
+      <p>Budget, plan type aur use-case ke hisaab se hosting plans filter karo. Intro price vs renewal price side-by-side — taaki 'sasta' plan mehenga na pade.</p>
+      <a class="btn" href="/tools/hosting-compare/">Compare karo</a>
+    </article>
+    <article class="card">
+      <span class="badge">💰 Calculator</span>
+      <h3><a href="/tools/website-cost-calculator/">Website Cost Calculator</a></h3>
+      <p>Blog, business site, portfolio ya online store — banane me kitna kharcha aayega? Domain, hosting, design, content aur maintenance ka itemized estimate.</p>
+      <a class="btn" href="/tools/website-cost-calculator/">Cost nikalo</a>
+    </article>
+  </div>
+</Layout>
+
+<style>
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .intro { color: var(--muted); max-width: 720px; margin: 0 0 2rem; font-size: 1.05rem; }
+  .card .btn { margin-top: 0.5rem; }
+</style>

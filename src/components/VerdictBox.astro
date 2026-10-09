@@ -1,0 +1,25 @@
+---
+// Green-tinted verdict box rendered from frontmatter `verdict`.
+interface Props {
+  verdict: string;
+}
+const { verdict } = Astro.props;
+---
+
+<aside class="verdict-box">
+  <h2>✅ Hamara Verdict</h2>
+  <p>{verdict}</p>
+</aside>
+
+<style>
+  .verdict-box {
+    background: rgba(47, 158, 68, 0.08);
+    border: 1px solid rgba(47, 158, 68, 0.35);
+    border-radius: 0.9rem;
+    padding: 1.2rem 1.35rem;
+    margin: 2rem 0;
+    max-width: 760px;
+  }
+  .verdict-box h2 { margin: 0 0 0.5rem; font-size: 1.15rem; color: #1e7e34; }
+  .verdict-box p { margin: 0; font-size: 1.02rem; }
+</style>

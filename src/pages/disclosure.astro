@@ -1,0 +1,59 @@
+---
+import Layout from '../components/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="Affiliate Disclosure"
+  description="AffiliateBharat ki puri affiliate disclosure policy — hum paise kaise kamate hain, commission price ko kaise affect (nahi) karta, aur rankings kaise banti hain."
+  canonicalPath="/disclosure/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Disclosure' }]} />
+  <article class="page">
+    <h1>Affiliate Disclosure</h1>
+    <p class="lede">Seedhi baat, bina fine-print ke.</p>
+
+    <h2>Reader-supported model</h2>
+    <p>
+      AffiliateBharat reader-supported hai. Is site par kuch links <strong>affiliate links</strong> hain —
+      matlab agar aap un links se kuch kharidte hain to humein us company se commission mil sakta hai.
+    </p>
+
+    <h2>Aapko koi extra cost nahi</h2>
+    <p>
+      Commission company apni jeb se deti hai. Aap jo price dekhte hain, wahi price aap dete hain —
+      hamare link se kharidna aapke liye <strong>mehenga nahi padta</strong>.
+    </p>
+
+    <h2>Rankings bikau nahi hain</h2>
+    <p>
+      Koi bhi company paise dekar hamari comparison ya ranking me upar nahi aa sakti.
+      Hamare verdicts research par based hote hain — commission rates par nahi.
+      Jahan humein zyada commission milta hai, wahan bhi hum wahi likhenge jo data kehta hai.
+    </p>
+
+    <h2>Hum kya disclose karte hain</h2>
+    <ul>
+      <li>Har article ke top par affiliate disclosure box hota hai.</li>
+      <li>Affiliate links par <code>rel="sponsored nofollow"</code> attribute lagta hai — search engines ke liye bhi transparent.</li>
+      <li>Hamari methodology <a href="/about/">about page</a> par publicly likhi hai.</li>
+    </ul>
+
+    <h2>Sawaal ho to</h2>
+    <p>
+      Agar kisi link ya recommendation par doubt ho, to article par di gayi
+      <em>last verified</em> date check karo aur official site se confirm karo.
+      Wahi sabse safe tareeka hai.
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .page { max-width: 760px; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .lede { font-size: 1.12rem; color: var(--muted); margin-bottom: 2rem; }
+  .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
+  .page p, .page li { font-size: 1.02rem; }
+  .page ul { padding-left: 1.4rem; }
+  .page li { margin-bottom: 0.5rem; }
+</style>
