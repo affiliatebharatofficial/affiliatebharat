@@ -39,3 +39,4 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 ## English versions published (rotation rule: H − E ≥ 3)
 
 - [x] `indian-startups-email-marketing-tools` → `/en/indian-startups-email-marketing-tools/` (2026-10-09; rewrite of Hinglish seed article, not translation)
+- [x] `hostinger-single-vs-premium-plan` → `/en/hostinger-single-vs-premium-plan/` (2026-10-10; rotation rule H=6 E=3, alphabetical tiebreak)
