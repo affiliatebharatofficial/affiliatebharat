@@ -190,3 +190,46 @@ Sources (accessed 2026-10-09): https://gauravtiwari.org/deal/hostinger-coupon-co
 - Upgrade path Single → Premium exists via hPanel (from Hinglish article; treat as product fact, low risk).
 - Do NOT claim personal testing. Frame as public pricing data analysis. Include lastVerified 2026-10-10 and methodology note.
 - Internal links: /en/hostinger-vs-bluehost-hindi-blog/, /en/wordpress-blog-start-kitna-kharcha/, /tools/hosting-compare/.
+
+## 2026-10-10 (morning) — PRE-RESEARCH for 2026-10-11 cron run: HI article `shared-hosting-small-business-gst-invoice-india`
+
+Topic (deterministic per skill rotation rule): after the 2026-10-10 EN run, H=6, E=4 → H−E=2 < 3, so the day's article is a NEW Hinglish calendar topic. First unchecked `[ ]` item whose slug does not exist as src/content/articles/*.md → `shared-hosting-small-business-gst-invoice-india`.
+Target keyword: "shared hosting for small business india gst invoice". Category: hosting.
+No comparison article → no screenshots needed. Not a comparison → screenshot rule does not apply.
+
+### GST on hosting in India — the buyer's tax mechanics (THIRD-PARTY, buildbyravirai.com, updated ~2026-10-04)
+- Web hosting is a service taxed at 18% GST. The September 2025 slab changes removed the 12% and 28% brackets but left IT services at 18%.
+- Input tax credit (ITC): claimable only if the business is GST-registered, is NOT under the composition scheme, and the hosting is used for the business. The 18% is then effectively cost-neutral (e.g. ₹10,000 hosting → ₹1,800 GST claimable as credit).
+- You need a proper TAX INVOICE showing YOUR GSTIN; the invoice must reach your GSTR-2B, which happens only after the vendor files its GSTR-1. Put your GSTIN in the hosting account's billing settings on day one — fixing old invoices afterwards is painful and often impossible.
+- Red flags: GST charged with no GSTIN printed on the invoice; a quote that said "all inclusive" followed by 18% added at checkout (settle in writing at quote stage); a cash-discount offer with no bill (you lose the ITC, the expense deduction, and clean proof of ownership).
+Source: https://www.buildbyravirai.com/blog/gst-on-website-development-india-2026 (accessed 2026-10-10)
+
+### Hostinger India — GST invoice status: THIRD-PARTY (official India pricing pages NOT opened today)
+- Multiple third-party pages state Hostinger India's displayed prices EXCLUDE GST (added at checkout) and that GST-registered businesses can request a proper tax invoice for input-credit purposes by entering GSTIN + business details in the "Tax Information" section at checkout.
+- No explicit Hindi-support statement found on official pages (notes §1: UNVERIFIED). One third-party review claims Hindi chat support exists — UNVERIFIED.
+Sources: https://www.snatchsavings.com/in/hostinger ; https://aliraza.co/hostinger-coupon-code-india/ ; https://gsmarena.blog/hostinger-india/ (all accessed 2026-10-10)
+
+### MilesWeb — GST invoice: OFFICIAL PAGE (milesweb.in FAQ, fetched via search 2026-10-10)
+- "All MilesWeb hosting prices shown are exclusive of GST. An 18% GST is added at checkout in accordance with Indian tax regulations. We issue a valid GST invoice with every purchase, which Indian businesses and freelancers can use to claim input tax credits. Your GSTIN can be added during checkout or through your account billing settings."
+- Support: 24/7 live chat, tickets, PHONE; India-based team; English and Hindi — official page.
+- Prices (already verified 2026-10-09, notes §1; SAME at renewal — guaranteed): Starter ₹69/mo, Business ₹199/mo (50 sites, 100 GB NVMe, 150 emails, daily+on-demand backups), Cloud Startup ₹399/mo. 30-day money-back.
+Source: https://www.milesweb.in/hosting/ssd-hosting (accessed 2026-10-10)
+
+### Bluehost India — GST invoice: MIXED (official tax page + user receipt)
+- OFFICIAL (bluehost.com help, "Tax Rates and Exemptions"): India GST collected at 18% on India customers.
+- A user-uploaded 2022 Bluehost India signup receipt shows the flow: checkout shows "THIS IS NOT A TAX INVOICE", then "you will receive your final Tax Invoice by email shortly". Billed as "Endurance International Group India Pvt Ltd", GSTIN 27AAECD1043M1ZP, CGST 9% + SGST 9%, SAC 998315. Pattern confirms Bluehost India issues GST tax invoices — but the receipt is 2022, treat current-year specifics as THIRD-PARTY.
+- Bluehost.in is the India-specific property (notes §1: Basic ₹299–399/mo etc., official help page 2026-10-09). Note pricing pages differ: bluehost.com/in/pricing shows different plan names (Starter/Business/eCommerce Essentials) — treat as US-site variant, prefer bluehost.in numbers.
+Sources: https://www.bluehost.com/help/article/tax-rates-exemptions ; https://www.scribd.com/document/567599634/Sign-Up-Complete (accessed 2026-10-10)
+
+### HostGator India — STATUS FLAG: likely MERGED INTO BIGROCK (THIRD-PARTY single source — UNVERIFIED, must verify before the article mentions it)
+- One third-party source (GitHub hosting list, updated ~2026-04) claims HostGator India was merged into BigRock in 2024–2025 by Newfold Digital: hostgator.in redirects to bigrock.in, no new purchases at HostGator.in, existing customers migrated. CONSISTENT WITH our 2026-10-09 finding that HostGator's own plan pages show blank price placeholders (notes §1).
+- Until verified from an official page: do NOT present as fact in the article. If unverified at write time, omit HostGator from the small-business shortlist rather than guessing.
+Source: https://github.com/heyimprahlad/best-web-hosting-india- (accessed 2026-10-10)
+
+### Small-business shortlist inputs (prices from notes §1, verified 2026-10-09 — re-check at write time)
+- MilesWeb Business ₹199/mo (same at renewal; GST invoice + GSTIN field; Hindi support; India-based phone support) — strongest small-business fit on paper.
+- Hostinger Unlimited ₹249/mo intro (48-mo) → renews ₹649/mo; daily backups; GST excluded at checkout (add ~18% to effective cost; claimable with GSTIN).
+- Bluehost India Basic/Plus (bluehost.in: Basic ₹299–399/mo, Plus ₹399–599/mo per term; official GST tax invoice flow).
+- Honesty notes: renewal jumps (Hostinger 3–4x) hit small businesses hardest on year 2; "same price at renewal" (MilesWeb) is the differentiator worth one line; composition-scheme businesses get NO ITC — one line caveat.
+- Internal links: /wordpress-blog-start-kitna-kharcha/, /hostinger-single-vs-premium-plan/, /tools/hosting-compare/, /tools/website-cost-calculator/.
+- Do NOT claim personal testing. Include lastVerified 2026-10-11 and methodology note naming sources above.
