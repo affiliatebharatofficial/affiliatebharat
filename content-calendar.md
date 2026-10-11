@@ -4,6 +4,10 @@
 (Finance category removed 2026-10-09 — SEBI/YMYL risk; revisit after domain authority builds.)
 NO head keywords like "best hosting" — every topic targets a concrete buyer question.
 
+## Seasonal priority 2026 (publish before the sale window — sales earn the most)
+- [ ] slug: `diwali-hosting-offers-india-genuine` — Target keyword: "diwali hosting offers india" (deals) — PUBLISH ~Oct 13–25: Diwali 2026 is Nov 6–10 (Lakshmi Puja Nov 8; verified 2026-10-11). Host Diwali sales typically go live mid/late-Oct, so 2026 discounts are UNVERIFIED until the offers pages update — article must frame "expected (2025 patterns)" vs announced, and get a post-sale update. Research prepped in research/notes.md (2026-10-11 entry).
+- [ ] slug: `hostinger-black-friday-deal-india-real-discount` — Target keyword: "hostinger black friday deal india real discount" (deals) — PUBLISH ~Nov 10–15: Black Friday is Nov 27, 2026 (Thanksgiving Nov 26; verified 2026-10-11). Same expected-vs-announced honesty rule.
+
 ## Hosting (10)
 
 - [x] slug: `shared-hosting-small-business-gst-invoice-india` — Target keyword: "shared hosting for small business india gst invoice" (hosting) — published 2026-10-11
@@ -28,12 +32,10 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 - [ ] slug: `canva-pro-vs-free-youtubers-india` — Target keyword: "canva pro vs free youtubers india worth it" (saas-tools)
 - [ ] slug: `notion-vs-google-workspace-freelancers-india` — Target keyword: "notion vs google workspace freelancers india" (saas-tools)
 
-## Deals (5)
+## Deals (3)
 
-- [ ] slug: `hostinger-black-friday-deal-india-real-discount` — Target keyword: "hostinger black friday deal india real discount" (deals)
 - [ ] slug: `domain-renewal-coupon-india-godaddy-alternative` — Target keyword: "domain renewal coupon india cheap" (deals)
 - [ ] slug: `semrush-trial-vs-discount-students-india` — Target keyword: "semrush trial vs discount india" (deals)
-- [ ] slug: `diwali-hosting-offers-india-genuine` — Target keyword: "diwali hosting offers india" (deals)
 - [ ] slug: `getresponse-annual-vs-monthly-savings-india` — Target keyword: "getresponse annual vs monthly price india" (deals)
 
 ## English versions published (rotation rule: H − E ≥ 3)

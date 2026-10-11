@@ -254,3 +254,27 @@ Source: https://github.com/heyimprahlad/best-web-hosting-india- (accessed 2026-1
 - **MilesWeb Business: ₹199/mo, "Same price at renewal — Guaranteed", 18% GST excluded from displayed prices, 30-day money-back, 24/7 English+Hindi support.** Official shared-hosting page (crawled ~2 days ago) matches 2026-10-09 research exactly. Sources: https://www.milesweb.in/hosting/shared-hosting ; https://gauravtiwari.org/milesweb-hosting-review/ (Hindi support confirmed).
 - Free domain year 1 on both (Hostinger Premium, MilesWeb Business). Domain renewal ~₹1,000–1,500/yr — carry as APPROX (not officially re-verified; keep hedged).
 - Honesty notes (carry from Hinglish original): Hostinger cheap year 1, ~3x on renewal; MilesWeb same-price renewal = budgeting simplicity; hosting account must be in the owner's own name; start DIY with WhatsApp booking, upgrade later. Do NOT claim personal testing. Include lastVerified 2026-10-12 + methodology section naming sources.
+
+---
+
+## 2026-10-11 — PRE-RESEARCH for `diwali-hosting-offers-india-genuine` (moved to Seasonal Priority; publish ~Oct 13–25)
+
+### Why this topic, why now
+- Diwali 2026 = Nov 6–10: Dhanteras Fri Nov 6, Choti Diwali Sat Nov 7, Lakshmi Puja (main day) Sun Nov 8, Govardhan Puja Mon Nov 9, Bhai Dooj Tue Nov 10. (verified 2026-10-11 via almanac.com + hindutone.com; 2026 is an Adhik Maas year, which is why it's later than 2025's Oct 20). 28 days from today.
+- Hosting festive sales are the #1 earning window for Indian affiliate sites. Hosts' Diwali sales typically go live mid/late-October → publishing this article ~Oct 13–25 gives 2–4 weeks of indexing + freshness before the buying window. Calendar moved to "Seasonal priority" 2026-10-11; skill now picks it as the first unchecked Hinglish topic (after the 2026-10-12 English-rotation run, which is unaffected).
+- Black Friday 2026 = Fri Nov 27 (Thanksgiving Thu Nov 26; verified 2026-10-11) — `hostinger-black-friday-deal-india-real-discount` is also moved to seasonal priority, publish ~Nov 10–15.
+
+### 2025 sale patterns (all THIRD-PARTY / historical — use only as "last year" framing, NOT as 2026 facts)
+- **MilesWeb Diwali 2025:** "up to 76% OFF" + 3 months free, free .COM domain + SSL, free migration (desidime deal listing). MilesWeb sale calendar: Diwali window Oct–Nov, up to 80% off hosting + domains (grabon.in, crawled ~1 day ago). Current live flash offer: "73% off hosting + free domain" (milesweb.in/milesweb-vs-hostinger, crawled ~3 days ago) — shows their headline discount format.
+- **Hostinger India Diwali 2025:** "up to 80% + extra 7% OFF" with coupon code URDIWALI on shared/WordPress; + extra months free on yearly plans (updatedreviews.in Diwali offers page, last updated 283 days ago — stale page, treat numbers as 2025-only).
+- **Black Friday 2025 reference:** BigRock 75% off shared (₹69/mo start), Hostinger up to 85% off + 10% extra code BLACKFRIDAY, deal period Oct 13–Dec 8, 2025 (bigrock.in blog, last updated 319 days ago).
+- Sources: https://www.desidime.com/deals/milesweb-diwali-sale-up-to-76-off ; https://www.grabon.in/milesweb-coupons/ ; https://www.updatedreviews.in/web-hosting-diwali-offers-deals ; https://www.bigrock.in/blog/products/hosting/black-friday-web-hosting-deals-2 (all accessed 2026-10-11)
+
+### HONESTY constraints for the article (mandatory)
+- **2026 Diwali offers are NOT announced yet (as of 2026-10-11).** The writer MUST open the official offers pages at write time (milesweb.in/hosting-offers/diwali, hostinger.in pricing) and print ONLY what is live. Anything not live goes in an "expected (2025 pattern)" frame — never presented as the 2026 deal.
+- Do NOT claim personal testing of any deal. Methodology section: "2025 sale pages + live pricing pages checked <date>".
+- Prices: keep the 18% GST caveat (Hostinger lists pre-GST; MilesWeb too). Renewal-price honesty from earlier notes carries over — sale prices are first-term; call out renewal explicitly.
+- Screenshot rule (user's standing rule): comparison article → 1 screenshot per brand compared. At write time: try capturing the live offers pages; if 2026 offers pages aren't live yet, reuse /screenshots/hostinger-home.png and /screenshots/milesweb-home.png (already in repo) and note the screenshots show regular pricing, not the sale. Never hotlink.
+- lastVerified must be the publish date; the article should carry a line that discounts change as sales go live and the page will be updated.
+- Target keyword: "diwali hosting offers india". Variants for H2s: "diwali offer web hosting 2026", "hosting diwali sale discount india", "milesweb diwali offer", "hostinger diwali sale india". Internal links: /tools/hosting-compare/, /tools/website-cost-calculator/, /shared-hosting-small-business-gst-invoice-india/, /hostinger-single-vs-premium-plan/.
+- `{{aff:hostinger}}` / `{{aff:milesweb}}` shortcodes per affiliates.ts (placeholder URLs until user opens accounts — that's the standing rule).
