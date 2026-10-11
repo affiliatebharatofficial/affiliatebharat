@@ -278,3 +278,46 @@ Source: https://github.com/heyimprahlad/best-web-hosting-india- (accessed 2026-1
 - lastVerified must be the publish date; the article should carry a line that discounts change as sales go live and the page will be updated.
 - Target keyword: "diwali hosting offers india". Variants for H2s: "diwali offer web hosting 2026", "hosting diwali sale discount india", "milesweb diwali offer", "hostinger diwali sale india". Internal links: /tools/hosting-compare/, /tools/website-cost-calculator/, /shared-hosting-small-business-gst-invoice-india/, /hostinger-single-vs-premium-plan/.
 - `{{aff:hostinger}}` / `{{aff:milesweb}}` shortcodes per affiliates.ts (placeholder URLs until user opens accounts — that's the standing rule).
+
+---
+
+## 2026-10-11 (afternoon) — Diwali pre-research UPDATE (proactivity research pass, ~15:05 IST)
+
+Supplements the morning's `diwali-hosting-offers-india-genuine` pre-research above. Facts only.
+
+### MilesWeb Diwali offers page: LIVE (official, opened and read 2026-10-11)
+- URL: https://www.milesweb.in/blog/news-and-updates/web-hosting-diwali-offers/
+- Headline discounts on the page: shared hosting up to 80% off, VPS up to 64% off, Cloud up to 66% off, Dedicated up to 50% off, Reseller up to 60% off. Free SSL / migration / domain-first-year mentioned as inclusions.
+- CAVEAT: the page's offer-creative images are dated 2024/10 (recycled evergreen Diwali page; page refreshed ~Sept 2026 per crawl). Treat the headline % figures as the page's framing, NOT as verified 2026 plan prices — the writer must still verify live plan prices on milesweb.in at write time (per the morning note's mandatory constraint).
+
+### Hostinger Diwali 2026: no dedicated 2026 sale page found (as of 2026-10-11)
+- No official Hostinger India Diwali-2026 sale page surfaced in search; only coupon-aggregator pages. Aggregator expectation for the 2026 season (grabon.in, updated ~1 day ago): Diwali sale Oct–Nov window, "up to 83% off + extra coupon savings + free domain offers".
+- 2025 pattern (for "last year" framing only): up to 80% + extra 7% off with coupon code URDIWALI (updatedreviews.in; stale page, 2025-only numbers).
+- Writer must check hostinger.in pricing at write time and print only what is live.
+
+### Festive e-commerce sales are LIVE NOW (context for the article's "season buying" framing — NOT hosting deals)
+- Amazon Great Indian Festival 2026: open to ALL users since Oct 8 (Prime early access Oct 7; early deals live since Sept 25). Runs in waves, expected through the Diwali period. Bank offer: 10% instant discount on eligible SBI credit/debit cards + EMI; Prime members up to 10% extra on select offers.
+- Flipkart Big Billion Days 2026 (13th edition): open to all since Oct 9 (early access from midnight Oct 8 for Plus/VIP/credit-card members). Concentrated ~6–10 day main wave (heaviest in first half). Bank offers: up to 10% on eligible Axis Bank and ICICI Bank cards.
+- Diwali 2026 = Nov 8 (Lakshmi Puja; Dhanteras Nov 6) — matches the morning note.
+- Sources (accessed 2026-10-11): https://www.thehindubusinessline.com/companies/flipkarts-big-billion-days-returns-for-13th-edition-on-oct-9-with-record-seller-participation/article71551044.ece/amp/ ; https://techopenion.in/flipkart-big-billion-days-and-amazon-great-indian-festival-2026-the-smart-shoppers-guide-to-the-best-time-to-buy/ ; https://www.infobits.in/amazon-offers/ ; https://www.comparos.in/articles/amazon-gif-vs-flipkart-bbd-key-differences-and-major-offers
+
+### Implication for the article (publish slot: 2026-10-13 per rotation)
+- The article lands mid-festive-season, not before it. Frame as "Diwali-season hosting deals: what's live now + what to expect as hosts announce" rather than "upcoming sale preview". Keep the morning note's honesty constraints (no 2026 deal printed unless live on the official page at write time; 2025 numbers only as "last year" framing; lastVerified = publish date; renewal-price + 18% GST caveats).
+
+## 2026-10-11 (evening) — `big-billion-days-vs-great-indian-festival-2026` pre-research (proactivity research pass, ~16:00 IST)
+
+Queued as the FIRST unchecked seasonal topic → Oct 13 Hinglish run picks it up (rotation: Oct 12 is an English run since H=7, E=4, H−E=3≥3; Oct 13 H−E=2<3 → new calendar topic). `diwali-hosting-offers-india-genuine` shifts to Oct 14, still inside its Oct 13–25 window — and mid-Oct is when hosting Diwali sales typically go live, so the order actually improves.
+
+### Verified facts (accessed 2026-10-11; WRITER MUST RE-VERIFY AT WRITE TIME — sale terms move daily)
+- Flipkart Big Billion Days 2026 (13th edition): early access from midnight Oct 8 (Plus/BLACK/Flipkart credit-card members), general access Oct 9. NO official end date announced as of Oct 11 (indianretailer: "an end date should not be assumed"). Historical pattern: concentrated ~6–10 day window, heaviest in first half → likely ends ~Oct 14–18. Sources: https://www.thehindubusinessline.com/companies/flipkarts-big-billion-days-returns-for-13th-edition-on-oct-9-with-record-seller-participation/article71551044.ece/amp/ ; https://www.indianretailer.com/article/retail-business/retail-trends/festive-sale-2026-flipkart-amazon-myntra-meesho-and-ajio-sale
+- BBD bank/payment offers: up to 10% instant discount on eligible Axis Bank and ICICI Bank cards; SuperCoins, No-Cost EMI, Flipkart Pay Later (terms apply). Smartphone exchange benefits up to ₹16,000; No-Cost EMI from ₹500/month up to 24 months on eligible products. ~150M products, 80+ categories; brands: Apple, Samsung, Motorola, Google, Nothing, ASUS, Sony. Source: indianretailer + gadgets360 (https://www.gadgets360.com/brand-story/sponsored/flipkart-big-billion-days-2026-is-here-these-13-offers-won-t-last-long-12149931).
+- Amazon Great Indian Festival 2026: open to ALL users since Oct 8 (Prime early access ~Oct 7; early deals since Sept 25). Runs in WAVES through the Diwali period (Diwali Nov 8). Bank offer: 10% instant discount on eligible SBI credit/debit cards + EMI; Prime members up to 10% extra on select offers. Source: techopenion.in (https://techopenion.in/flipkart-big-billion-days-and-amazon-great-indian-festival-2026-the-smart-shoppers-guide-to-the-best-time-to-buy/) + afternoon pass notes (infobits.in).
+- CORRECTION vs this morning's user message: BBD does NOT have a confirmed "ends Oct 15–19" — that was an estimate presented as fact. Correct framing: no official end date; could end any day this week per the 6–10 day pattern.
+
+### Article guidance (honesty rules)
+- Concrete buyer question: "dono sales live hain — kahan kya sasta milega, bank offers kaise stack karein, kaunsi category kis sale me lena behtar". Category-by-category advice (mobiles/electronics early = BBD first-half aggression; appliances/fashion may improve later; GIF waves till Diwali).
+- NO printed deal price unless verified live on the official sale page at write time (Oct 13). Bank-offer % figures above are the verified baseline — re-check both sale pages before publishing; if changed, print the live numbers and drop stale ones.
+- Comparison article → screenshot rule: capture flipkart.com + amazon.in sale/homepage (browser task, ~1280px). Bluehost/Kit CAPTCHA precedent: if blocked, SKIP screenshots and note it in the article — never hotlink.
+- affiliates.ts: add `flipkart` (https://www.flipkart.com) and `amazon` (https://www.amazon.in) entries with officialUrl + affiliateUrl: '' (category union may need 'deals' added — allowed per skill rule 3, new product entries only). `{{aff:flipkart}}` / `{{aff:amazon}}` shortcodes in body; links resolve to official URLs until the user opens Cuelinks/EarnKaro accounts and pastes real tracking links.
+- Internal links: link /deals/ hub (if live) and the Oct-14 diwali-hosting article only if published; otherwise 2 relevant existing articles. lastVerified = publish date. Renewal-price/18% GST caveats N/A here — instead: "prices change during sales; exchange/EMI terms per product" caveat.
+- Target keyword variants for H2s: "bbd 2026 vs gif 2026 bank offers", "flipkart big billion days 2026 exchange offer", "amazon great indian festival 2026 sbi card offer", "diwali sale 2026 kab khatm hoga".
