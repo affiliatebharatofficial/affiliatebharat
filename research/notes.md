@@ -233,3 +233,24 @@ Source: https://github.com/heyimprahlad/best-web-hosting-india- (accessed 2026-1
 - Honesty notes: renewal jumps (Hostinger 3–4x) hit small businesses hardest on year 2; "same price at renewal" (MilesWeb) is the differentiator worth one line; composition-scheme businesses get NO ITC — one line caveat.
 - Internal links: /wordpress-blog-start-kitna-kharcha/, /hostinger-single-vs-premium-plan/, /tools/hosting-compare/, /tools/website-cost-calculator/.
 - Do NOT claim personal testing. Include lastVerified 2026-10-11 and methodology note naming sources above.
+
+---
+
+## 2026-10-11 — PRE-RESEARCH for 2026-10-12 cron run: English version of `salon-website-ke-liye-best-hosting`
+
+### Topic determination (rotation rule, computed 2026-10-11 ~10:51 IST — re-check at run time)
+- Counts before today's 11:19 run: H=6 (`src/content/articles/*.md`), E=4 (`src/content/articles/en/*.md`).
+- Today's run (2026-10-11) is Hinglish: H−E = 2 < 3 → first unchecked calendar topic `shared-hosting-small-business-gst-invoice-india` (research above).
+- After today's run: H=7, E=4 → H−E = 3 ≥ 3 → 2026-10-12 run is ENGLISH.
+- English topic = oldest Hinglish article with no English counterpart (earliest frontmatter date; alphabetical tiebreak): **`salon-website-ke-liye-best-hosting`** (2026-10-09; beats `shared-vs-vps-vs-cloud-hosting-beginners-guide` alphabetically).
+- Output per writer skill: `src/content/articles/en/salon-website-ke-liye-best-hosting.md` — SAME slug, rewritten for English keywords (target keyword: "best hosting for salon website india"), NOT a literal translation.
+- Reuse screenshots: `/screenshots/hostinger-home.png`, `/screenshots/milesweb-home.png` (already in repo; user's comparison-screenshot rule).
+- Internal links: /tools/hosting-compare/, /tools/website-cost-calculator/, /hostinger-single-vs-premium-plan/ (+ /en/ counterpart), /en/indian-startups-email-marketing-tools/.
+
+### Price re-verification (2026-10-11 — official-page research of 2026-10-09 holds, no changes)
+- **Hostinger Premium: ₹149/mo intro (48-mo term, ₹7,152 total) → renews ₹449/mo.** Single: ₹69/mo intro (₹3,312) → renews ₹289/mo. Confirmed unchanged across 4 third-party pages updated Aug–Oct 2026 (zoutons.com re-verified Sept 2, 2026 from hostinger.com/in; bloggertutor.com Sept 22, 2026; gauravtiwari.org; superbuzzmedia.com).
+  - OUTLIER (do not use): best1products.com shows Premium ₹119/₹249 — stale/mixed with US pricing; official-page numbers win.
+  - 18% GST added at checkout on Hostinger India prices (not in displayed price).
+- **MilesWeb Business: ₹199/mo, "Same price at renewal — Guaranteed", 18% GST excluded from displayed prices, 30-day money-back, 24/7 English+Hindi support.** Official shared-hosting page (crawled ~2 days ago) matches 2026-10-09 research exactly. Sources: https://www.milesweb.in/hosting/shared-hosting ; https://gauravtiwari.org/milesweb-hosting-review/ (Hindi support confirmed).
+- Free domain year 1 on both (Hostinger Premium, MilesWeb Business). Domain renewal ~₹1,000–1,500/yr — carry as APPROX (not officially re-verified; keep hedged).
+- Honesty notes (carry from Hinglish original): Hostinger cheap year 1, ~3x on renewal; MilesWeb same-price renewal = budgeting simplicity; hosting account must be in the owner's own name; start DIY with WhatsApp booking, upgrade later. Do NOT claim personal testing. Include lastVerified 2026-10-12 + methodology section naming sources.

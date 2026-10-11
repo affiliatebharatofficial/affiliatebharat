@@ -6,7 +6,7 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 
 ## Hosting (10)
 
-- [ ] slug: `shared-hosting-small-business-gst-invoice-india` — Target keyword: "shared hosting for small business india gst invoice" (hosting)
+- [x] slug: `shared-hosting-small-business-gst-invoice-india` — Target keyword: "shared hosting for small business india gst invoice" (hosting) — published 2026-10-11
 - [ ] slug: `hostinger-renewal-price-increase-alternatives` — Target keyword: "hostinger renewal price increase alternatives india" (hosting)
 - [ ] slug: `blog-ke-liye-domain-hosting-combo-offer` — Target keyword: "blog ke liye domain hosting combo offer" (hosting)
 - [ ] slug: `wordpress-blog-start-kitna-kharcha` — Target keyword: "wordpress blog start karne me kitna kharcha" (hosting)
