@@ -321,3 +321,14 @@ Queued as the FIRST unchecked seasonal topic → Oct 13 Hinglish run picks it up
 - affiliates.ts: add `flipkart` (https://www.flipkart.com) and `amazon` (https://www.amazon.in) entries with officialUrl + affiliateUrl: '' (category union may need 'deals' added — allowed per skill rule 3, new product entries only). `{{aff:flipkart}}` / `{{aff:amazon}}` shortcodes in body; links resolve to official URLs until the user opens Cuelinks/EarnKaro accounts and pastes real tracking links.
 - Internal links: link /deals/ hub (if live) and the Oct-14 diwali-hosting article only if published; otherwise 2 relevant existing articles. lastVerified = publish date. Renewal-price/18% GST caveats N/A here — instead: "prices change during sales; exchange/EMI terms per product" caveat.
 - Target keyword variants for H2s: "bbd 2026 vs gif 2026 bank offers", "flipkart big billion days 2026 exchange offer", "amazon great indian festival 2026 sbi card offer", "diwali sale 2026 kab khatm hoga".
+
+## 2026-10-12 (morning) — English run: `en/salon-website-ke-liye-best-hosting` (rotation H=7, E=4 → H−E=3≥3)
+
+Rotation rule picked the oldest Hinglish article without an English counterpart (2026-10-09, alphabetical tiebreak vs shared-vs-vps-vs-cloud-hosting-beginners-guide). Rewrite for English keywords — NOT a literal translation. Target keyword: "best hosting for salon website india".
+
+### Sources (reused verified data — no invented numbers)
+- Hostinger Premium: ₹149/mo intro (48-mo term) / ₹449/mo renewal, 20 GB SSD, 3 websites, free domain 1 yr, free SSL, weekly backups — verified from hostinger.com/in official pricing page 2026-10-09 (see src/data/hosting-plans.ts note).
+- MilesWeb Business: ₹199/mo with same-price-at-renewal guaranteed, 50 websites, 100 GB NVMe, free domain 1 yr, free SSL, daily + on-demand backups, 24/7 Hindi support (verified true), 18% GST extra, 30-day money-back — verified from milesweb.in official pricing page 2026-10-09 (see src/data/hosting-plans.ts note).
+- Re-verification attempt 2026-10-12: tried to re-check MilesWeb's pricing page via browser.open; failed (HTTP 404 on a non-official URL guess, no valid page read). Per skill rule 2, reused the 2026-10-09 verified numbers; 2026-10-11 research pass confirmed both hosts' plan structures remain current, no changed numbers surfaced. Methodology section in the article states this explicitly.
+- Screenshots: reused public/screenshots/hostinger-home.png + milesweb-home.png (captured 2026-10-09 via browser task, official homepages — identical in English). Comparison article's screenshot rule satisfied without new capture.
+- Products already in src/data/affiliates.ts (hostinger, milesweb); no new entries needed.

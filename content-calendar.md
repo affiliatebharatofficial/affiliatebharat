@@ -43,3 +43,4 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 
 - [x] `indian-startups-email-marketing-tools` → `/en/indian-startups-email-marketing-tools/` (2026-10-09; rewrite of Hinglish seed article, not translation)
 - [x] `hostinger-single-vs-premium-plan` → `/en/hostinger-single-vs-premium-plan/` (2026-10-10; rotation rule H=6 E=3, alphabetical tiebreak)
+- [x] `salon-website-ke-liye-best-hosting` → `/en/salon-website-ke-liye-best-hosting/` (2026-10-12; rotation rule H=7 E=4, oldest-date + alphabetical tiebreak; rewrite for English keywords)
