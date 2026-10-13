@@ -8,7 +8,7 @@
 export interface Affiliate {
   id: string;
   name: string;
-  category: 'hosting' | 'saas-tools';
+  category: 'hosting' | 'saas-tools' | 'deals';
   officialUrl: string;
   /** Real affiliate/tracking link. EMPTY placeholder until filled. */
   affiliateUrl: string;
@@ -28,6 +28,8 @@ export const AFFILIATES: Affiliate[] = [
   { id: 'jasper', name: 'Jasper', category: 'saas-tools', officialUrl: 'https://www.jasper.ai', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'clickfunnels', name: 'ClickFunnels', category: 'saas-tools', officialUrl: 'https://www.clickfunnels.com', affiliateUrl: '', payoutNote: 'Up to 30–40% recurring (public info)' },
   { id: 'systeme', name: 'Systeme.io', category: 'saas-tools', officialUrl: 'https://systeme.io', affiliateUrl: '', payoutNote: '60% lifetime recurring (public info)' },
+  { id: 'flipkart', name: 'Flipkart', category: 'deals', officialUrl: 'https://www.flipkart.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'amazon', name: 'Amazon India', category: 'deals', officialUrl: 'https://www.amazon.in', affiliateUrl: '', payoutNote: 'TBD' },
 ];
 
 /** Resolve the outbound URL for an affiliate id. Unknown id -> site root. */
