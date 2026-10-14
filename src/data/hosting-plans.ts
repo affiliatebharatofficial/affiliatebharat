@@ -156,4 +156,4 @@ export const HOSTING_PLANS: HostingPlan[] = [
 ];
 
 /** Last date the plan data was verified against official pricing pages. */
-export const lastVerified = '2026-10-09';
+export const lastVerified = '2026-10-14';
