@@ -44,3 +44,4 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 - [x] `indian-startups-email-marketing-tools` → `/en/indian-startups-email-marketing-tools/` (2026-10-09; rewrite of Hinglish seed article, not translation)
 - [x] `hostinger-single-vs-premium-plan` → `/en/hostinger-single-vs-premium-plan/` (2026-10-10; rotation rule H=6 E=3, alphabetical tiebreak)
 - [x] `salon-website-ke-liye-best-hosting` → `/en/salon-website-ke-liye-best-hosting/` (2026-10-12; rotation rule H=7 E=4, oldest-date + alphabetical tiebreak; rewrite for English keywords)
+- [x] `shared-vs-vps-vs-cloud-hosting-beginners-guide` → `/en/shared-vs-vps-vs-cloud-hosting-beginners-guide/` (2026-10-14; rotation rule H=9 E=5, oldest-date; rewrite for English keywords — MilesWeb Cloud Startup re-verified live: ₹1,499→₹499/mo intro 36-mo term / ₹979/mo renewal; old ₹399 same-renewal claim gone, flagged for data refresh)

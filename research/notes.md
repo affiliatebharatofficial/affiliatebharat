@@ -304,6 +304,23 @@ Supplements the morning's `diwali-hosting-offers-india-genuine` pre-research abo
 ### Implication for the article (publish slot: 2026-10-13 per rotation)
 - The article lands mid-festive-season, not before it. Frame as "Diwali-season hosting deals: what's live now + what to expect as hosts announce" rather than "upcoming sale preview". Keep the morning note's honesty constraints (no 2026 deal printed unless live on the official page at write time; 2025 numbers only as "last year" framing; lastVerified = publish date; renewal-price + 18% GST caveats).
 
+## 2026-10-13 (~14:00 IST) — Diwali hosting offers STATUS UPDATE for the Oct 14 run (proactivity research pass)
+
+Facts only. Writer still MUST verify official pages at write time — sale terms move daily.
+
+### No 2026 Diwali-branded hosting sale announced yet (as of 2026-10-13)
+- Web search today surfaced NO dedicated 2026 Diwali sale page/announcement from Hostinger, MilesWeb, Bluehost, or A2. Only coupon-aggregator October pages and stale 2020-era Diwali blog posts. The Oct 11 honesty constraint stands: print 2026 deals ONLY if live on the official page at write time; everything else stays in "expected (2025 pattern)" framing.
+- MilesWeb's evergreen Diwali offers page (https://www.milesweb.in/blog/news-and-updates/web-hosting-diwali-offers/ — headline: shared up to 80% off) is still the closest thing to a live Diwali page; writer must check whether 2026 plan prices are behind it at write time.
+
+### NEW lead: Hostinger's festive-window sale IS announced — via Black Friday window, not "Diwali"
+- googiehost.com Black Friday roundup (updated 1 day ago, accessed 2026-10-13) reports: **"Hostinger has confirmed its sale from October 19 to December 14, 2026"** — the only confirmed 2026 festive-season sale so far among hosts. It overlaps the Diwali period (Lakshmi Puja Nov 8). THIRD-PARTY claim — the writer must verify on hostinger.com/in at write time (check homepage banner + pricing page for a promo banner) before printing the dates.
+- Source: https://googiehost.com/blog/best-wordpress-hosting-black-friday-deals/
+- If verified live at write time, this becomes the article's "announced" anchor: Hostinger festive discounts confirmed Oct 19 → Dec 14; other hosts still in "expected" frame. If NOT verifiable, drop it entirely — do not print aggregator claims as fact.
+
+### Implication for the Oct 14 article
+- The Oct 11 framing ("what's live now + what to expect as hosts announce") still holds, but the writer should specifically check hostinger.com/in for the Oct 19–Dec 14 sale at write time — if confirmed, the article gains one genuine announced deal to lead with instead of being 100% "expected".
+- Screenshot rule: if hostinger.com/in shows a festive promo banner at write time, capture it (comparison article rule); otherwise fall back to the existing repo screenshots per the Oct 11 note.
+
 ## 2026-10-11 (evening) — `big-billion-days-vs-great-indian-festival-2026` pre-research (proactivity research pass, ~16:00 IST)
 
 Queued as the FIRST unchecked seasonal topic → Oct 13 Hinglish run picks it up (rotation: Oct 12 is an English run since H=7, E=4, H−E=3≥3; Oct 13 H−E=2<3 → new calendar topic). `diwali-hosting-offers-india-genuine` shifts to Oct 14, still inside its Oct 13–25 window — and mid-Oct is when hosting Diwali sales typically go live, so the order actually improves.
@@ -349,3 +366,60 @@ Rotation check at run time: H=7, E=5 → H−E=2 < 3 → new Hinglish calendar t
 ### Live browser verification addendum (2026-10-13 ~11:21-11:26 IST)
 - Flipkart.com: loaded fine; login modal closed without sign-in. BBD 2026 LIVE confirmed on homepage; hero banners carry "THE BIG BILLION DAYS" badges (examples visible: iPhone 17 "From ₹81,999*", realme P4x 5G, Galaxy S25 FE, Mamaearth — "From" prices with asterisk, banner claims only). NO end date stated on homepage. Exact bank-offer text read from banner creatives: Axis Bank and ICICI Bank badges with "10% Instant Discount*", plus "Get 10% Savings* with FLIPKART AXIS BANK Credit Card". Screenshot captured at ~1280px viewport → public/screenshots/flipkart-bbd-2026.png (resized to 1280x665). Consistent with tracker-reported 10% Axis/ICICI offers — no conflict.
 - Amazon.in: BLOCKED on every attempt (initial load, reload, site-internal home links, fresh navigation) with the traffic/bot-wall page ("Oops! It's rush hour...", 503 - Service Unavailable). No CAPTCHA presented, so nothing to solve. No live/end-date info, no SBI offer text, no screenshot. Per Bluehost/Kit precedent: skipped the Amazon screenshot, noted in-article. GIF bank-offer numbers in the article rest on the tracker/news sources above (herzindagi Oct-13 update, flipshope, infobits, toireviews).
+
+## 2026-10-13 (~20:00 IST) — Evening verification pass (proactivity research pass)
+
+### `diwali-hosting-offers-india-genuine` slot moved to Oct 15
+- Per the Oct 13 daily log: the rotation rule (H−E≥3 → English run) picked `shared-vs-vps-vs-cloud-hosting-beginners-guide` English counterpart for the Oct 14 11:19 run, NOT the Diwali hosting article. `diwali-hosting-offers-india-genuine` now targets the Oct 15 run (still inside its Oct 13–25 seasonal window). Writer: do NOT publish it on Oct 14.
+
+### Hostinger Oct 19–Dec 14 festive sale: STILL UNVERIFIED on official pages (checked tonight)
+- Direct read of https://www.hostinger.in (2026-10-13 ~20:00 IST): NO festive/Diwali/black-friday banner anywhere on the homepage. Offers shown are the standard evergreen ones; the googiehost.com "confirmed Oct 19 – Dec 14" claim remains a THIRD-PARTY claim only.
+- Live official India pricing captured tonight (48-month terms, intro / renewal): Single 83% off ₹69/mo (renews ₹289); Premium 75% off ₹149/mo (renews ₹449); Unlimited "special offer" 64% off ₹249/mo (renews ₹649); Cloud Startup 65% off ₹599/mo (renews ₹1,599). Matches the previously verified Single/Premium numbers; "Unlimited" tier appears new on the homepage.
+- Writer rule for the Oct 15 article: do NOT print the Oct 19–Dec 14 dates as fact unless hostinger.com/in shows a promo banner at write time. If the banner appears, capture it as the screenshot-rule fallback. Until then the article keeps the "expected (2025 pattern)" frame for all hosts, except MilesWeb's evergreen Diwali page (still check live prices at write time).
+
+### BBD still live tonight — today's published article stays accurate (checked 2026-10-13 ~20:00 IST)
+- NO official end date announced (comparos.in: "Not officially announced"; indianhotdeal: "Not announced yet"). flipshope (crawled <1h ago) still lists live BBD deals and prints "October 8th to 15th" as its own estimate; earticleblog says "15th Oct 2026" — both remain third-party guesses, NOT Flipkart announcements. No "sale ended" news anywhere.
+- The Oct 13 BBD-vs-GIF article's premise ("dono sales live hain") remains accurate tonight. No correction needed. Re-verify before any republication if the sale's status changes.
+
+## 2026-10-14 (morning) — Pre-research: today's 11:19 run = English counterpart of `shared-vs-vps-vs-cloud-hosting-beginners-guide` (rotation H−E≥3 → English run, per Oct 13 daily log)
+
+Existing Hindi article (published 2026-10-09, lastVerified 2026-10-09) cites these prices — writer is rewriting for English keywords, NOT literal translation. Re-verified the load-bearing numbers this morning (~10:55 IST, 2026-10-14); WRITER MUST STILL RE-VERIFY AT WRITE TIME per skill rule 2.
+
+### Verified this morning
+- **MilesWeb Cloud Startup: ₹399/mo intro STILL HOLDS.** Official cloud page (search result 2, crawled ~2 days ago): Cloud Startup "73% OFF, ₹1,499 → ₹399/mo", 36-month term + 2 months free, 100 websites, 100 GB NVMe, 5 GB RAM/5 CPU, free domain 1 yr + free SSL, LiteSpeed + CDN. Same ₹399/mo shown on small-business cloud page (33-day crawl) and cloudways-alternative page (2-day crawl). Source: https://www.milesweb.in/hosting/cloud-hosting/
+- **Hostinger Single ₹69/mo intro / ₹289/mo renewal; Premium ₹149/mo intro / ₹449/mo renewal** — re-verified on hostinger.in 2026-10-13 ~20:00 IST (evening pass). Still current.
+- **MilesWeb Starter (shared) ₹69/mo intro** — confirmed on milesweb.in/hosting/milesweb-vs-hostinger (crawled ~14h ago): "83% OFF, ₹399 → ₹69/mo". Source: https://www.milesweb.in/hosting/milesweb-vs-hostinger
+- 18% GST extra on MilesWeb prices — confirmed on the official cloud page ("Displayed prices do not include GST (18%)").
+
+### DISCREPANCY — flag for the writer (honesty rule)
+- The same milesweb-vs-hostinger page (freshest crawl, ~14h ago) shows **Cloud Startup at ₹499/mo (₹1,499 struck through)** in its comparison table, while the dedicated cloud page shows ₹399/mo. Likely term/page-variant differences, but the writer MUST read the live price at write time and print exactly what the live page shows — do not average ₹399 and ₹499, do not pick the lower one silently.
+- **"Same-price-at-renewal" for Cloud Startup is NOT re-confirmed this morning.** The Hindi article printed "₹399/mo, same-renewal" (verified Oct 9). Today's snippets show the "Same price at renewal - Guaranteed" badge only on a MySQL-hosting page banner (₹399/mo, crawled 1 day ago), not on the cloud pricing table itself. Writer rule: if the live cloud page confirms same-renewal, keep the claim; otherwise frame as "entry price ₹399/mo on the 36-month term" with 18% GST caveat, no renewal claim.
+- Transient: MilesWeb is running a **flash-sale countdown** ("Ends in ~12h" on the MySQL page, crawled 1 day ago). Do NOT print countdown-specific claims in the article — sale banners change daily.
+
+### Article guidance (honesty rules)
+- The ₹500–2,500/mo (VPS) and ₹399–3,000+/mo (cloud) figures in the Hindi original are illustrative ranges, not provider quotes — keep them framed as "typical range", not pinned numbers.
+- Target English keyword: "shared vs vps vs cloud hosting beginners guide india" / "difference between shared vps and cloud hosting". Keep the PG/flat/smart-building analogy adapted, not literally translated.
+- Screenshots: this is a concept-explainer (no comparison of named providers as the article's spine) — the screenshot rule (comparison articles) does not strictly apply; reuse is optional.
+- Internal links: link the hosting-compare tool + the English salon-hosting article + wordpress-blog-start guide; lastVerified = publish date (2026-10-14).
+
+## 2026-10-14 — Write-time research: English rewrite `shared-vs-vps-vs-cloud-hosting-beginners-guide` (en/)
+
+Rotation rule: H=9, E=5 → H−E=4 ≥ 3 → English version of oldest Hinglish article without an English counterpart: `shared-vs-vps-vs-cloud-hosting-beginners-guide` (frontmatter date 2026-10-09). Rewrite for English keywords ("shared vs vps vs cloud hosting beginners guide india", "difference between shared vps and cloud hosting") — NOT a literal translation.
+
+### Write-time re-verification (2026-10-14 ~11:20 IST, live browser read of milesweb.in/hosting/cloud-hosting)
+- **MilesWeb Cloud Startup: ₹1,499 → ₹499/mo, 36-month term.** Price table shows 67% OFF badge, struck-through ₹1,499, prominent ₹499/mo. Billing-term dropdown set to 36 months.
+- **Same-price-at-renewal is GONE.** Live page carries no "Same price at renewal" / "Guaranteed" wording for Cloud Startup. The on-page "MilesWeb Cloud vs. the Rest" table shows 36-mo term: Offer ₹499/mo, Renewal ₹979/mo (total ₹17,964). The Hindi original (2026-10-09) printed ₹399/mo same-renewal — now STALE; English rewrite prints verified ₹499 intro / ₹979 renewal, and flags the change in-article.
+- **GST:** "Displayed prices do not include GST (18%)." — exact page wording.
+- **Flash-sale countdown banner live** ("🎉Flash Sale: 73% Off Hosting + Free Domain — Ends in [countdown] View Plans →") — banner figure NOT used in article (banners change daily).
+- **Storage spec unresolved:** hosting-plans.ts says 150 GB NVMe; a recent official-page crawl said 100 GB NVMe. Article does NOT print a storage figure for Cloud Startup.
+- Hostinger Single ₹69/mo intro / ₹289/mo renewal; Premium ₹149/mo / ₹449/mo — re-verified 2026-10-13 evening pass, still current. MilesWeb Starter (shared) ₹69/mo — confirmed morning crawl.
+
+### STALE DATA FLAG (writer cannot fix per skill rule 3 — needs separate data-refresh run)
+- `src/data/hosting-plans.ts` → `milesweb-cloud-startup`: introMonthly 399, renewalMonthly 399, note "Same-price-at-renewal guaranteed" — all now WRONG vs live page (499 / 979, no renewal guarantee). The hosting-compare tool renders this stale data.
+- Article mitigates with a methodology-box note pointing at the verified numbers; the Oct 15 run (or a data-refresh task) should update hosting-plans.ts.
+- Also stale: the Hindi original `shared-vs-vps-vs-cloud-hosting-beginners-guide.md` (2026-10-09) still prints ₹399/mo same-renewal in its "Cloud Example" section — flagged for a content refresh pass.
+
+### Article guidance applied
+- Prices in the comparison table's range row kept as illustrative market ranges (VPS ₹500–2,500/mo typical; cloud ₹499–3,000+/mo), not pinned provider quotes.
+- Screenshots: concept-explainer, screenshot rule optional — reusing public/screenshots/hostinger-home.png + milesweb-home.png (captured 2026-10-09, English homepages) for visual context near the plan mentions.
+- Internal links: /en/hostinger-single-vs-premium-plan/, /en/salon-website-ke-liye-best-hosting/, /en/wordpress-blog-start-kitna-kharcha/, /tools/hosting-compare/ (with staleness caveat), /tools/website-cost-calculator/.
