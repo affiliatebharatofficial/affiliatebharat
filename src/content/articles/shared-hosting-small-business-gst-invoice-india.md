@@ -19,8 +19,8 @@ faq:
     a: "Haan, domain registration aur renewal bhi services hain aur in par bhi 18% GST lagta hai. Pehle saal to aksar hosting plans me free domain milta hai, par renewal par saal ka lagbhag ₹1,000–1,500 (approx) + GST kharcha aata hai. Domain renewal ke invoices bhi save karke rakho — GST-registered business ke liye ye bhi ITC-eligible expense hai, aur domain aapki sabse important digital asset hai, iska ownership proof clean hona chahiye."
   - q: "Renewal price check karna kyun zaroori hai?"
     a: "Kyunki intro price aur renewal price me 3–4x tak ka farq hota hai, aur small business ka budget dusre saal me sabse zyada hurt hota hai. Hostinger ka Premium plan ₹149/mo intro se renew hokar ₹449/mo ho jata hai — plus 18% GST. MilesWeb is mamle me alag hai: unki official guarantee hai ki renewal price same rahegi. Pehle saal ka sasta kharcha dekhkar plan mat chuno; saal 2 aur 3 ka kharcha bhi likh kar compare karo."
-verdict: "GST-registered small business ke liye MilesWeb Business (₹199/mo, same-price renewal, official GST invoice + Hindi support) sabse tension-free pick hai. Budget-first approach hai to Hostinger Premium ka ₹149/mo intro lo, par ₹449/mo renewal aur 18% GST ka hisaab pehle se likh lo. Bluehost India Basic tabhi lo jab brand familiarity matter kare — uska renewal price official page par published hi nahi hai."
-lastVerified: "2026-10-11"
+verdict: "GST-registered small business ke liye MilesWeb Advance (₹99/mo, same-price renewal, official GST invoice + Hindi support) sabse tension-free pick hai. Budget-first approach hai to Hostinger Premium ka ₹149/mo intro lo, par ₹449/mo renewal aur 18% GST ka hisaab pehle se likh lo. Bluehost India Basic tabhi lo jab brand familiarity matter kare — uska renewal price official page par published hi nahi hai."
+lastVerified: "2026-10-14"
 ---
 
 ## Chhote business ke liye hosting = tax decision bhi hai
@@ -68,19 +68,19 @@ Neeche ke teeno picks shared hosting plans hain — 95% small business websites 
 
 | Host | Plan | Displayed price | Renewal | GST invoice status |
 |------|------|----------------|---------|-------------------|
-| MilesWeb | Business | ₹199/mo | ₹199/mo (same-price guarantee) | Official FAQ: har purchase par valid GST invoice; checkout ya billing settings me GSTIN add hota hai |
+| MilesWeb | Advance | ₹99/mo (36-mo) | ₹99/mo (same-price guarantee) | Official FAQ: har purchase par valid GST invoice; checkout ya billing settings me GSTIN add hota hai |
 | Hostinger | Premium | ₹149/mo intro (48-mo) | ₹449/mo | Third-party info: displayed price GST exclude; checkout par 18% add; "Tax Information" section me GSTIN daal kar tax invoice request hota hai |
 | Bluehost India | Basic | ₹299/mo intro (36-mo) | Official page par published nahi | Official tax page: India customers se 18% GST collect; 2022 ke user receipt pattern se pata chalta hai ki signup ke baad final tax invoice email se milta hai |
 
-### Pick 1: MilesWeb Business — GST paperwork ke liye sabse clean (₹199/mo)
+### Pick 1: MilesWeb Advance — GST paperwork ke liye sabse clean (₹99/mo)
 
 Paperwork ke angle se ye sabse strong option hai. MilesWeb ka official FAQ seedha kehta hai: displayed prices GST-exclusive hain, checkout par 18% add hota hai, **har purchase par valid GST invoice milta hai**, aur GSTIN checkout ke time ya baad me billing settings se add kar sakte ho. Matlab ITC claim ke liye jo chahiye, wo documented process hai — guesswork nahi.
 
-Plan khud bhi small business ke liye solid hai: 50 websites, 100 GB NVMe storage, 150 email accounts, daily + on-demand backups, free SSL, aur pehle saal free domain. Sabse bada differentiator: **renewal price same rehti hai** — ₹199/mo ka matlab dusre, teesre saal bhi ₹199/mo. Budgeting ke liye isse simple kuch nahi.
+Plan khud bhi small business ke liye solid hai: 1 website, 15 GB NVMe storage, 2 email accounts, free SSL, daily backups, aur pehle saal free domain. Sabse bada differentiator: **renewal price same rehti hai** — ₹99/mo ka matlab dusre, teesre saal bhi ₹99/mo. Budgeting ke liye isse simple kuch nahi.
 
 Support bhi India-friendly hai: 24/7 live chat, tickets, **phone support**, India-based team, aur official page par **"Support in English or Hindi"** likha hai. Non-technical business owner ke liye phone + Hindi support asli value hai.
 
-{{aff:milesweb|MilesWeb Business plan dekho}} — ₹199/mo par same-price renewal aur proper GST invoice ke saath.
+{{aff:milesweb|MilesWeb Advance plan dekho}} — ₹99/mo par same-price renewal aur proper GST invoice ke saath.
 
 ### Pick 2: Hostinger Premium — budget-first option, par renewal ka hisaab pehle likh lo (₹149/mo intro)
 
@@ -112,12 +112,12 @@ Ye table displayed (pre-GST) prices ko 18% GST ke saath dikhati hai. "Effective 
 
 | Plan | Monthly (displayed) | Saal ka kharcha (pre-GST) | +18% GST | Effective cost (GST-registered, ITC ke baad) |
 |------|--------------------|--------------------------|----------|----------------------------------------------|
-| MilesWeb Business | ₹199 | ₹2,388 | ₹2,818 | **₹2,388** (har saal same) |
+| MilesWeb Advance | ₹99 | ₹1,188 | ₹1,402 | **₹1,188** (har saal same) |
 | Hostinger Premium (intro, 48-mo) | ₹149 | ₹1,788 | ₹2,110 | **₹1,788** (sirf pehli term) |
 | Hostinger Premium (renewal) | ₹449 | ₹5,388 | ₹6,358 | **₹5,388** |
 | Bluehost Basic (intro, 36-mo) | ₹299 | ₹3,588 | ₹4,234 | **₹3,588** (renewal unknown) |
 
-Table se do cheezen saaf dikhti hain. Pehli: GST-registered business ke liye 18% effectively zero ho jata hai, to decision pre-GST column par lo. Dusri: Hostinger ka intro sabse sasta hai, par renewal par wo sabse mehenga padta hai — MilesWeb ka flat ₹199/mo doosre saal se sabse sasta effective cost deta hai.
+Table se do cheezen saaf dikhti hain. Pehli: GST-registered business ke liye 18% effectively zero ho jata hai, to decision pre-GST column par lo. Dusri: Hostinger ka intro sabse sasta hai, par renewal par wo sabse mehenga padta hai — MilesWeb ka flat ₹99/mo doosre saal se sabse sasta effective cost deta hai.
 
 Apna total kharcha (domain + hosting, saal-dar-saal) calculate karne ke liye hamara [website cost calculator](/tools/website-cost-calculator/) use karo, aur plans ko side-by-side compare karne ke liye [hosting compare tool](/tools/hosting-compare/). Agar blog shuru karne ka total kharcha janna hai to [WordPress blog start karne me kitna kharcha](/wordpress-blog-start-kitna-kharcha/) guide bhi padho.
 
@@ -133,7 +133,7 @@ Apna total kharcha (domain + hosting, saal-dar-saal) calculate karne ke liye ham
 
 Ye guide public data ke analysis par based hai — kisi bhi host ko "humne khud test kiya" ka claim nahi kiya gaya hai. Sources aur unki verification status:
 
-- **Hosting plan prices** (Hostinger ₹149/mo intro / ₹449/mo renewal; MilesWeb ₹199/mo; Bluehost India ₹299–399/mo intro): official India pricing/help pages se 2026-10-09 ko verified; Hostinger aur MilesWeb ke prices 2026-10-11 ko dobara confirm kiye gaye — koi change nahi.
+- **Hosting plan prices** (Hostinger ₹149/mo intro / ₹449/mo renewal; MilesWeb Advance ₹99/mo; Bluehost India ₹299–399/mo intro): official India pricing/help pages se 2026-10-09 ko verified; Hostinger aur MilesWeb ke prices 2026-10-14 ko dobara confirm kiye gaye (MilesWeb "Business ₹199/mo" plan official page par nahi raha — Advance ₹99/mo verified, same-price renewal intact).
 - **MilesWeb GST invoice policy:** milesweb.in ke official FAQ se (exclusive-of-GST pricing, har purchase par valid GST invoice, GSTIN checkout/billing settings me).
 - **Bluehost GST collection:** bluehost.com ke official tax help page se (India customers se 18% GST). Tax-invoice-email flow 2022 ke ek user receipt (third-party) se — pattern confirm, current-year specifics third-party.
 - **Hostinger GST checkout flow:** third-party pages jo official India pricing padhte hain — official page se directly confirm nahi hua, article me flagged hai.

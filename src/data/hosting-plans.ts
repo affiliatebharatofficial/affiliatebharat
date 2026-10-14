@@ -78,13 +78,13 @@ export const HOSTING_PLANS: HostingPlan[] = [
     note: 'Verified 2026-10-09 (milesweb.in). Formerly "Tyro". Same-price-at-renewal guaranteed. Displayed prices exclude 18% GST. 30-day money-back.',
   },
   {
-    id: 'milesweb-business', provider: 'MilesWeb', plan: 'Business', type: 'shared',
-    introMonthly: 199, renewalMonthly: 199, currency: 'INR',
-    storage: '100 GB NVMe', websites: '50 websites',
+    id: 'milesweb-advance', provider: 'MilesWeb', plan: 'Advance', type: 'shared',
+    introMonthly: 99, renewalMonthly: 99, currency: 'INR',
+    storage: '15 GB NVMe', websites: '1 website',
     freeDomain: true, freeSSL: true,
     hindiSupport: true,
     bestFor: ['business', 'hindi-blog'], affiliateId: 'milesweb',
-    note: 'Verified 2026-10-09 (milesweb.in). Formerly "Swift". Same-price-at-renewal guaranteed. Prices exclude 18% GST. 150 emails, daily + on-demand backups.',
+    note: 'Verified 2026-10-14 (milesweb.in/web-hosting). 80% OFF, ₹499→₹99/mo on 36-mo term. Same-price-at-renewal guaranteed (live page). Shared lineup is now Starter/Advance/Unlimited — the old "Business ₹199/mo" plan no longer appears on the official page. Prices exclude 18% GST. Free domain 1 yr, 2 mailboxes, daily backups.',
   },
   {
     id: 'milesweb-cloud-startup', provider: 'MilesWeb', plan: 'Cloud Startup', type: 'cloud',

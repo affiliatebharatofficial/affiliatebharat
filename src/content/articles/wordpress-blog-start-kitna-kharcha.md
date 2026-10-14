@@ -60,7 +60,7 @@ Intro deal buri nahi hai — lekin sach yeh hai ki aap **₹3,312 upfront** de r
 | Plan | Price | Renewal | Note |
 |---|---|---|---|
 | Starter | ₹69/mo | ₹69/mo (same) | 1 website, free domain + SSL |
-| Business | ₹199/mo | ₹199/mo (same) | Multiple sites |
+| Advance | ₹99/mo (36-mo term) | ₹99/mo (same) | 1 website, free domain + 2 mailboxes |
 | Cloud Startup | ₹499/mo | ₹979/mo | Cloud hosting |
 
 MilesWeb ka **same-price-at-renewal guarantee** inki sabse badi khasiyat hai: jo price aap aaj de rahe hain, wahi renewal par bhi lagega. Ek aur verified plus point: **"Support in English or Hindi, 24/7"** — Hindi me support beginners ke liye bada advantage hai. Note karein: inki prices me **18% GST extra** lagta hai.
@@ -141,7 +141,7 @@ Har blog alag hota hai — kisi ko 1 website chahiye, kisi ko 3, kisi ko domain 
 Shared hosting se shuruaat karna bilkul sahi hai. Upgrade tab karein jab:
 
 - Roz ke **2,000–3,000 visitors** par site noticeably slow hone lage
-- Aapko **3 se zyada websites** chalani hon (tab Hostinger Premium/Unlimited ya MilesWeb Business samajh aata hai)
+- Aapko **3 se zyada websites** chalani hon (tab Hostinger Premium/Unlimited ya MilesWeb Advance (₹99/mo) samajh aata hai)
 - Blog se itni income aane lage ki ₹400–500/mo ka cloud hosting justified ho
 
 Upgrade ka poora framework samajhne ke liye padhein: [Shared vs VPS vs Cloud Hosting — Beginners Guide](/shared-vs-vps-vs-cloud-hosting-beginners-guide/).

@@ -20,7 +20,7 @@ faq:
   - q: "How much does a domain name cost in India?"
     a: "A .com domain typically costs ₹900–1,200/year. Some hosting plans (Hostinger Premium and above, MilesWeb plans) include a free domain for the first year."
 verdict: "A self-hosted WordPress blog in India costs roughly ₹4,000–6,000 in year one and ₹5,000–8,000/year after renewals. The software is free — you pay for domain + hosting. Watch the renewal trap: Hostinger's ₹69/mo becomes ₹289/mo, while MilesWeb holds its price."
-lastVerified: "2026-10-09"
+lastVerified: "2026-10-14"
 ---
 
 "How much does a WordPress blog cost in India?" is one of the most-searched blogging questions — and most answers are either vague or sponsored. Here is an itemized, honest breakdown using prices verified on 2026-10-09. This is based on analysis of public specs and pricing data, not personal testing.
@@ -56,7 +56,7 @@ This is where beginners overpay or get trapped. Verified shared-hosting prices (
 | Hostinger Single | ₹69/mo (48-mo) | ₹289/mo | 1 | 10 GB SSD |
 | Hostinger Premium | ₹149/mo (48-mo) | ₹449/mo | 3 | 20 GB SSD |
 | MilesWeb Starter | ₹69/mo | ₹69/mo (guaranteed) | 1 | 10 GB NVMe |
-| MilesWeb Business | ₹199/mo | ₹199/mo (guaranteed) | 50 | 100 GB NVMe |
+| MilesWeb Advance | ₹99/mo (36-mo) | ₹99/mo (guaranteed) | 1 | 15 GB NVMe |
 
 MilesWeb prices exclude 18% GST — add it when budgeting (₹69 becomes ~₹81.42).
 
@@ -117,7 +117,7 @@ Interesting — over exactly 4 years they tie, because Hostinger's 48-month intr
 
 **Comfortable starter (~₹4,000–6,000 year 1):** Hostinger Premium 12-month (~₹1,788 + GST) + free domain year 1 + free theme/plugins. Room for 3 sites if you experiment.
 
-**Growing blog (~₹8,000–12,000/year):** MilesWeb Business or Hostinger Unlimited at renewal rates + paid theme + one premium plugin (e.g., Rank Math Pro). Only spend this when traffic or income justifies it.
+**Growing blog (~₹8,000–12,000/year):** MilesWeb Advance or Hostinger Unlimited at renewal rates + paid theme + one premium plugin (e.g., Rank Math Pro). Only spend this when traffic or income justifies it.
 
 Run your own scenario: [website cost calculator](/tools/website-cost-calculator/).
 

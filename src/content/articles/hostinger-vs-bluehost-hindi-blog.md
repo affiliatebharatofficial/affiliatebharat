@@ -16,7 +16,7 @@ faq:
   - q: "Dono me free domain milta hai?"
     a: "Haan. Hostinger ke yearly plans par free domain 1 saal ke liye included hai. Bluehost ke sabhi plans me free domain registration included hai. MilesWeb me bhi free domain 1 saal ke liye milta hai."
   - q: "Hindi blog ke liye kaunsa plan enough hai?"
-    a: "Starting ke liye Hostinger Single (1 site, 10 GB SSD) ya MilesWeb Starter (1 site, 10 GB NVMe) kaafi hai — Hindi blog shuru me light hi hota hai. Jab traffic badhe ya dusri site banani ho, tab Hostinger Premium (3 sites, 20 GB SSD) ya MilesWeb Business (50 sites, 100 GB NVMe) par upgrade karo."
+    a: "Starting ke liye Hostinger Single (1 site, 10 GB SSD) ya MilesWeb Starter (1 site, 10 GB NVMe) kaafi hai — Hindi blog shuru me light hi hota hai. Jab traffic badhe ya dusri site banani ho, tab Hostinger Premium (3 sites, 20 GB SSD) ya MilesWeb Unlimited (unlimited sites, 50 GB NVMe, ₹229/mo, renewal par wahi price) par upgrade karo."
   - q: "Renewal shock se kaise bachein?"
     a: "Do tareeqe: (1) lamba term (36–48 month) le lo taaki intro price zyada time tak lock rahe, ya (2) same-price-at-renewal guarantee wali company chuno — MilesWeb apne sabhi plans par renewal par wahi price guarantee karta hai. Har saal renewal se pehle calendar me reminder lagana bhi kaam ka tareeqa hai."
 verdict: "Budget-first Hindi blogger ho to Hostinger Premium value me aage hai, lekin renewal price pehle se jaan lo. Jisko established brand chahiye wo Bluehost dekhe — renewal price confirm karke. Aur jisko Hindi support + zero renewal shock chahiye, uske liye MilesWeb sabse honest pick hai."
@@ -93,7 +93,7 @@ Sach ye hai:
 
 Agar aap aise blogger hain jisko technical cheezon me English me baat karne me dikkat hoti hai, to ye factor price se bhi bada ho sakta hai. Ek baar socho: raat ko 11 baje site down hai, kal subah ek important post publish karni hai — us time Hindi me baat kar paana kitna valuable hai.
 
-Iske alawa MilesWeb ke plans same-price-at-renewal guarantee ke saath aate hain: Starter ₹69/mo (1 site, 10 GB NVMe), Business ₹199/mo (50 sites, 100 GB NVMe). Har plan me free domain (1 saal) aur free SSL included hai. Prices me 18% GST alag se judta hai — ye baat company khud batati hai.
+Iske alawa MilesWeb ke plans same-price-at-renewal guarantee ke saath aate hain: Starter ₹69/mo (1 site, 10 GB NVMe), Advance ₹99/mo (1 site, 15 GB NVMe). Har plan me free domain (1 saal) aur free SSL included hai. Prices me 18% GST alag se judta hai — ye baat company khud batati hai.
 
 {{aff:milesweb|MilesWeb par Hindi support wale plans dekho}}
 
@@ -105,7 +105,7 @@ Ab seedhi salah, category-wise:
 
 **Jisko brand name aur "safe choice" chahiye → Bluehost.** Bluehost WordPress.org par officially recommended raha hai aur iska naam sunne me bharosa deta hai. Lekin hamari honest salah: **buy karne se pehle renewal price support se confirm kar lo**, kyunki official site par ye publish nahi hai.
 
-**Jisko Hindi support chahiye ya renewal shock se nafrat hai → MilesWeb.** Hindi me 24/7 support aur same-price renewal — ye combination Hindi bloggers ke liye genuinely valuable hai. Business plan ₹199/mo (+ GST) me 50 sites tak ki capacity milti hai, jo future growth ke liye kaafi hai.
+**Jisko Hindi support chahiye ya renewal shock se nafrat hai → MilesWeb.** Hindi me 24/7 support aur same-price renewal — ye combination Hindi bloggers ke liye genuinely valuable hai. Unlimited plan ₹229/mo (+ GST) me unlimited sites ki capacity milti hai, jo future growth ke liye kaafi hai.
 
 ## Hostinger: pros aur cons
 

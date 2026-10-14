@@ -16,14 +16,14 @@ faq:
   - q: "What are Bluehost India's renewal prices?"
     a: "Bluehost India's official help page lists intro prices but does not publish renewal prices. This is a red flag for budget planning — you should confirm renewal cost with Bluehost support before buying."
   - q: "Which hosting is best for a Hindi news blog with high traffic?"
-    a: "For growing traffic, look at renewal-price plans: Hostinger's Unlimited (₹649/mo renewal) or MilesWeb Business (₹199/mo, same price at renewal, 100 GB NVMe, 50 websites). Start cheap, upgrade when traffic justifies it."
+    a: "For growing traffic, look at renewal-price plans: Hostinger's Unlimited (₹649/mo renewal) or MilesWeb Unlimited (₹229/mo, same price at renewal, 50 GB NVMe, unlimited websites). Start cheap, upgrade when traffic justifies it."
   - q: "Can I use these hosts for a blog written fully in Hindi (Devanagari)?"
     a: "Yes. All three hosts run standard WordPress, which fully supports Hindi in Devanagari script. Your blog's language is a WordPress/CMS matter, not a hosting limitation."
 verdict: "For Hindi bloggers on a budget, Hostinger wins on intro price (₹69/mo) but renews at ₹289/mo. Bluehost India starts at ₹299/mo with unpublished renewals. MilesWeb matches Hostinger's ₹69/mo and guarantees the same price at renewal — plus verified Hindi support."
-lastVerified: "2026-10-09"
+lastVerified: "2026-10-14"
 ---
 
-If you are starting a blog in Hindi, your hosting choice matters more than most English guides admit. You need affordable pricing in rupees, support you can actually talk to in Hindi, and renewal prices that don't ambush you in year two. This comparison is based on analysis of public specs, user reviews and pricing data verified on 2026-10-09 — not on personal testing.
+If you are starting a blog in Hindi, your hosting choice matters more than most English guides admit. You need affordable pricing in rupees, support you can actually talk to in Hindi, and renewal prices that don't ambush you in year two. This comparison is based on analysis of public specs, user reviews and pricing data verified on 2026-10-14 — not on personal testing.
 
 ## Hostinger vs Bluehost India: verified price comparison
 
@@ -58,12 +58,12 @@ If your English is comfortable, this may not matter to you. But for many first-t
 
 MilesWeb is an Indian hosting company, and it deserves a spot in this comparison because of two verified facts:
 
-| | MilesWeb Starter | MilesWeb Business |
+| | MilesWeb Starter | MilesWeb Advance |
 |---|---|---|
-| **Price** | ₹69/mo | ₹199/mo |
-| **Renewal price** | ₹69/mo (guaranteed same) | ₹199/mo (guaranteed same) |
-| **Websites** | 1 | 50 |
-| **Storage** | 10 GB NVMe | 100 GB NVMe |
+| **Price** | ₹69/mo | ₹99/mo |
+| **Renewal price** | ₹69/mo (guaranteed same) | ₹99/mo (guaranteed same) |
+| **Websites** | 1 | 1 |
+| **Storage** | 10 GB NVMe | 15 GB NVMe |
 | **Hindi support** | Yes, verified 24/7 | Yes, verified 24/7 |
 
 Note: MilesWeb prices exclude 18% GST, so the real billed amount is slightly higher. Even with GST, the renewal guarantee is rare and valuable — most international hosts survive on renewal-price hikes.
@@ -77,7 +77,7 @@ Note: MilesWeb prices exclude 18% GST, so the real billed amount is slightly hig
 
 **Personal Hindi blog / shayari / poetry site:** Hostinger Single (₹69/mo intro) or MilesWeb Starter (₹69/mo, no renewal shock). One site, 10 GB storage — plenty for text and images.
 
-**Hindi news or multi-topic blog:** Hostinger Premium (₹149/mo intro, 3 sites, free domain 1 year) if you want the big-brand ecosystem; MilesWeb Business (₹199/mo, 50 sites, 100 GB NVMe) if you want predictable long-term costs.
+**Hindi news or multi-topic blog:** Hostinger Premium (₹149/mo intro, 3 sites, free domain 1 year) if you want the big-brand ecosystem; MilesWeb Unlimited (₹229/mo, unlimited sites, same price at renewal) if you want predictable long-term costs.
 
 **YouTuber companion blog / affiliate site:** The free domain bundled with Hostinger Premium saves you ~₹900–1,200/year on domain registration, which matters when you are counting every rupee.
 

@@ -17,8 +17,8 @@ faq:
     a: "The simplest method is a WhatsApp chat button — a customer taps it and lands straight on your WhatsApp. If you want something more structured, free WordPress booking plugins handle appointment slots, reminders, and cancellations. The honest advice is to start with WhatsApp, then move to a proper booking plugin once appointment volume justifies it."
   - q: "Why does the renewal price matter more than the first-year price?"
     a: "Because intro and renewal prices can differ by 3–4x. Hostinger's Premium plan is ₹149/mo as an intro offer but renews at ₹449/mo. Choosing a plan on first-year price alone leads to an unpleasant surprise in year two. Always do the two-year math — including the 18% GST added at checkout — before you decide."
-verdict: "Shared hosting is all a salon website needs. Hostinger Premium (₹149/mo intro) is the budget pick, while MilesWeb Business (₹199/mo, same at renewal, with Hindi support) is the most stress-free option for non-technical owners. Budget ₹2,000–3,000 for year one."
-lastVerified: "2026-10-12"
+verdict: "Shared hosting is all a salon website needs. Hostinger Premium (₹149/mo intro) is the budget pick, while MilesWeb Advance (₹99/mo, same at renewal, with Hindi support) is the most stress-free option for non-technical owners. Budget ₹2,000–3,000 for year one."
+lastVerified: "2026-10-14"
 ---
 
 Choosing the **best hosting for a salon website in India** is a different problem from choosing hosting for a blog. A salon website exists to convert visitors into bookings — it needs a fast mobile experience, a photo gallery, a location map, and a booking option, all for the lowest sensible cost. This guide compares the two most honest options for that job, with verified prices and full year-1 vs renewal math.
@@ -71,11 +71,11 @@ Best for owners who can handle a little technical setup themselves and want the 
 
 {{aff:hostinger|Check Hostinger Premium's current price}}
 
-### Pick 2: MilesWeb Business — the stress-free pick (₹199/mo, same at renewal)
+### Pick 2: MilesWeb Advance — the stress-free pick (₹99/mo, same at renewal)
 
-- 50 websites, 100 GB NVMe storage — plenty of room to grow
-- Free domain for 1 year, free SSL, daily + on-demand backups
-- **Same ₹199/mo at renewal — guaranteed, no price shock** (18% GST added at checkout)
+- 1 website, 15 GB NVMe storage — plenty for a salon site with a photo gallery
+- Free domain for 1 year, free SSL, 2 free mailboxes, daily backups
+- **Same ₹99/mo at renewal — guaranteed, no price shock** (18% GST added at checkout)
 - **24/7 support in Hindi (verified)** — the biggest advantage for non-technical salon owners
 
 If your worry is "who do I call when something breaks at 10 PM," Hindi support matters more than any spec sheet. Explaining a problem to support in Hindi beats an English ticket queue when your booking page is down.
@@ -83,7 +83,7 @@ If your worry is "who do I call when something breaks at 10 PM," Hindi support m
 ![MilesWeb homepage hero section](/screenshots/milesweb-home.png)
 *MilesWeb.in — Hindi support and the guaranteed same-price renewal are its strongest selling points*
 
-{{aff:milesweb|See MilesWeb Business plan details}}
+{{aff:milesweb|See MilesWeb Advance plan details}}
 
 Want a feature-by-feature view of both? Open the [hosting comparison tool](/tools/hosting-compare/).
 
@@ -91,13 +91,13 @@ Want a feature-by-feature view of both? Open the [hosting comparison tool](/tool
 
 A salon owner should always look at two years of costs together, not just the headline price:
 
-| Cost | Hostinger Premium | MilesWeb Business |
+| Cost | Hostinger Premium | MilesWeb Advance |
 |---|---|---|
-| Hosting (year 1, intro) | ₹149 × 12 = ₹1,788 | ₹199 × 12 = ₹2,388 (+18% GST ≈ ₹2,818) |
+| Hosting (year 1, intro) | ₹149 × 12 = ₹1,788 | ₹99 × 12 = ₹1,188 (+18% GST ≈ ₹1,402) |
 | Domain (year 1) | Free (1 year included) | Free (1 year included) |
 | SSL | Free | Free |
-| **Year 1 total (approx.)** | **~₹1,788** | **~₹2,818** |
-| Hosting (renewal/year) | ₹449 × 12 = ₹5,388 | ₹199 × 12 = ₹2,388 (+GST ≈ ₹2,818) |
+| **Year 1 total (approx.)** | **~₹1,788** | **~₹1,402** |
+| Hosting (renewal/year) | ₹449 × 12 = ₹5,388 | ₹99 × 12 = ₹1,188 (+GST ≈ ₹1,402) |
 | Domain renewal (from year 2) | ~₹1,000–1,500/yr (approx.) | ~₹1,000–1,500/yr (approx.) |
 
 Two things to notice:
@@ -115,7 +115,7 @@ Read this checklist once before you enter card details — these are the points 
 
 2. **Check the money-back policy.** MilesWeb offers a 30-day money-back guarantee — if the service doesn't suit you in the first month, you can get a refund. Reading refund terms before buying is never wasted time.
 
-3. **Do the GST math.** Both hosts add 18% GST at checkout — MilesWeb's ₹199/mo works out to about ₹235/mo in reality. It is a small amount, but put it in your business budget now so your books don't surprise you later.
+3. **Do the GST math.** Both hosts add 18% GST at checkout — MilesWeb's ₹99/mo works out to about ₹117/mo in reality. It is a small amount, but put it in your business budget now so your books don't surprise you later.
 
 4. **Note the free domain's expiry.** The free domain covers year one only; from year two it costs ~₹1,000–1,500/year. Set a reminder 15 days before renewal — recovering an expired domain is expensive and messy.
 
