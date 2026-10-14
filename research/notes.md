@@ -423,3 +423,12 @@ Rotation rule: H=9, E=5 → H−E=4 ≥ 3 → English version of oldest Hinglish
 - Prices in the comparison table's range row kept as illustrative market ranges (VPS ₹500–2,500/mo typical; cloud ₹499–3,000+/mo), not pinned provider quotes.
 - Screenshots: concept-explainer, screenshot rule optional — reusing public/screenshots/hostinger-home.png + milesweb-home.png (captured 2026-10-09, English homepages) for visual context near the plan mentions.
 - Internal links: /en/hostinger-single-vs-premium-plan/, /en/salon-website-ke-liye-best-hosting/, /en/wordpress-blog-start-kitna-kharcha/, /tools/hosting-compare/ (with staleness caveat), /tools/website-cost-calculator/.
+
+## 2026-10-14 — DATA REFRESH: MilesWeb Cloud Startup price change (follow-up to morning cron)
+
+Worker flagged staleness; independently re-verified live via browser.open on 2026-10-14:
+- milesweb.in/hosting/cloud-hosting/: Cloud Startup 67% OFF, ₹1,499→₹499/mo intro on 36-mo term (+2 mo free); comparison table lists Offer ₹499/mo, Renewal ₹979/mo, Total ₹17,964. NO same-renewal wording on cloud page. "Displayed prices do not include GST (18%)." Plan card specs: unlimited websites, 3 Node.js apps, 100 GB NVMe, 5 GB RAM, 5 CPU cores, 30,00,000 inodes, daily backups, free domain 1 yr, free SSL.
+- milesweb.in/web-hosting/ (shared): "Same price at renewal - Guaranteed." STILL live on hero (₹69/mo Starter). Lineup now Starter ₹69/mo / Advance ₹99/mo / Unlimited ₹229/mo. Shared same-renewal guarantee intact — shared entries in hosting-plans.ts left unchanged.
+- FIXED: src/data/hosting-plans.ts milesweb-cloud-startup → intro 499, renewal 979, 100 GB NVMe, unlimited websites, same-renewal claim removed from note (this also fixes the hosting-compare tool).
+- FIXED in articles: hi shared-vs-vps guide (FAQ, table, heading, section, checklist, lastVerified→2026-10-14), hi wordpress kharcha guide (line 36, price table, lastVerified), hi hostinger-vs-bluehost (MilesWeb paragraph reworded, lastVerified), en shared-vs-vps guide (honesty note updated to say tool refreshed 2026-10-14).
+- OPEN FOLLOW-UP: "Business ₹199/mo" shared plan no longer appears on milesweb.in/web-hosting/ (lineup is Starter/Advance/Unlimited). Not conclusively verified as discontinued (may live on another URL) — left untouched in data file + kharcha table; needs a dedicated verification pass before rewriting.

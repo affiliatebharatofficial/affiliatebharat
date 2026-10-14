@@ -29,7 +29,7 @@ This guide is based on **analysis of public specs, user reviews, and official pr
 
 ## Research methodology
 
-Plan prices below come from the official pricing pages of the hosts named (Hostinger India and MilesWeb), re-verified in a live browser on 2026-10-14. Both hosts display prices **excluding 18% GST**, which is added at checkout. **Important honesty note:** our [hosting comparison tool](/tools/hosting-compare/) still shows an older snapshot for MilesWeb Cloud Startup (₹399/mo with same-price renewal, verified 2026-10-09) — that data is being refreshed. The live verified figures are printed in this article: **₹1,499 → ₹499/mo on the 36-month term, renewing at ₹979/mo**. When sources conflict, the live official page wins — and we say so instead of smoothing over the difference.
+Plan prices below come from the official pricing pages of the hosts named (Hostinger India and MilesWeb), re-verified in a live browser on 2026-10-14. Both hosts display prices **excluding 18% GST**, which is added at checkout. **Freshness note:** our [hosting comparison tool](/tools/hosting-compare/) was refreshed on 2026-10-14 with these same figures (₹499/mo intro, ₹979/mo renewal) — the tool and this article now agree. The live verified figures are printed in this article: **₹1,499 → ₹499/mo on the 36-month term, renewing at ₹979/mo**. When sources conflict, the live official page wins — and we say so instead of smoothing over the difference.
 
 ## The simple analogy: a rented room, a flat, or a flexible office
 

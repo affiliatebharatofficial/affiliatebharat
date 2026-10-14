@@ -88,12 +88,12 @@ export const HOSTING_PLANS: HostingPlan[] = [
   },
   {
     id: 'milesweb-cloud-startup', provider: 'MilesWeb', plan: 'Cloud Startup', type: 'cloud',
-    introMonthly: 399, renewalMonthly: 399, currency: 'INR',
-    storage: '150 GB NVMe', websites: '100 websites',
+    introMonthly: 499, renewalMonthly: 979, currency: 'INR',
+    storage: '100 GB NVMe', websites: 'Unlimited websites',
     freeDomain: true, freeSSL: true,
     hindiSupport: true,
     bestFor: ['business', 'ecommerce'], affiliateId: 'milesweb',
-    note: 'Verified 2026-10-09 (milesweb.in). Formerly "Turbo". Same-price-at-renewal guaranteed. Prices exclude 18% GST.',
+    note: 'Re-verified 2026-10-14 (milesweb.in/hosting/cloud-hosting). ₹1,499→₹499/mo intro on 36-mo term (+2 mo free); renews ₹979/mo. Same-renewal claim REMOVED — live page lists a separate renewal price. Prices exclude 18% GST. Plan card: 100 GB NVMe, 5 GB RAM, 5 CPU cores, unlimited websites.',
   },
   // ---- Bluehost India — intro prices verified from bluehost.in help page (2026-10-09);
   // renewal prices are NOT published on the official page -> null ----

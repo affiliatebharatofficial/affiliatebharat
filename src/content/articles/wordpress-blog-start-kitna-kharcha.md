@@ -20,7 +20,7 @@ faq:
   - q: "Domain aur hosting alag-alag khareedna sahi hai ya ek saath?"
     a: "Beginners ke liye ek hi company se domain + hosting lena aasan hota hai (free domain offer bhi milta hai aur DNS setting ka jhanjhat nahi). Domain alag se tab khareedein jab aapko long-term domain control chahiye ho — company badalne par domain transfer karna padta hai, jo thoda technical kaam hai."
 verdict: "Pehle saal me ₹2,000–4,000 ke andar ek proper WordPress blog shuru ho jata hai. Asli khel renewal price ka hai — Hostinger cheap lagta hai lekin ₹289/mo par renew hota hai, jabki MilesWeb ka ₹69/mo same-renewal honest pricing hai. Budget tight ho to MilesWeb, aur features+free domain combo chahiye to Hostinger Premium."
-lastVerified: "2026-10-09"
+lastVerified: "2026-10-14"
 ---
 
 ## Sapna vs Haqeeqat: Blog Start Karna Kitna Sasta Hai?
@@ -33,7 +33,7 @@ Lekin yeh poori sachchai nahi hai. ₹69/mo wala number **intro price** hai — 
 
 Blog ka pehla kharcha hai domain name — aapke blog ka address. `.com` domain ka first-year promo aksar ₹99 se ₹999 tak mil jata hai, lekin renewal par typically ₹1,000–1,500/saal lagta hai. Yeh ek general market range hai, kisi ek company ka fixed quote nahi — actual price registrar aur promo par depend karta hai.
 
-**Paise bachane ka tareeka:** Hostinger ke Premium (₹149/mo) aur "Unlimited" (₹249/mo) plans me **1 saal free domain** included hai. MilesWeb ke sabhi plans (Starter ₹69/mo se lekar Cloud Startup ₹399/mo tak) me bhi **1 saal free domain + free SSL** milta hai. Matlab pehle saal domain ka kharcha zero ho sakta hai — bas renewal ke liye tayyar rahiye.
+**Paise bachane ka tareeka:** Hostinger ke Premium (₹149/mo) aur "Unlimited" (₹249/mo) plans me **1 saal free domain** included hai. MilesWeb ke sabhi plans (Starter ₹69/mo se lekar Cloud Startup ₹499/mo tak) me bhi **1 saal free domain + free SSL** milta hai. Matlab pehle saal domain ka kharcha zero ho sakta hai — bas renewal ke liye tayyar rahiye.
 
 ## Kharcha #2: Hosting — Asli Khel Yahi Hai
 
@@ -61,7 +61,7 @@ Intro deal buri nahi hai — lekin sach yeh hai ki aap **₹3,312 upfront** de r
 |---|---|---|---|
 | Starter | ₹69/mo | ₹69/mo (same) | 1 website, free domain + SSL |
 | Business | ₹199/mo | ₹199/mo (same) | Multiple sites |
-| Cloud Startup | ₹399/mo | ₹399/mo (same) | Cloud hosting |
+| Cloud Startup | ₹499/mo | ₹979/mo | Cloud hosting |
 
 MilesWeb ka **same-price-at-renewal guarantee** inki sabse badi khasiyat hai: jo price aap aaj de rahe hain, wahi renewal par bhi lagega. Ek aur verified plus point: **"Support in English or Hindi, 24/7"** — Hindi me support beginners ke liye bada advantage hai. Note karein: inki prices me **18% GST extra** lagta hai.
 

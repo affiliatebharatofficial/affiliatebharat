@@ -14,13 +14,13 @@ faq:
   - q: "Beginner ke liye sabse sasta aur sahi option kaun sa hai?"
     a: "Shared hosting — Hostinger Single (₹69/mo intro, renews ₹289/mo) ya MilesWeb Starter (₹69/mo, same price par renew). Ek blog ya chhoti website ke liye shared hosting 1-2 saal tak aaram se kaam karta hai. Details ke liye hamara [WordPress blog cost guide](/wordpress-blog-start-kitna-kharcha/) dekhein."
   - q: "Cloud hosting aur VPS me kya fark hai?"
-    a: "VPS me aapko ek fixed server ka hissa milta hai — resources reserved hote hain lekin ek machine tak limited. Cloud hosting me resources multiple servers par distribute hote hain, isliye traffic spike par scale karna aasan hota hai aur ek server down hone par bhi site chalti rehti hai. Beginners ke liye MilesWeb Cloud Startup (₹399/mo, same-renewal) ek simple managed cloud option hai."
+    a: "VPS me aapko ek fixed server ka hissa milta hai — resources reserved hote hain lekin ek machine tak limited. Cloud hosting me resources multiple servers par distribute hote hain, isliye traffic spike par scale karna aasan hota hai aur ek server down hone par bhi site chalti rehti hai. Beginners ke liye MilesWeb Cloud Startup (₹499/mo intro, renewal ₹979/mo) ek simple managed cloud option hai."
   - q: "Kya main shuruaat me hi VPS le loon taaki baad me tension na ho?"
     a: "Nahi — yahi sabse common paise-waste wali galti hai. Khali VPS par ₹800–2,000/mo kharch karna jab aapke paas roz ke 100 visitors bhi na hon, bilkul bekaar hai. VPS tab lo jab shared hosting ki limits (CPU, RAM, ya inode) actually hit hone lagein — hosting dashboard me resource usage dikhta hai."
   - q: "Unmanaged vs managed VPS me kya fark hai?"
     a: "Managed VPS me company server ka maintenance (security updates, backups, monitoring) khud karti hai — beginners ke liye yahi sahi hai, thoda mehenga hota hai. Unmanaged VPS sasta hota hai lekin server aapko khud command line se sambhalna padta hai. Technical knowledge na ho to unmanaged VPS se door rahein."
 verdict: "99% beginners ke liye shared hosting hi sahi jawab hai — Hostinger (features ke liye) ya MilesWeb (same-renewal honest pricing ke liye). VPS/cloud tab sochna jab traffic ya websites ki sankhya shared ki limits todne lage. Pehle din se bada server lena paise fenkna hai."
-lastVerified: "2026-10-09"
+lastVerified: "2026-10-14"
 ---
 
 ## Pehle Simple Analogy: PG, Flat aur Smart Building
@@ -37,7 +37,7 @@ Yeh article public specs, user reviews aur pricing data ke analysis ke basis par
 
 | Factor | Shared Hosting | VPS Hosting | Cloud Hosting |
 |---|---|---|---|
-| **Typical price range** | ₹69–500/mo | ₹500–2,500/mo | ₹399–3,000+/mo |
+| **Typical price range** | ₹69–500/mo | ₹500–2,500/mo | ₹499–3,000+/mo |
 | **Server control** | Bilkul nahi — company sab manage karti hai | Root access milta hai (managed/unmanaged) | Control panel se scaling, technical kam |
 | **Traffic capacity** | Roz ke kuch hazaar visitors tak aaram se | Medium-high traffic, heavy apps | Traffic spikes aur high-traffic sites |
 | **Kaun sambhalega** | Company (aap bas website chalao) | Aap ya managed plan wali company | Mostly company, scaling aap control karte ho |
@@ -67,15 +67,15 @@ Upgrade tabhi karo jab **signals** dikhein, FOMO me nahi:
 4. **Multiple heavy websites:** 5-10 client sites ya ek WooCommerce store jahan har second matter karta hai.
 5. **Special needs:** Custom software install karna hai, ya root access chahiye — yeh sirf VPS/cloud par milta hai.
 
-## Cloud Example: MilesWeb Cloud Startup ₹399/mo
+## Cloud Example: MilesWeb Cloud Startup ₹499/mo
 
-Cloud hosting ka naam sunte hi log mehenga samajhte hain, lekin entry-level cloud ab shared se zyada door nahi. MilesWeb ka **Cloud Startup plan ₹399/mo** (verified 2026-10-09) ek aasan example hai:
+Cloud hosting ka naam sunte hi log mehenga samajhte hain, lekin entry-level cloud ab shared se zyada door nahi. MilesWeb ka **Cloud Startup plan ₹499/mo intro** (36-month term, verified 2026-10-14) ek aasan example hai:
 
-- **Same-price-at-renewal:** ₹399/mo par liya to renewal par bhi ₹399/mo — koi price shock nahi (18% GST extra).
+- **Renewal reality:** intro ₹499/mo (36-month term) ke baad renewal ₹979/mo hota hai — cloud plans par same-renewal guarantee nahi hai. Prices me 18% GST extra lagta hai.
 - **Free domain 1 year + free SSL** included.
 - **Hindi support 24/7** — verified: "Support in English or Hindi, 24/7".
 
-Yeh un logon ke liye samajh aata hai jinki site shared ki limits cross kar chuki hai lekin full VPS manage karne ka technical confidence nahi hai. Lekin yaad rahe — **₹399/mo tabhi do jab zaroorat ho.** Roz ke 200 visitors wale blog ke liye yeh overkill hai.
+Yeh un logon ke liye samajh aata hai jinki site shared ki limits cross kar chuki hai lekin full VPS manage karne ka technical confidence nahi hai. Lekin yaad rahe — **₹499/mo tabhi do jab zaroorat ho.** Roz ke 200 visitors wale blog ke liye yeh overkill hai.
 
 {{aff:hostinger|Hostinger par plans compare karo}}
 
@@ -107,7 +107,7 @@ Dusri taraf, **saste ke chakkar me galat shared plan** lena bhi galti hai: ₹69
 - ✅ Scaling aasan — traffic spike par resources badhao, phir ghatao
 - ✅ High uptime — ek server down to dusra sambhal leta hai
 - ❌ Pricing complex ho sakti hai (pay-as-you-go models me bill unpredictable)
-- ❌ Beginners ke liye managed cloud (jaise MilesWeb Cloud Startup ₹399/mo) hi samajh aata hai
+- ❌ Beginners ke liye managed cloud (jaise MilesWeb Cloud Startup ₹499/mo) hi samajh aata hai
 
 ## Migration Actually Hoti Kaise Hai? (Darne ki Zaroorat Nahi)
 
