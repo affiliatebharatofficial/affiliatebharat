@@ -432,3 +432,97 @@ Worker flagged staleness; independently re-verified live via browser.open on 202
 - FIXED: src/data/hosting-plans.ts milesweb-cloud-startup → intro 499, renewal 979, 100 GB NVMe, unlimited websites, same-renewal claim removed from note (this also fixes the hosting-compare tool).
 - FIXED in articles: hi shared-vs-vps guide (FAQ, table, heading, section, checklist, lastVerified→2026-10-14), hi wordpress kharcha guide (line 36, price table, lastVerified), hi hostinger-vs-bluehost (MilesWeb paragraph reworded, lastVerified), en shared-vs-vps guide (honesty note updated to say tool refreshed 2026-10-14).
 - OPEN FOLLOW-UP: "Business ₹199/mo" shared plan no longer appears on milesweb.in/web-hosting/ (lineup is Starter/Advance/Unlimited). Not conclusively verified as discontinued (may live on another URL) — left untouched in data file + kharcha table; needs a dedicated verification pass before rewriting.
+
+## 2026-10-14 (evening) — Pre-research: tomorrow's 11:19 run = `diwali-hosting-offers-india-genuine` + MilesWeb lineup change fixed
+
+### 1. Hostinger: STILL NO festive/Diwali banner (checked 2026-10-14 ~14:10 IST via browser.open on hostinger.in)
+- Homepage renders fully; only evergreen offers. googiehost.com "Hostinger confirmed Oct 19 – Dec 14, 2026" remains THIRD-PARTY-ONLY. Writer rule (unchanged): do NOT print those dates as fact unless a promo banner is live at write time.
+- Pricing unchanged from 2026-10-13 evening pass (48-mo terms): Single ₹69/mo (renew ₹289), Premium ₹149/mo (renew ₹449), Unlimited ₹249/mo (renew ₹649), Cloud Startup ₹599/mo (renew ₹1,599). MilesWeb's own comparison table on milesweb.in prints Hostinger Cloud at ₹599/₹1,599 — matches.
+
+### 2. Flipkart BBD: mixed signals tonight — writer MUST re-verify status at write time
+- flipkart.com/big-billion-days-sale-store now returns **404 "Page not found"** (text fetch, 2026-10-14 ~14:00 IST). flipkart.com homepage static text shows NO BBD mention (generic SEO copy only).
+- BUT: flipshope.com (crawled ~3h ago) still lists live BBD deals; herzindagi (crawled ~1h ago), indianhotdeal (crawled <1h ago), comparos.in (crawled ~17h ago) all still say **no official end date announced** — "Oct 8–15" windows are aggregator estimates only.
+- Writer guidance: tomorrow Oct 15 is the OUTER EDGE of those estimates. Do NOT claim BBD is "still live" unless the live page confirms it at write time; frame defensively ("Flipkart ne official end date announce nahi ki; sale-store page unavailable dikh rahi hai").
+
+### 3. MilesWeb shared lineup CHANGE — fixed tonight (live-read verified 2026-10-14 ~14:10 IST on milesweb.in/web-hosting/)
+- Lineup is now **Starter ₹69/mo / Advance ₹99/mo / Unlimited ₹229/mo** (all 36-mo terms, same-price-at-renewal guaranteed on-page). The old **"Business ₹199/mo" plan no longer appears** — discontinued.
+- Advance specs (verified): 80% OFF ₹499→₹99/mo, 1 website, 15 GB NVMe, free domain 1 yr, 2 mailboxes, daily backups, 18% GST extra. Unlimited specs: 69% OFF ₹749→₹229/mo (+2 mo free), unlimited websites, 50 GB NVMe, unlimited mailboxes, daily + on-demand backups, free domain 1 yr.
+- **FIXED in commit 08ce7fa** (src/data/hosting-plans.ts: milesweb-business → milesweb-advance; 7 articles hi+en updated: wordpress-kharcha, salon-hosting, hostinger-vs-bluehost, gst-invoice guide; lastVerified → 2026-10-14). Build green (27 pages).
+- Cloud Startup re-verified UNCHANGED tonight: ₹499/mo intro (36-mo, ₹1,499 struck, +2 mo free), renewal ₹979/mo, total ₹17,964; NO same-renewal wording; GST 18% extra confirmed on-page. Flash-sale countdown banner live again tonight ("Ends in 11h 59m 59s") — TRANSIENT, do NOT print.
+- Storage quirk persists (plan card 100 GB NVMe vs comparison table 150 GB) — do NOT print a storage figure for Cloud Startup.
+
+### 4. usaspending note (cross-pipeline): September 2026 MTS still NOT released
+- Ran `node scripts/refresh-mts-data.mjs 2026-09-30` at 2026-10-14 ~13:57 IST: all category values null for 2026-09-30. FY2026 finals (gated `fy2026-federal-spending-final-numbers`) stay LOCKED; the 08:47 IST watch cron remains the guardrail. Tomorrow's usaspending article = `deficit-vs-debt-vs-interest-explained`.
+
+## 2026-10-15 (morning) — Write-time pre-check for today's 11:19 run (`diwali-hosting-offers-india-genuine`)
+
+### 1. Hostinger: STILL no festive/Diwali banner (checked 2026-10-15 ~10:12 IST via browser.open on hostinger.in)
+- Homepage fully rendered; only evergreen discounts: 83% off Single, 75% off Premium, 64% off Unlimited, 65% off Cloud Startup. No Diwali/black-friday/festive banner anywhere.
+- googiehost.com "Oct 19 – Dec 14, 2026" claim remains THIRD-PARTY-ONLY. Writer rule (unchanged): do NOT print those dates as fact unless a promo banner is live at write time.
+- Prices re-verified UNCHANGED (48-mo): Single ₹69/mo intro / ₹289 renew; Premium ₹149/mo / ₹449; Unlimited ₹249/mo / ₹649; Cloud Startup ₹599/mo / ₹1,599.
+
+### 2. Flipkart BBD: still cannot confirm live today (checked 2026-10-15 ~10:12–10:20 IST)
+- flipkart.com/big-billion-days-sale-store STILL 404 "Page not found" (unchanged since 2026-10-14 ~14:00 IST). flipkart.com homepage static text carries NO BBD mention.
+- Aggregators crawled 1–2h ago split: flipshope.com + earningkart.in print an "Oct 8–15" window (today is the outer edge, estimate-only); comparos.in, zoutons.com, couponswala.com, herzindagi.com ALL say **no official end date announced** by Flipkart.
+- Writer rule: do NOT claim BBD is live today. Frame defensively — "Flipkart ne official end date announce nahi ki; sale-store page ab unavailable dikh rahi hai; aggregators Oct 8–15 window batate hain (unconfirmed)". Bank offers (Axis/ICICI up to 10% instant) were on Flipkart's official BBD page while live — cite as sale-period offers, not current.
+
+### 3. FY2026 Treasury finals: STILL not released (checked 2026-10-15 ~10:13 IST)
+- Ran `node scripts/refresh-mts-data.mjs 2026-09-30` in ~/workspace/usaspending: API is back up (FY2018–FY2025 finals returned), but ALL September 2026 category values are null → gated `fy2026-federal-spending-final-numbers` stays LOCKED. Today's 10:19 usaspending run should go with the regular Day-8 topic (`deficit-vs-debt-vs-interest-explained`).
+
+---
+
+## 2026-10-15 (morning) — VERIFIED DEALS RESEARCH for calendar topic `diwali-hosting-offers-india-genuine` (deals)
+
+### Context
+- User asked 2026-10-15 ~10:44 IST: "deals ke section me bhi kuch daalne ka soch" — deals page (`/deals/`) is currently EMPTY (no category='deals' articles yet); this article would be its first entry.
+- Diwali (Lakshmi Puja) Nov 8, 2026. Flipkart BBD appears OVER as of 2026-10-15 morning (sale-store page 404 ~20h, no homepage mention — assistant verified 2026-10-15 04:44Z). Amazon Great Indian Festival continues in waves till Diwali (Nov 8). Hosting/tools deals (below) are the verified festive-season inventory right now.
+- Affiliate registry: affiliateUrl still '' for all merchants → affUrl() falls back to officialUrl. No link work needed; when accounts open, only affiliates.ts updates.
+
+### VERIFIED LIVE — Hostinger India (checked 2026-10-15 on hostinger.com/in, official page)
+- Single: ₹69/mo (83% off), 48-mo total ₹3,312 (regular ₹19,152), renews ₹289/mo. Free domain listed.
+- Premium: ₹149/mo (75% off), 48-mo ₹7,152 (regular ₹28,752), renews ₹449/mo. Domain free 1 yr.
+- Unlimited: ₹249/mo (64% off), 48-mo ₹11,952 (regular ₹33,552), renews ₹649/mo. Domain free 1 yr, daily backups.
+- Cloud Startup: ₹599/mo (65% off), 48-mo ₹28,752 (regular ₹81,552), renews ₹1,599/mo. Domain free 1 yr.
+- 30-day money-back guarantee on all. 18% GST extra at checkout (site-wide honesty rule).
+- EXTRA CODE (THIRD-PARTY, not official): GRABHOST10 — extra 10% off on 12/24/48-mo plans, NOT 1-month. Verified working by GrabOn on 2026-10-14. Article must say "checkout par confirm karein — third-party code, official offer nahi". Source: https://www.grabon.in/hostinger-coupons/ (accessed 2026-10-15)
+
+### VERIFIED — MilesWeb Diwali offers (official blog, milesweb.in/blog/news-and-updates/web-hosting-diwali-offers/, published 2024-10-15, UPDATED 2026-09-09)
+- Shared up to 80% off · VPS up to 64% off · Cloud up to 66% off · Dedicated 50% off · Reseller 60% off.
+- Concrete live instance: Advance plan ₹499→₹99/mo on 36-mo term (verified live 2026-10-14 on milesweb.in/web-hosting), same-price-at-renewal guaranteed on shared plans.
+- Free SSL, free website migration, free domain 1st year (plan-dependent, incl. all cloud plans).
+- NO published end date on the official blog — honest framing: "expiry date official page par listed nahi; festive-season window expected — khareedne se pehle checkout par confirm karein".
+
+### THIRD-PARTY ONLY (use with caveats or omit) — Bluehost India
+- Multiple Oct-2026 coupon sites report: starting ₹169/mo, up to 65% off, free domain + SSL, 30-day money-back.
+- Renewal prices NOT published on official bluehost.in (site data 2026-10-09) — article must carry the renewal-unknown caveat, same rule as hosting-plans.ts nulls.
+
+### UPCOMING — not live yet, do NOT present as current deals (watchlist for late-Oct/Nov updates)
+- Hostinger VPS Black Friday: up to 70% off, Oct 19 – Dec 14, 2026 (hostingguider, updated 2026-10-14). Starts in ~4 days — candidate for a "coming soon" one-liner.
+- Cloudways Black Friday: 50% off all plans, Nov 20 – Dec 4, 2026 (hostingguider).
+- Kit (ConvertKit): 60% off 3 months, Nov 20 – Dec 2 (blogginglift, updated 2026-10-14); another source says 30% off Creator Annual Nov 20–Dec 3 (medium, older). CONFLICTING — confirm at announcement before publishing.
+- GetResponse: historically ~40% lifetime-off in late Nov (simplycodes); current third-party code getresponse15 (15% off, exp Dec 5) — third-party.
+
+### EXCLUDE — HostGator India
+- Site's own 2026-10-09 check found blank price placeholders on hostgator.in; one third-party source claims merger into BigRock (unverified). Do NOT list HostGator deals as verified.
+
+### Article honesty checklist (site content-integrity rule)
+- Every deal carries lastVerified 2026-10-15, source named, and expiry/terms line — "Sirf aaj!" fake urgency is banned (deals.astro page copy says the same).
+- Renewal jumps shown next to every intro price (Hostinger 3–4x on 48-mo terms).
+- No "maine khud test kiya" claims. Coupon codes marked third-party with "checkout par verify karo".
+- Internal links: /tools/hosting-compare/, /tools/website-cost-calculator/, /hostinger-single-vs-premium-plan/.
+
+## 2026-10-15 (morning) — WRITE-TIME research for `diwali-hosting-offers-india-genuine` (PUBLISHED today)
+
+### Verified live on official pages today (2026-10-15)
+- **hostinger.com/in homepage**: NO Diwali/festive banner. Live prices match hosting-plans.ts: Single ₹69/mo (83% off, renews ₹289), Premium ₹149/mo (75% off, renews ₹449), Unlimited ₹249/mo (64% off, renews ₹649), Cloud Startup ₹599/mo (65% off, renews ₹1,599). 48-mo totals: ₹3,312 / ₹7,152 / ₹11,952 / ₹28,752. Free domain 1 yr on yearly plans; 30-day money-back. (text fetch + browser screenshot both confirm)
+- **milesweb.in/web-hosting**: Flash sale banner "80% Off Hosting + Free Domain" with recycling countdown timer. Live plan prices: Starter 83% off ₹399→₹69/mo (same-price renewal guaranteed), Advance 80% off ₹499→₹99/mo (same-price renewal guaranteed, free domain 1 yr), Unlimited 69% off ₹749→₹229/mo (+2 mo free, free domain 1 yr), Cloud Startup 67% off ₹1,499→₹499/mo (+2 mo free, renews ₹979), Cloud Enterprise 66% off ₹4,999→₹1,699/mo. "Displayed prices do not include GST (18%)" stated on page. 24/7 English + Hindi support.
+- **MilesWeb Diwali blog page** (https://www.milesweb.in/blog/news-and-updates/web-hosting-diwali-offers/, updated 2026-09-09): live, evergreen. Headline discounts: shared up to 80% off, VPS up to 64%, cloud up to 66%, dedicated up to 50%, reseller up to 60%. Free SSL/migration/domain mentioned. Framed in article as page-level framing, NOT 2026 plan prices.
+- **Hostinger Oct 19–Dec 14 sale window**: reported by hostingguider.com (updated ~Oct 14) + googiehost.com (updated ~Oct 13) — NOT on Hostinger's official page as of today. Printed in article only as explicitly-unverified "rumor watch" line, per Oct 13 honesty constraint.
+
+### Screenshots (browser task, 2026-10-15)
+- `public/screenshots/milesweb-diwali-offers-2026.png` — MilesWeb Diwali offers blog hero (festive diya banner, headline, TOC with up-to-80%/64%/66%/50% figures).
+- `public/screenshots/hostinger-pricing-oct-2026.png` — Hostinger /in plans section with all four plan cards + prices + renewal rates visible. No festive banner anywhere on page.
+
+### 2025 patterns used as "expected" framing only
+- MilesWeb Diwali 2025: up to 76% off + 3 months free, free .COM domain + SSL, free migration (deal listings). Hostinger India Diwali 2025: up to 80% + extra 7% off with coupon URDIWALI (aggregators, stale pages). Labeled as 2025-only in article.
+- Diwali 2026: Nov 6–10 (Dhanteras Nov 6, Lakshmi Puja Nov 8). Black Friday Nov 27. Flipkart BBD + Amazon GIF context cross-linked to the Oct 13 article.
