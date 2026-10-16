@@ -526,3 +526,53 @@ Worker flagged staleness; independently re-verified live via browser.open on 202
 ### 2025 patterns used as "expected" framing only
 - MilesWeb Diwali 2025: up to 76% off + 3 months free, free .COM domain + SSL, free migration (deal listings). Hostinger India Diwali 2025: up to 80% + extra 7% off with coupon URDIWALI (aggregators, stale pages). Labeled as 2025-only in article.
 - Diwali 2026: Nov 6–10 (Dhanteras Nov 6, Lakshmi Puja Nov 8). Black Friday Nov 27. Flipkart BBD + Amazon GIF context cross-linked to the Oct 13 article.
+
+## 2026-10-15 (afternoon) — PRE-RESEARCH for next deals article: `domain-renewal-coupon-india-godaddy-alternative` (queued NEXT, per user's 2026-10-15 morning request to add more deals content)
+
+### Angle (honesty-first, fits site rule)
+- The trap is the SAME as hosting renewals: first-year promo ₹99 vs year-2 renewal at list price. GoDaddy's own Domain Name Registration Agreement (rev. 24-08-2026, read 2026-10-13 by zoutons) states the rule verbatim: renewal = the list (non-sale) price — i.e. the number shown with the line through it. Article must state this rule up front.
+- 5-year math makes the trap visible: one .com for 5 years costs ~$52 at Cloudflare vs ~$106 at GoDaddy (Porkbun's live calculator, prices checked 2026-10-15).
+
+### .com pricing snapshot (THIRD-PARTY, 2026-10-15 — writer must re-verify at write time; mark all with lastVerified)
+- Cloudflare Registrar: $10.44–10.46/yr, SAME every year (at-cost: registry $10.26 + ICANN $0.20, $0 markup). Free WHOIS privacy. Catch: must use Cloudflare DNS; account needed. (sources: devtoolpicks, domaindetails, porkbun calculator)
+- Porkbun: $11.06–11.08/yr, SAME at signup and renewal. Free WHOIS privacy, free email forwarding + SSL. Catch: smaller company, limited support hours. (sources: devtoolpicks, domaindetails, porkbun calculator — own prices pulled live 2026-10-15)
+- Namecheap: ~$5.98 first year (promo, new customers), renews $13.98–18.68/yr. Free WHOIS privacy. Coupon code "NEWCOM648" seen lowering first year to $6.68 (third-party, verify). (sources: devtoolpicks, affmaven 2026-10-07, domaindetails)
+- Spaceship (Namecheap founder's team): $9.98 + ICANN fee, flat — no renewal jump. Worth including as the flat-price alternative. (sources: affmaven, domaindetails)
+- GoDaddy: $2–5 first year (promo ₹99 in India), renews $21.99–23.19/yr (~₹1,800–1,950 + 18% GST on India invoices). WHOIS privacy paid extra. India renewal ballpark from coupon aggregators: ₹800–1,200/yr for .com. GoDaddy Terms change (Feb 2026): all customers reclassified as "Business Customers" — several registrar review sites stopped recommending it. (sources: devtoolpicks, rewardeagle 2026-10-15, zoutons 2026-10-13)
+- .in / .co.in (India angle): GoDaddy .in first year ₹299–599, renewal ₹600–900/yr (rewardeagle). India running-cost guide (buildbyravirai, 2026-10-02): normal .com renewal ₹1,000–1,800/yr; above ₹3,000/yr = someone is marking up.
+
+### India-specific caveats for the article
+- Payment methods: GoDaddy/BigRock/Hostinger accept UPI; Cloudflare/Porkbun/Namecheap need international cards — say this plainly, it's a real friction point for Indian buyers.
+- GoDaddy India bills +18% GST; $ prices convert at card rate (~₹84/$ → $10.46 ≈ ₹880).
+- Transfer rule: domains older than 60 days can transfer; transfer adds 1 year at the gaining registrar's price — the practical "escape hatch" from a renewal trap. ICANN 60-day lock after registration/transfer (standard).
+- Screenshot rule (user standing rule): 1 screenshot of GoDaddy India domain pricing page showing strike-through vs renewal, 1 of Porkbun/Cloudflare pricing page. Skip if CAPTCHA-blocked (precedent: Bluehost/Kit).
+
+### EXCLUDE / careful
+- GoDaddy renewal "coupon codes" (SFSAVE4, CJCRMN35NP etc. on coupon blogs) = third-party, expiring, unverifiable at write time → list as "try at checkout, verify" at most, or omit.
+- Don't present Cloudflare as universally best — DNS lock-in is a genuine tradeoff for beginners.
+
+Sources: https://porkbun.com/about/domain-cost-calculator · https://devtoolpicks.com/blog/namecheap-vs-porkbun-vs-cloudflare-registrar-vs-godaddy-indie-hackers-2026 · https://zoutons.com/news/godaddy-domain-renewal-price-rules-2026 · https://affmaven.com/namecheap-renewal-coupon/ · https://domaindetails.com/kb/getting-started/best-domain-registrars-compared · https://rewardeagle.com/store/godaddy · https://www.buildbyravirai.com/blog/website-renewal-charges-yearly-cost-india-2026
+
+## 2026-10-16 (morning) — EN VERSION RUN: `shared-hosting-small-business-gst-invoice-india` (rewrite, not translation)
+
+### Topic (deterministic per skill rotation rule)
+H=10, E=6 → H−E=4 ≥ 3 → English version of oldest Hinglish article without EN counterpart. All Hinglish articles except `big-billion-days-vs-great-indian-festival-2026` (2026-10-13) and `diwali-hosting-offers-india-genuine` (2026-10-15) have EN versions; oldest untranslated = `shared-hosting-small-business-gst-invoice-india` (2026-10-11). This run counts as the day's article; no new Hinglish topic.
+
+Target English keywords: "GST invoice web hosting India", "hosting GST India small business", "web hosting input tax credit India". Category: hosting.
+
+### Numbers REUSED from already-verified data (src/data/hosting-plans.ts — re-verified 2026-10-14)
+- Hostinger Premium: ₹149/mo intro (48-mo term), renews ₹449/mo. Hostinger Single: ₹69/₹289. Unlimited: ₹249/₹649.
+- MilesWeb Advance: ₹99/mo (36-mo, 80% OFF ₹499→₹99), SAME-price renewal. Starter: ₹69/mo. Old "Business ₹199/mo" plan gone from official page.
+- Bluehost India Basic: ₹299/mo intro (36-mo); Choice Plus ₹499/mo intro; renewal prices NOT published on official page.
+- All three display prices EXCLUDE 18% GST (added at checkout): MilesWeb official FAQ; Hostinger via third-party; Bluehost official tax page (India 18%).
+
+### GST mechanics REUSED from 2026-10-10 entry (unchanged, flagged with lastVerified 2026-10-16)
+- 18% GST on IT services (Sept 2025 slab changes kept it); ITC needs: GST-registered, non-composition, business use, tax invoice with GSTIN reaching GSTR-2B via vendor GSTR-1. GSTIN on day one; fixing old invoices practically impossible.
+- MilesWeb: official FAQ — valid GST invoice every purchase; GSTIN at checkout or billing settings.
+- Hostinger: third-party only — Tax Information section at checkout for GSTIN + tax invoice request (official page not directly confirmed; flagged in article).
+- Bluehost: official tax help (18% collected); final tax invoice emailed post-signup (2022 user receipt pattern, billed by Endurance International Group India Pvt Ltd).
+- HostGator India excluded (no prices on official site); A2 Hosting excluded (USD billing, no documented Indian GST invoice flow).
+
+### Screenshots
+- Reused `milesweb-home.png`, `hostinger-pricing-oct-2026.png` (both already in public/screenshots/).
+- NEW: Bluehost India homepage captured via browser task 2026-10-16 → `public/screenshots/bluehost-india-home.png` (copied from ~/workspace/.hatch-browser/snapshots/<task-id>/).

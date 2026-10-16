@@ -35,7 +35,7 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 
 ## Deals (3)
 
-- [ ] slug: `domain-renewal-coupon-india-godaddy-alternative` — Target keyword: "domain renewal coupon india cheap" (deals)
+- [ ] slug: `domain-renewal-coupon-india-godaddy-alternative` — Target keyword: "domain renewal coupon india cheap" (deals) — **QUEUED NEXT 2026-10-15 (user asked for more deals content this morning; first deals article published same day). Pre-research saved in research/notes.md (2026-10-15 afternoon entry): GoDaddy renewal = strike-through list price per its own agreement; 5-yr .com math Cloudflare $52.30 vs GoDaddy $105.95 (Porkbun live calculator); India caveats — UPI accepted only at GoDaddy/BigRock/Hostinger, Cloudflare/Porkbun/Namecheap need international cards; 18% GST on India invoices.**
 - [ ] slug: `semrush-trial-vs-discount-students-india` — Target keyword: "semrush trial vs discount india" (deals)
 - [ ] slug: `getresponse-annual-vs-monthly-savings-india` — Target keyword: "getresponse annual vs monthly price india" (deals)
 
@@ -45,3 +45,4 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 - [x] `hostinger-single-vs-premium-plan` → `/en/hostinger-single-vs-premium-plan/` (2026-10-10; rotation rule H=6 E=3, alphabetical tiebreak)
 - [x] `salon-website-ke-liye-best-hosting` → `/en/salon-website-ke-liye-best-hosting/` (2026-10-12; rotation rule H=7 E=4, oldest-date + alphabetical tiebreak; rewrite for English keywords)
 - [x] `shared-vs-vps-vs-cloud-hosting-beginners-guide` → `/en/shared-vs-vps-vs-cloud-hosting-beginners-guide/` (2026-10-14; rotation rule H=9 E=5, oldest-date; rewrite for English keywords — MilesWeb Cloud Startup re-verified live: ₹1,499→₹499/mo intro 36-mo term / ₹979/mo renewal; old ₹399 same-renewal claim gone, flagged for data refresh)
+- [x] `shared-hosting-small-business-gst-invoice-india` → `/en/shared-hosting-small-business-gst-invoice-india/` (2026-10-16; rotation rule H=10 E=6, oldest-date; English rewrite targeting "GST invoice web hosting India" — numbers reused from verified data, fresh Bluehost India homepage screenshot captured 2026-10-16)
