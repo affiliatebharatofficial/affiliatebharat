@@ -12,7 +12,7 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 ## Hosting (10)
 
 - [x] slug: `shared-hosting-small-business-gst-invoice-india` — Target keyword: "shared hosting for small business india gst invoice" (hosting) — published 2026-10-11
-- [ ] slug: `hostinger-renewal-price-increase-alternatives` — Target keyword: "hostinger renewal price increase alternatives india" (hosting)
+- [x] slug: `hostinger-renewal-price-increase-alternatives` — Target keyword: "hostinger renewal price increase alternatives india" (hosting) — PUBLISHED 2026-10-17: Hostinger renewal re-verified live today (Single ₹69→₹289, Premium ₹149→₹449, Unlimited ₹249→₹649, Cloud Startup ₹599→₹1,599; 18% GST extra). MilesWeb lineup changed: new Premium ₹129/mo (MOST POPULAR); "same price at renewal" claim GONE from plan cards (was visible 2026-10-14) — own table quotes Premium renewal ₹289/mo (2.24x, "indicative"). HostGator.in now redirects to BigRock (merger; shared ₹69/mo, renewals unpublished). Bluehost renewals still unpublished. 4 fresh screenshots. hosting-plans.ts needs data refresh (separate run).
 - [ ] slug: `blog-ke-liye-domain-hosting-combo-offer` — Target keyword: "blog ke liye domain hosting combo offer" (hosting)
 - [ ] slug: `wordpress-blog-start-kitna-kharcha` — Target keyword: "wordpress blog start karne me kitna kharcha" (hosting)
 - [ ] slug: `hostgator-vs-milesweb-hindi-support` — Target keyword: "hostgator vs milesweb hindi support" (hosting)

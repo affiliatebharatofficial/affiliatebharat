@@ -576,3 +576,46 @@ Target English keywords: "GST invoice web hosting India", "hosting GST India sma
 ### Screenshots
 - Reused `milesweb-home.png`, `hostinger-pricing-oct-2026.png` (both already in public/screenshots/).
 - NEW: Bluehost India homepage captured via browser task 2026-10-16 → `public/screenshots/bluehost-india-home.png` (copied from ~/workspace/.hatch-browser/snapshots/<task-id>/).
+
+## 2026-10-17 (morning) — CRON RUN: `hostinger-renewal-price-increase-alternatives` (Hinglish, hosting)
+
+### Topic (deterministic per skill rule)
+H=9, E=7 → H−E=2 < 3 → first unchecked calendar item: `hostinger-renewal-price-increase-alternatives`. Target keyword: "hostinger renewal price increase alternatives india". Category: hosting.
+
+### OFFICIAL PAGE VERIFICATION (browser task, visited 2026-10-17)
+
+**Hostinger India — https://www.hostinger.com/in (no banner, no block)**
+- Prices officially published; intro = 48-mo term; renewal printed verbatim under each card:
+  - Single: ₹69/mo ("Get 48 months for ₹3,312 (regular ₹19,152)"), "Renews at ₹289/mo." → 4.2x
+  - Premium: ₹149/mo ("48 months ₹7,152 (regular ₹28,752)"), "Renews at ₹449/mo." → 3x
+  - Unlimited: ₹249/mo ("48 months ₹11,952 (regular ₹33,552)"), "Renews at ₹649/mo." → 2.6x
+  - Cloud Startup: ₹599/mo ("48 months ₹28,752 (regular ₹81,552)"), "Renews at ₹1,599/mo." → 2.7x
+- Footer: "Prices are listed without GST" → 18% GST excluded.
+
+**MilesWeb India — https://www.milesweb.in/web-hosting (redirects to /hosting/web-hosting)**
+- NEW lineup vs 2026-10-14: Starter ₹69 (83% OFF ₹399) · Advance ₹99 (80% OFF ₹499) · **Premium ₹129/mo (80% OFF ₹649, MOST POPULAR)** · Unlimited ₹229 (69% OFF ₹749). 36-mo term.
+- **CHANGE TO FLAG:** plan cards NO LONGER state "same price at renewal" (was visible 2026-10-14 on Starter/Advance). Site's own "MilesWeb vs Others" comparison table lists: "Renewal price ₹289/mo" for MilesWeb (vs "Offer price ₹129/mo" = Premium plan), vs Hostinger ₹449/mo, GoDaddy ₹599/mo — table caveat: "Prices are indicative and based on publicly available information at the time of comparison." So Premium renewal (₹289) is now 2.24x its offer price; Starter/Advance renewal status UNCONFIRMED today.
+- GST note: "Displayed prices do not include GST (18%)."
+- ⚠️ hosting-plans.ts is now STALE (no Premium ₹129 plan entry; old same-renewal claim for Starter/Advance) — data refresh needed on a separate run (skill forbids data-file edits in the article run). Article must print the conflict, not smooth it over.
+
+**HostGator India — https://www.hostgator.in (NO CAPTCHA)**
+- HostGator.in now auto-redirects to bigrock.in (?utm_source=hgi&utm_medium=referral&utm_campaign=migration). Merger modal: "BigRock & HostGator India have joined forces… new customers go to BigRock.in; existing accounts migrated." HostGator.in homepage itself showed "Starts at Rs.69/mo", "UP TO 65% OFF. Coupon: Sunshine".
+- BigRock pricing: SHARED HOSTING ₹69/mo (BEST VALUE, 65% OFF) · VPS ₹329/mo (40% OFF) · DEDICATED ₹5,199/mo (30% OFF). NO renewal prices published on either page → HostGator/BigRock renewals UNVERIFIED.
+- affiliates.ts has `hostgator-in` but NO `bigrock` entry → writer adds BigRock with officialUrl https://www.bigrock.in, affiliateUrl ''.
+
+**Bluehost India — https://www.bluehost.in (redirects to bluehost.com/in; no block)**
+- Homepage hero: "Holiday savings. Site-wide sale!" — no plan prices in hero. Intro prices reused from 2026-10-09 verification (my0.bluehost.in/help/price): Basic ₹299/mo (36-mo), Choice Plus ₹499/mo (36-mo). Renewal prices NOT published on official page → UNVERIFIED (same as before).
+
+### Third-party corroboration (search, 2026-10-17)
+- Hostinger renewal math confirmed by gettomarketing.com (checked hostinger.com/in 2026-10-15), superbuzzmedia.com, webseotrends.com: Single ₹69/₹289, Premium ₹149/₹449, Unlimited ₹249/₹649, Cloud Startup ₹599/₹1,599. Matches official.
+
+### Screenshots (captured 2026-10-17, copied to public/screenshots/, resized to 1600px)
+- `hostinger-renewal-prices-2026.png` — plan cards with "Renews at ₹X/mo" verbatim.
+- `milesweb-plans-2026.png` — Starter/Advance/Premium/Unlimited cards + 36-mo term selector.
+- `bigrock-pricing-2026.png` — BigRock page with "redirected from HostGator India" banner + Shared ₹69/mo card.
+- `bluehost-home-2026.png` — new homepage hero (holiday sale, no prices in hero).
+
+### UNVERIFIED items (omit or label in article)
+1. MilesWeb Starter/Advance renewal prices — cards no longer claim same-renewal; do NOT state them as same-price.
+2. Bluehost + BigRock/HostGator renewal prices — not published on official pages.
+3. Cloudflare/Porkbun/Namecheap domain-transfer escape hatch mentioned in DEALS article — out of scope here; mention only as general migration advice without registrar pricing claims.

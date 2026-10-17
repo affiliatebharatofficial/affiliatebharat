@@ -19,7 +19,8 @@ export interface Affiliate {
 export const AFFILIATES: Affiliate[] = [
   { id: 'hostinger', name: 'Hostinger', category: 'hosting', officialUrl: 'https://www.hostinger.com', affiliateUrl: '', payoutNote: 'Up to $150/sale (public program info)' },
   { id: 'bluehost', name: 'Bluehost India', category: 'hosting', officialUrl: 'https://www.bluehost.in', affiliateUrl: '', payoutNote: 'TBD' },
-  { id: 'hostgator-in', name: 'HostGator India', category: 'hosting', officialUrl: 'https://www.hostgator.in', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'hostgator-in', name: 'HostGator India', category: 'hosting', officialUrl: 'https://www.hostgator.in', affiliateUrl: '', payoutNote: 'TBD — merging into BigRock (2026-10-17)' },
+  { id: 'bigrock', name: 'BigRock', category: 'hosting', officialUrl: 'https://www.bigrock.in', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'milesweb', name: 'MilesWeb', category: 'hosting', officialUrl: 'https://www.milesweb.in', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'a2hosting', name: 'A2 Hosting', category: 'hosting', officialUrl: 'https://www.a2hosting.com', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'getresponse', name: 'GetResponse', category: 'saas-tools', officialUrl: 'https://www.getresponse.com', affiliateUrl: '', payoutNote: '33% recurring' },
