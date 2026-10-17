@@ -619,3 +619,65 @@ H=9, E=7 → H−E=2 < 3 → first unchecked calendar item: `hostinger-renewal-p
 1. MilesWeb Starter/Advance renewal prices — cards no longer claim same-renewal; do NOT state them as same-price.
 2. Bluehost + BigRock/HostGator renewal prices — not published on official pages.
 3. Cloudflare/Porkbun/Namecheap domain-transfer escape hatch mentioned in DEALS article — out of scope here; mention only as general migration advice without registrar pricing claims.
+
+## 2026-10-17 (afternoon) — DIWALI SALE WAVE WATCH (deals pipeline prep, re-verify before publishing)
+
+### Amazon Great Indian Festival — Diwali phase expected to start NOW
+- Deal aggregators (desidime.com Diwali-sales page, updated ~9h ago = 2026-10-17 morning) expect the **Amazon Diwali Sale 2026** (GIF's Diwali phase, "clearance pricing" on electronics/appliances) to begin **Oct 17 or Oct 25** — i.e. today or within a week. flipshope.com lists "Amazon Diwali Sale | 19th to 31st October" and GIF "Diwali Special" 7–18 Oct.
+- NOT verified on amazon.in (official pages don't pre-announce phase dates) — writer must confirm live before any article claims the sale is on.
+- Context: GIF main sale has run since Oct 8 (SBI 10% instant discount); "later phases mid-October onwards, Diwali phase late Oct–early Nov" per infobits.in.
+
+### Flipkart — separate Diwali sale expected Oct 29
+- desidime lists **"Flipkart Diwali Sale 2026 | October 29th 2026 (expected)"** — separate from Big Billion Days, which ended ~Oct 15 (sale-store page went 404; homepage dropped BBD mentions — verified 2026-10-15).
+- If Flipkart confirms, that's a NEW deals article (the Oct 13 BBD-vs-GIF piece framed BBD as ending; a Flipkart Diwali sale revives Flipkart deals content). Do NOT publish until Flipkart announces.
+
+### Hostinger — no official 2026 Diwali-branded sale as of today
+- hostinger.com/in shows no festive banner (verified 2026-10-17 morning run); the Oct 15 Diwali-hosting article's framing ("no 2026 Diwali-branded hosting sale announced") still holds.
+- Aggregator expectations: zoutons Hostinger sales calendar 2026 lists Diwali sale "October–November (centred on Diwali), up to 80–85% off"; hostingcouponcode2026.com notes Hostinger Black Friday "typically launches mid-October… runs through December 15". So a festive banner could appear ANY DAY now — **check hostinger.in homepage banner daily; if a Diwali/Black Friday sale goes live, the Oct 15 article needs an update box.**
+- Live right now (coupon aggregators, NOT official): BBSPECIAL = extra 15% off 48-mo plans; HARSHILBAROT = 20% off first term (tested Oct 15 on hostinger.com/in by medium.com/@imharshilbarot). Treat as third-party claims, not site facts.
+
+### Diwali 2026 date
+- **November 8, 2026 (Lakshmi Puja)** — confirmed by infobits.in calendar + site context. One desidime snippet says "5th November" = aggregator noise; use Nov 8.
+
+### Suggested deals-pipeline moves (writer decides per rotation)
+1. When Amazon Diwali phase goes LIVE (verify on amazon.in): publish "Diwali sale deals: genuine vs hype" follow-up — same honesty frame as the Oct 15 hosting piece (compare vs pre-sale prices, bank-offer stacking).
+2. When/if Flipkart announces the Oct 29 Diwali sale: new deals article; update the Oct 13 BBD-vs-GIF article's framing if it still ranks.
+3. Daily: glance at hostinger.in + milesweb.in banners for festive branding; MilesWeb already runs an evergreen "Diwali offers" page (verified Oct 15) — if it adds 2026-dated Diwali pricing, note it.
+
+Sources: https://www.desidime.com/news/diwali-sale-offers-india-2026 · https://www.desidime.com/news/upcoming-amazon-sales · https://flipshope.com/blog/upcoming-amazon-sale/ · https://www.infobits.in/amazon-offers/ · https://zoutons.com/news/hostinger-sales-calendar-2026 · https://hostingcouponcode2026.com/
+
+## 2026-10-17 (evening) — FESTIVE SALE CALENDAR REFINEMENT (fresh aggregator sweep, deals pipeline)
+
+Evening re-verification of the afternoon's watch entry. Two corrections and a firmed-up 3-week calendar.
+
+### CORRECTION 1: Flipkart BBD did NOT end Oct 15 — it ends TOMORROW (Oct 18, 11:59 PM)
+- The 2026-10-15 observation (sale-store page 404, homepage dropped BBD mentions) looks like a page glitch or a single store page, NOT the sale ending. Four aggregator sources updated within the last 24h agree BBD runs **Oct 9–18, ends 18 Oct 2026 11:59 PM**:
+  - desidime.com/news/flipkart-big-billion-days-sale-end-date-2026-offers-to-buy-before (updated 15h ago): "BBD Sale ends on 18th October 2026"; bank offers refreshed Oct 16 (Axis 10% instant up to ₹17,250 on EMI/non-EMI; extra up to ₹13,250 on select products).
+  - herzindagi.com FAQ (15h ago): "ends on 18 October 2026 at 11:59 PM. Early access started 8 October, main sale 9 October."
+  - dmifinance.in sale calendar (1 day ago): BBD Oct 9–18, status "Confirmed".
+  - flipshope.com (15h ago): BBD "9th October to 18th October".
+- Implication: the Oct 13 BBD-vs-GIF article's "dono sales live hain" framing is STILL ACCURATE tonight. No update box needed. Tomorrow (Oct 18) is BBD's confirmed last day — last-day urgency is real, not manufactured.
+
+### Amazon Great Indian Festival — confirmed live, no end date announced
+- zoutons.com live log (re-checked Oct 12): Amazon's own newsroom (aboutamazon.in) confirms GIF opened **12 AM Oct 8, 2026**; record opening (+100% YoY volume). Hero banner "Great Indian Festival — Sale is live" with "Bank Offer Reset Today" strip.
+- Bank offers (rendered Oct 10): **10% instant discount on SBI debit/credit cards + SBI credit-card EMI, up to ₹57,750 off**; 5% unlimited cashback Amazon Pay ICICI card; 10% back on Amazon Pay Later EMIs; ₹50 flat back on Amazon Pay UPI; up to 10% extra for Prime members. End date: NOT announced — past editions ran in waves to ~Diwali.
+- Named "Amazon Great Diwali Sale" wave expected **Nov 1–8** (desidime, 15h fresh) — treat as expected until amazon.in shows it.
+
+### Flipkart Diwali wave — convergent window Oct 28 → Nov 8 (EXPECTED, not announced)
+- Freshest source (desidime, 15h): **"Flipkart Big Bang Diwali Sale [Upcoming] 28th Oct – 8th November 2026"**, 12:00 AM start; last year it started ~8–9 days before Diwali; this year Diwali (Nov 8) is late so the sale moved later. Another desidime page: starts Oct 30, ends Nov 8 11:59 PM, early access Oct 29.
+- Conflicting aggregator dates: flipshope says Oct 20–25; hyyzo says Oct 13–22; technosports/cashify say "from Oct 20". Convergent core: **a Flipkart Diwali wave lands in the Oct 28–Nov 8 window**; earlier-October claims look like Dussehra/Big Shopping Utsav noise. Do NOT publish dates as confirmed — "expected" framing mandatory.
+- Also expected: Myntra Diwali Nov 1–8; Ajio Diwali Nov 5+; JioUtsav Oct 23 (all desidime estimates).
+
+### Fresh coupon intel for the QUEUED domain-renewal article (still queued — did not publish Oct 17)
+- affmaven.com GoDaddy renewal coupons (page crawled 2h ago, last verified Sept 2026): **GDBB3863C = 25% off any renewal** (only code with 2 independent confirmations, latest Jan 2026); 20DOM317 = up to 35% multi-product; rp20dom = 20% single-domain; GDRP7334C2 = .COM renewal $7.49; GOFLUK04 = .COM transfer $1.49. Mark all as "test at checkout" — coupon aggregators, not official.
+- coupondunia.in Oct 2026 domain coupons (crawled 2h ago): GoDaddy .COM Rs.499 1st year; GoDaddy up to 40% off .IN; Hostinger up to 80% + extra 7%; **GoDaddy does NOT allow stacking promo codes with bank offers** (one code per transaction; bank/UPI cashback processes separately).
+- grabon.in: GoDaddy India accepts UPI — relevant for the article's India-payment section.
+- Enriches the 2026-10-15 pre-research for `domain-renewal-coupon-india-godaddy-alternative`; writer re-verifies at publish time.
+
+### Suggested deals-pipeline moves (writer/cron decides per rotation)
+1. **~Oct 27–28: "Flipkart Big Bang Diwali Sale vs Amazon Great Diwali Sale 2026"** — same comparison format as the Oct 13 BBD-vs-GIF piece (bank offers, dates, category-wise buying guide). Publish BEFORE the expected Oct 28 Flipkart wave; verify both sales live on official pages first. New calendar entry added.
+2. **~Oct 30: Diwali bank-offer stacking guide** (SBI 10% on Amazon vs Axis/ICICI 10% on Flipkart, no-stacking rules, SuperCoins/Amazon Pay angles) — only if both Diwali waves are confirmed live. Optional; add to calendar only if writer has bandwidth.
+3. **Oct 18 (tomorrow): BBD last day** — the daily cron picks its own topic; if it goes deals, "BBD last-day: what's actually still worth buying" is the honest angle (compare vs pre-sale prices, warn about inflated MRP discounts — Counterpoint: avg smartphone prices +15% YoY, IDC: shipments −11.1% in Q2 2026).
+4. Daily banner watch continues: hostinger.in + milesweb.in festive branding (Hostinger aggregator expectation: festive banner "any day now").
+
+Sources: https://www.desidime.com/news/flipkart-big-billion-days-sale-end-date-2026-offers-to-buy-before · https://www.desidime.com/news/diwali-sale-offers-india-2026 · https://www.desidime.com/news/flipkart-diwali-sale-2026 · https://flipshope.com/blog/upcoming-flipkart-sale/ · http://zoutons.com/news/amazon-great-indian-festival · https://www.herzindagi.com/your-picks/home-solutions-electronics/last-chance-grab-the-best-room-heater-deals-before-flipkart-big-billion-days-2026-ends-17194 · https://affmaven.com/godaddy-renewal-coupons-2016/ · https://www.coupondunia.in/category/web-hosting-and-domains/domains · http://www.grabon.in/godaddy-coupons/
