@@ -70,21 +70,21 @@ export const HOSTING_PLANS: HostingPlan[] = [
   // ---- MilesWeb India — verified from milesweb.in (2026-10-09) ----
   {
     id: 'milesweb-starter', provider: 'MilesWeb', plan: 'Starter', type: 'shared',
-    introMonthly: 69, renewalMonthly: 69, currency: 'INR',
+    introMonthly: 69, renewalMonthly: null, currency: 'INR',
     storage: '10 GB NVMe', websites: '1 website',
     freeDomain: true, freeSSL: true,
     hindiSupport: true,
     bestFor: ['hindi-blog', 'portfolio'], affiliateId: 'milesweb',
-    note: 'Verified 2026-10-09 (milesweb.in). Formerly "Tyro". Same-price-at-renewal guaranteed. Displayed prices exclude 18% GST. 30-day money-back.',
+    note: 'Re-verified 2026-10-17 (milesweb.in/web-hosting). Intro ₹69/mo (36-mo, 83% OFF) unchanged. Renewal set to null: plan cards no longer display the same-renewal claim (checked 2026-10-17), while the official "MilesWeb vs Others" table lists a separate renewal price (₹289/mo against a ₹129/mo offer) — contradicting the guarantee still shown in hero/trust/FAQ text. Prices exclude 18% GST. 30-day money-back.',
   },
   {
     id: 'milesweb-advance', provider: 'MilesWeb', plan: 'Advance', type: 'shared',
-    introMonthly: 99, renewalMonthly: 99, currency: 'INR',
+    introMonthly: 99, renewalMonthly: null, currency: 'INR',
     storage: '15 GB NVMe', websites: '1 website',
     freeDomain: true, freeSSL: true,
     hindiSupport: true,
     bestFor: ['business', 'hindi-blog'], affiliateId: 'milesweb',
-    note: 'Verified 2026-10-14 (milesweb.in/web-hosting). 80% OFF, ₹499→₹99/mo on 36-mo term. Same-price-at-renewal guaranteed (live page). Shared lineup is now Starter/Advance/Unlimited — the old "Business ₹199/mo" plan no longer appears on the official page. Prices exclude 18% GST. Free domain 1 yr, 2 mailboxes, daily backups.',
+    note: 'Re-verified 2026-10-17 (milesweb.in/web-hosting). 80% OFF, ₹499→₹99/mo on 36-mo term unchanged. Renewal set to null: plan cards no longer display the same-renewal claim (checked 2026-10-17), while the official "MilesWeb vs Others" table lists a separate renewal price (₹289/mo against a ₹129/mo offer) for its Premium tier — contradicting the guarantee still shown in hero/trust/FAQ text. Shared lineup is now Starter/Advance/Unlimited — the old "Business ₹199/mo" plan no longer appears on the official page. Prices exclude 18% GST. Free domain 1 yr, 2 mailboxes, daily backups.',
   },
   {
     id: 'milesweb-cloud-startup', provider: 'MilesWeb', plan: 'Cloud Startup', type: 'cloud',
@@ -156,4 +156,4 @@ export const HOSTING_PLANS: HostingPlan[] = [
 ];
 
 /** Last date the plan data was verified against official pricing pages. */
-export const lastVerified = '2026-10-14';
+export const lastVerified = '2026-10-17';
