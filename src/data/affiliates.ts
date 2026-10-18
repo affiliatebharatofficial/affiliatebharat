@@ -31,6 +31,16 @@ export const AFFILIATES: Affiliate[] = [
   { id: 'systeme', name: 'Systeme.io', category: 'saas-tools', officialUrl: 'https://systeme.io', affiliateUrl: '', payoutNote: '60% lifetime recurring (public info)' },
   { id: 'flipkart', name: 'Flipkart', category: 'deals', officialUrl: 'https://www.flipkart.com', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'amazon', name: 'Amazon India', category: 'deals', officialUrl: 'https://www.amazon.in', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'asus', name: 'ASUS India', category: 'deals', officialUrl: 'https://www.asus.com/in', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'lenovo', name: 'Lenovo India', category: 'deals', officialUrl: 'https://www.lenovo.com/in/in', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'hp', name: 'HP India', category: 'deals', officialUrl: 'https://www.hp.com/in', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'acer', name: 'Acer India', category: 'deals', officialUrl: 'https://www.acer.com/in', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'realme', name: 'Realme India', category: 'deals', officialUrl: 'https://www.realme.com/in', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'oneplus', name: 'OnePlus India', category: 'deals', officialUrl: 'https://www.oneplus.in', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'godaddy', name: 'GoDaddy', category: 'deals', officialUrl: 'https://www.godaddy.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'porkbun', name: 'Porkbun', category: 'deals', officialUrl: 'https://porkbun.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'cloudflare', name: 'Cloudflare Registrar', category: 'deals', officialUrl: 'https://www.cloudflare.com', affiliateUrl: '', payoutNote: 'No affiliate program for registrar' },
+  { id: 'namecheap', name: 'Namecheap', category: 'deals', officialUrl: 'https://www.namecheap.com', affiliateUrl: '', payoutNote: 'TBD' },
 ];
 
 /** Resolve the outbound URL for an affiliate id. Unknown id -> site root. */

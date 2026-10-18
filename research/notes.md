@@ -723,3 +723,41 @@ Sources: https://www.desidime.com/news/flipkart-big-billion-days-sale-end-date-2
 - Content integrity: these are advertiser/aggregator-reported offers, NOT personally tested — article must say so explicitly (site's honesty rule).
 
 Sources: https://www.desidime.com/news/diwali-sale-offers-india-2026 · https://www.desidime.com/news/flipkart-upcoming-sales · https://www.paisawapas.com/shoptalk/flipkart-upcoming-sale/ · https://flipshope.com/blog/flipkart-big-diwali-sale/ · https://www.dmifinance.in/personal-loan/online-sales-india/
+
+## 2026-10-18 (evening) — DEALS ARTICLE RUN: `domain-renewal-coupon-india-godaddy-alternative` (Hinglish, deals)
+
+### Topic (assigned by parent agent, not calendar-picked)
+slug: `domain-renewal-coupon-india-godaddy-alternative`, target keyword: "domain renewal coupon india cheap", category: deals, Hinglish (Roman script). Calendar item marked [x] (was moved to front of queue 2026-10-18).
+
+### FRESH VERIFICATION (browser.search + official screenshots, 2026-10-18)
+
+**GoDaddy India .com — OFFICIAL page (screenshot, godaddy-india-domain-pricing.png)**
+- https://www.godaddy.com/en-in/tlds/com-domain: "Get a .com domain today — ₹1,599.00 (struck-through) ₹1.00 /1st yr. 3-year purchase required. Additional year(s) ₹1,599.00"
+- Renewal with 18% GST = ~₹1,887/yr. 5-yr math: ₹1 + ₹1,599×4 = ₹6,397 + GST ≈ ₹7,549
+- CONFLICT: GoDaddy India resources page table lists .com renewal ₹1,499 (vs live page ₹1,599); .in renewal ₹899; .co.in ₹749. Printed ₹1,599 as primary (live page), conflict flagged in article.
+
+**Porkbun .com — OFFICIAL page (screenshot, porkbun-domains-pricing.png)**
+- "AMAZING PRICES, ALWAYS AND FOREVER", .COM from $11.08. Etemora Sep–Oct 2026 comparison: $11.08/yr flat, first year = renewal, free WHOIS privacy + email forwarding.
+
+**Cloudflare Registrar**: $10.44–10.46/yr at-cost (devtoolpicks, Etemora Medium Oct 6 2026). Must use Cloudflare DNS. International card needed.
+
+**Namecheap**: first year ~$5.98–11.28 promo; renews $18.48/yr (Etemora). Free WHOIS privacy.
+
+**Renewal coupon codes (aggregators — all labeled "test at checkout" in article)**
+- GDBB3863C: 25% off any renewal — 2 independent confirmations, last confirmed Jan 2026 (AffMaven, verified Sept 2026). Strongest evidence.
+- 20DOM317: up to 35% multi-product; rp20dom: 20% single-domain; GDRP7334C2: .COM renewal $7.49; GOFLUK04: .COM transfer $1.49 (all AffMaven aggregator listings)
+- GoDaddy no-stacking: one promo code per transaction, no stacking with bank/UPI offers (coupondunia Oct 2026)
+- Retention discount via support chat 3–4 weeks pre-renewal "consistently approved" (zoutons Oct 2026)
+
+**Time-sensitive**: Verisign .com wholesale price increase effective 1 Nov 2026 (Etemora) — renew multi-year or transfer before it to lock current prices.
+
+**India caveats**: GoDaddy India accepts UPI (grabon.in); Porkbun/Cloudflare/Namecheap need international cards; GoDaddy India +18% GST.
+
+### Changes in this run
+- New article: `src/content/articles/domain-renewal-coupon-india-godaddy-alternative.md` (1,294 words body, 6 FAQs, verdict, lastVerified 2026-10-18)
+- New affiliate entries: godaddy, porkbun, cloudflare, namecheap (category 'deals', affiliateUrl '' placeholders, official URLs only — no invented links)
+- New screenshots: `public/screenshots/godaddy-india-domain-pricing.png`, `public/screenshots/porkbun-domains-pricing.png` (both 1600px, from parent's browser task, verified visually)
+- Verification: astro check 5 errors, all pre-existing Layout.astro (baseline); npm run build passed (32 pages)
+- Commit: `article: domain-renewal-coupon-india-godaddy-alternative` (deploy done by parent)
+
+Sources: https://www.godaddy.com/en-in/tlds/com-domain · https://www.godaddy.com/resources/in/skills/the-best-domain-registrars-in-india · https://affmaven.com/godaddy-renewal-coupons-2016/ · https://etemora.com/domain-renewal-price-increase/ · https://medium.com/@etemora/your-com-costs-every-registrar-10-46-heres-what-they-charge-you-to-renew-it-499c06ae5677 · https://devtoolpicks.com/blog/namecheap-vs-porkbun-vs-cloudflare-registrar-vs-godaddy-indie-hackers-2026 · https://www.desidime.com/news/diwali-sale-offers-india-2026
