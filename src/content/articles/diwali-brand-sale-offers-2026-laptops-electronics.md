@@ -14,17 +14,17 @@ faq:
     a: "Third-party reports ke mutabiq Lenovo ka Tech Utsav Sale 18 October 2026 tak advertised hai — matlab aaj uska aakhri din ho sakta hai. Sale me laptops par up to 55% off aur up to ₹20,000 ka cashback reported hai, plus 12 months tak No-Cost EMI, up to ₹15,000 exchange bonus aur students ke liye 10% tak discount. Sale khatm hone se pehle Lenovo ki official deals page par live status zaroor confirm kar lo."
   - q: "Diwali sale me laptop khareedte waqt GST ka kya dhyan rakhu?"
     a: "Brand stores (Asus, Lenovo, HP, Acer India) ki official websites par dikhe hue prices me aksar GST included hota hai — checkout par final payable amount check karo, usme 18% GST built-in milega. Agar tum freelancer ya creator ho aur input tax credit (ITC) chahte ho, to checkout par GST invoice option select karna mat bhoolo. Marketplace (Amazon/Flipkart) par seller GST invoice deta hai, lekin invoice details order se pehle verify karo."
-  - q: "Abhi khareedun ya Amazon Diwali Sale (25 Oct expected) ka wait karun?"
-    a: "Agar tumhara chuna hua model brand store par achhe discount me hai (jaise Asus Zenbook A14 effective ₹75,990 ya Lenovo ThinkBook deals), to wait mat karo — brand-store sales 18–20 October tak khatm ho rahi hain. Amazon ka Diwali wave 25 October ko 'expected' hai, confirmed nahi — aur Flipkart ka 29 October ko. Risk ye hai ki Diwali waves me bhi wahi model utna sasta na mile. Lekin agar tumhara model specific nahi hai aur bank offers par bharosa hai, to 25 October tak nazar rakho."
+  - q: "Abhi khareedun ya Amazon/Flipkart Diwali wave ka wait karun?"
+    a: "Wait mat karo — 'Diwali wave' ka intezaar karne ka koi matlab nahi hai. Amazon ka Great Indian Festival 8 October se live hai (SBI cards par 10% instant discount), aur Flipkart ka Big Billion Days aaj raat 18 October ko khatm ho raha hai — matlab marketplace deals abhi chal rahi hain, aane wali nahi. Aggregators par circulate ho rahi '25/29 October wave' dates unconfirmed speculation hain. Agar tumhara chuna hua model brand store par achhe discount me hai (jaise Asus Zenbook A14 effective ₹75,990 ya Lenovo ThinkBook deals), to aaj hi brand-store price ko live Amazon/Flipkart price se compare karke decide karo — brand-store sales 18–20 October tak khatm ho rahi hain."
   - q: "Diwali sale me 'up to 55% off' ka actual matlab kya hai?"
     a: "'Up to 55% off' maximum possible discount hai, jo aam taur par purani ya entry-level models par milta hai — har laptop par nahi. Asus ke Vivobook 15 par 58% off (₹66,990) jaise real deals exist karte hain, lekin Zenbook A14 par sirf 29% off hai. Headline percentage dekhkar model select mat karo; apne budget me 2–3 shortlisted models ki actual prices compare karo. MRP vs sale price ka gap sabse zyada MRP inflated hone par dikhta hai — isliye bank discount ke baad ka effective price hi asli deal hai."
-verdict: "Brand-store Diwali sales (Asus Festive Dhamaka 20 Oct tak, Lenovo Tech Utsav aaj aakhri din tak) RIGHT NOW live hain — inme se koi bhi 'bhavishya ki deal' nahi hai. Amazon (25 Oct) aur Flipkart (29 Oct) ke waves abhi sirf expected hain, confirmed nahi. Laptop chahiye to aaj hi shortlisted models ki prices brand stores par lock karo, aur GST invoice + No-Cost EMI checkout par zaroor use karo."
+verdict: "Brand-store Diwali sales (Asus Festive Dhamaka 20 Oct tak, Lenovo Tech Utsav aaj aakhri din tak) RIGHT NOW live hain — inme se koi bhi 'bhavishya ki deal' nahi hai. Amazon ka Great Indian Festival bhi 8 Oct se live hai (SBI 10% bank offer), aur Flipkart BBD aaj raat khatm ho raha hai — '25/29 Oct waves' sirf aggregator speculation hain, confirmed nahi. Laptop chahiye to aaj hi shortlisted models ki prices brand stores par lock karo, aur GST invoice + No-Cost EMI checkout par zaroor use karo."
 lastVerified: "2026-10-18"
 ---
 
 ## Diwali laptop shopping ka asli sawal: brand store ya marketplace?
 
-Diwali 2026 ka season laptop khareedne walon ke liye sabse confusing time hai. **Aaj 18 October 2026 ko** scene ye hai: Asus, Lenovo, HP, Acer, Realme aur OnePlus ki brand-store Diwali sales **abhi live hain** — kuch to aaj ya parson khatm ho rahi hain. Dusri taraf, sabse bade discount waves — Amazon ka Diwali Sale (**25 October, expected**) aur Flipkart ka Diwali Sale (**29 October, expected**) — abhi announce bhi nahi hue hain.
+Diwali 2026 ka season laptop khareedne walon ke liye sabse confusing time hai. **Aaj 18 October 2026 ko** scene ye hai: Asus, Lenovo, HP, Acer, Realme aur OnePlus ki brand-store Diwali sales **abhi live hain** — kuch to aaj ya parson khatm ho rahi hain. Dusri taraf, Amazon ka Great Indian Festival **8 October se live chal raha hai** (SBI cards par 10% instant discount, Diwali tak wave-wise offers), aur Flipkart ka Big Billion Days **aaj raat (18 Oct, 11:59 PM) khatm** ho raha hai (Flipkart ne official end date kabhi announce nahi ki — ye tracker-reported hai). Aggregators par circulate ho rahi "25/29 October Diwali wave" dates sirf speculation hain — koi official announcement nahi.
 
 Is article me humne **saari offers ko deal aggregators (DesiDime, updated 18 October) aur tech news sources ke hawale se verify kiya hai**. Ek saaf disclaimer: ye offers advertisers aur aggregators dwara reported hain — **humne inme se koi product personally test nahi kiya hai, aur ye analysis public specs, official pricing pages aur verified sale banners par based hai.** Koi paid ranking nahi hai. Jahan deal "expected" hai, wahan humne expected hi likha hai.
 
@@ -102,8 +102,8 @@ Lenovo ka Tech Utsav page abhi live hai, lekin **third-party reports ke mutabiq 
 | Lenovo (official store) | Up to 55% off + ₹20K cashback | **18 Oct tak (aaj aakhri din possible)** | 12M NCEMI, ₹15K exchange, 10% student discount |
 | HP (official store) | 6 AI subs free on select laptops | Diwali season | Check store |
 | Acer (official store) | Min 50% off laptops | Limited-time | Check store |
-| Flipkart Diwali wave | **Expected 29 Oct — announced nahi** | N/A | Sale Pass electronics par expected |
-| Amazon Diwali wave | **Expected 25 Oct — announced nahi** | N/A | Bank offers wave-wise |
+| Flipkart Big Billion Days | **Aaj raat 11:59 PM khatm** (tracker-reported; official date kabhi announce nahi hui) | BBD bank offers — last hours |
+| Amazon Great Indian Festival | **8 Oct se live**, waves Diwali tak | SBI cards par 10% instant discount (debit/credit + EMI) |
 
 ## Abhi khareedun ya wait karun? — Decision framework
 
@@ -113,12 +113,12 @@ Lenovo ka Tech Utsav page abhi live hai, lekin **third-party reports ke mutabiq 
 - Tum student ho aur Lenovo ka 10% student discount use kar sakte ho — marketplace par ye benefit nahi milta
 - Tumhe official warranty + exchange bonus chahiye — brand stores ka exchange process sabse smooth hota hai
 
-**WAIT KARO (25–29 October tak) agar:**
+**WAIT KARO agar:**
 
-- Tumhara model flexible hai aur tum **bank offers (10% instant discount)** par sabse zyada bharosa karte ho — Amazon/Flipkart waves me SBI/Axis/HDFC offers effective price ko aksar brand stores se neeche le jati hain
+- Tumhara model flexible hai aur tum **bank offers (10% instant discount)** par sabse zyada bharosa karte ho — Amazon GIF par SBI 10% offer **abhi live hai**, Flipkart BBD me aakhri ghanto me; brand-store price ko aaj hi live marketplace price se compare karo
 - Tum [Flipkart vs Amazon Diwali sale comparison](/en/big-billion-days-vs-great-indian-festival-2026/) me bataye gaye bank-offer stacking rules samajh chuke ho
 
-**Dhyan rahe:** 25 October (Amazon) aur 29 October (Flipkart) ki dates **sirf expected hain** — abhi tak koi official announcement nahi hai. Wait karne ka risk ye hai ki Diwali waves me tumhara model utna sasta na mile, ya stock khatm ho jaye.
+**Dhyan rahe:** "25 October (Amazon) / 29 October (Flipkart) Diwali wave" ki dates **sirf aggregator speculation hain** — Amazon GIF to 8 October se live hi hai, aur koi alag future Diwali phase officially announce nahi hua. Wait karne ka matlab hai kisi unconfirmed wave ka intezaar, jabki dono marketplaces par deals abhi live hain.
 
 ## Bank offers, EMI aur GST: checkout se pehle ki checklist
 
@@ -130,4 +130,4 @@ Lenovo ka Tech Utsav page abhi live hai, lekin **third-party reports ke mutabiq 
 
 ## Research methodology
 
-Saari offers **18 October 2026** ko deal aggregator DesiDime ki Diwali sale page (updated ~12 hours pehle), tech press (Gadgets360, 91mobiles, Gizbot, MySmartPrice) aur brand store pages ke screenshots (Asus aur Lenovo ke official pages, aaj capture kiye gaye) ke hawale se verify ki gayi hain. Koi bhi product personally test nahi kiya gaya. Amazon aur Flipkart ki Diwali-wave dates "expected" ke roop me likhi gayi hain kyunki dono brands ne abhi tak official announce nahi kiya hai. Prices aur sale validities festive season me tezi se badal sakti hain — khareedne se pehle official page par live status confirm karo.
+Saari offers **18 October 2026** ko deal aggregator DesiDime ki Diwali sale page (updated ~12 hours pehle), tech press (Gadgets360, 91mobiles, Gizbot, MySmartPrice) aur brand store pages ke screenshots (Asus aur Lenovo ke official pages, aaj capture kiye gaye) ke hawale se verify ki gayi hain. Koi bhi product personally test nahi kiya gaya. Amazon GIF **8 October se live** hai (Amazon newsroom + aggregator trackers se confirmed; SBI 10% bank offer live) aur Flipkart BBD **18 October raat ko khatm** ho raha hai (tracker-reported; official end date kabhi announce nahi hui). Aggregators par circulate ho rahi "25/29 October Diwali wave" dates unconfirmed speculation hain — isliye article me inhe future wave ke roop me present nahi kiya gaya hai. Prices aur sale validities festive season me tezi se badal sakti hain — khareedne se pehle official page par live status confirm karo.
