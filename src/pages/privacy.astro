@@ -1,0 +1,73 @@
+---
+import Layout from '../components/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="Privacy Policy"
+  description="AffiliateBharat ki privacy policy — hum kaunsa data collect karte hain (aur kya nahi), cookies, analytics aur affiliate links ke baare me."
+  canonicalPath="/privacy/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Privacy' }]} />
+  <article class="page">
+    <h1>Privacy Policy</h1>
+    <p class="lede">Chhoti site, chhoti policy — jo collect karte hain wahi likha hai.</p>
+    <p><em>Last updated: 18 October 2026</em></p>
+
+    <h2>Hum kya collect NAHI karte</h2>
+    <ul>
+      <li>Is site par <strong>koi account, login ya signup nahi</strong> hai — hum aapka naam, email ya phone number kabhi nahi maangte.</li>
+      <li>Hum forms ke through koi personal data store nahi karte.</li>
+    </ul>
+
+    <h2>Analytics</h2>
+    <p>
+      Hum <strong>Google Analytics</strong> use karte hain taaki samajh sakein kaunse articles padhe ja rahe hain.
+      Ye anonymous usage statistics collect karta hai (jaise kaunse pages visit hue, kaunsa device/browser).
+      Google is data ko apni <a href="https://policies.google.com/privacy" rel="noopener">privacy policy</a> ke
+      hisaab se handle karta hai. Agar aap tracking nahi chahte, to browser me "Do Not Track" on kar sakte hain
+      ya Google ka <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">opt-out add-on</a> install kar sakte hain.
+    </p>
+
+    <h2>Cookies</h2>
+    <p>
+      Google Analytics apne cookies set karta hai taaki repeat visits pehchane ja sakein.
+      Hum khud koi advertising ya tracking cookies set nahi karte.
+      Aap browser settings se cookies kabhi bhi delete ya block kar sakte hain — site bina cookies ke bhi chalegi.
+    </p>
+
+    <h2>Affiliate links aur third-party sites</h2>
+    <p>
+      Jab aap hamare affiliate link par click karke kisi merchant site (jaise hosting company ya Flipkart/Amazon)
+      par jate hain, to wahan <strong>unki privacy policy</strong> lagti hai, hamari nahi.
+      Un sites par aap jo data dete hain, uske liye hum zimmedar nahi hain.
+    </p>
+
+    <h2>Bachchon ki privacy</h2>
+    <p>
+      Ye site bachchon ke liye specifically designed nahi hai, aur hum jaan-boojhkar 13 saal se kam
+      umar ke bachchon ka data collect nahi karte (karte hi nahi, to sawaal hi nahi uthta).
+    </p>
+
+    <h2>Policy me badlaav</h2>
+    <p>
+      Agar ye policy kabhi badlegi, to updated date ke saath yahin publish hogi.
+    </p>
+
+    <h2>Sampark</h2>
+    <p>
+      Privacy se juda koi sawal ho to:
+      <a href="mailto:hello@affiliatebharat.com">hello@affiliatebharat.com</a>
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .page { max-width: 760px; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .lede { font-size: 1.12rem; color: var(--muted); margin-bottom: 2rem; }
+  .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
+  .page p, .page li { font-size: 1.02rem; }
+  .page ul { padding-left: 1.4rem; }
+  .page li { margin-bottom: 0.5rem; }
+</style>

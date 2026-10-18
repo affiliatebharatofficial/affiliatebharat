@@ -1,0 +1,74 @@
+---
+import Layout from '../../components/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="Privacy Policy"
+  description="AffiliateBharat's privacy policy — what data we collect (and don't), cookies, analytics and affiliate links."
+  lang="en"
+  canonicalPath="/en/privacy/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/en/' }, { label: 'Privacy' }]} />
+  <article class="page">
+    <h1>Privacy Policy</h1>
+    <p class="lede">Small site, small policy — what's written here is all we collect.</p>
+    <p><em>Last updated: 18 October 2026</em></p>
+
+    <h2>What we do NOT collect</h2>
+    <ul>
+      <li>This site has <strong>no accounts, logins or signups</strong> — we never ask for your name, email or phone number.</li>
+      <li>We don't store any personal data through forms.</li>
+    </ul>
+
+    <h2>Analytics</h2>
+    <p>
+      We use <strong>Google Analytics</strong> to understand which articles get read.
+      It collects anonymous usage statistics (pages visited, device/browser type).
+      Google handles this data under its <a href="https://policies.google.com/privacy" rel="noopener">privacy policy</a>.
+      If you prefer not to be tracked, enable "Do Not Track" in your browser or install
+      Google's <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">opt-out add-on</a>.
+    </p>
+
+    <h2>Cookies</h2>
+    <p>
+      Google Analytics sets its own cookies to recognise repeat visits.
+      We don't set any advertising or tracking cookies ourselves.
+      You can delete or block cookies in your browser settings at any time — the site works fine without them.
+    </p>
+
+    <h2>Affiliate links and third-party sites</h2>
+    <p>
+      When you click our affiliate link and land on a merchant's site (a hosting company,
+      Flipkart/Amazon, etc.), <strong>their privacy policy</strong> applies, not ours.
+      We're not responsible for data you share on those sites.
+    </p>
+
+    <h2>Children's privacy</h2>
+    <p>
+      This site isn't designed for children, and we don't knowingly collect data from
+      children under 13 (we don't collect data at all, so the question barely arises).
+    </p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+      If this policy ever changes, the update will be published here with a new date.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Privacy questions:
+      <a href="mailto:hello@affiliatebharat.com">hello@affiliatebharat.com</a>
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .page { max-width: 760px; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .lede { font-size: 1.12rem; color: var(--muted); margin-bottom: 2rem; }
+  .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
+  .page p, .page li { font-size: 1.02rem; }
+  .page ul { padding-left: 1.4rem; }
+  .page li { margin-bottom: 0.5rem; }
+</style>

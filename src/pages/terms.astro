@@ -1,0 +1,81 @@
+---
+import Layout from '../components/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="Terms of Use"
+  description="AffiliateBharat ke terms of use — content kaise use karein, price accuracy, affiliate disclosure aur liability ke baare me."
+  canonicalPath="/terms/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Terms' }]} />
+  <article class="page">
+    <h1>Terms of Use</h1>
+    <p class="lede">Site use karne ka matlab — ye terms aapko manzoor hain.</p>
+    <p><em>Last updated: 18 October 2026</em></p>
+
+    <h2>Content kis liye hai</h2>
+    <p>
+      AffiliateBharat par sab content <strong>informational aur research-based</strong> hai —
+      ye professional, legal ya financial advice nahi hai. Koi bhi kharidne ka faisla lene se pehle
+      official site par price aur terms khud verify karo.
+    </p>
+
+    <h2>Prices aur offers</h2>
+    <ul>
+      <li>Prices tezi se badalte hain. Har article me <strong>last verified date</strong> likhi hoti hai — us date ke baad price badal sakta hai.</li>
+      <li>Hum prices official sources se verify karte hain, lekin 100% accuracy ki guarantee nahi de sakte.</li>
+      <li>Deal/tip articles me aggregator-reported offers ko clearly label kiya jata hai.</li>
+    </ul>
+
+    <h2>Affiliate links</h2>
+    <p>
+      Kuch links affiliate links hain — unse kharidne par humein commission mil sakta hai,
+      aapko koi extra cost nahi lagta. Puri policy <a href="/disclosure/">disclosure page</a> par padhein.
+      Paid placement hamari rankings ya verdicts ko affect nahi karta.
+    </p>
+
+    <h2>Content ka ownership</h2>
+    <p>
+      Site ka text, design aur screenshots AffiliateBharat ki property hain.
+      Personal, non-commercial use ke liye padhna aur share karna allowed hai —
+      bina permission ke poore articles copy-paste karke republish karna allowed nahi hai.
+      Chhote quotes attribution ke saath use kar sakte hain.
+    </p>
+
+    <h2>No warranty</h2>
+    <p>
+      Site "as is" provide ki jati hai. Hum ye guarantee nahi dete ki content hamesha
+      error-free, complete ya up-to-date rahega.
+    </p>
+
+    <h2>Liability ki seema</h2>
+    <p>
+      Hamare content ke basis par liye gaye kisi faisle se huye nuksaan ke liye
+      AffiliateBharat zimmedar nahi hoga — chahe woh galat price ho, expired offer ho,
+      ya kisi third-party site ka issue ho.
+    </p>
+
+    <h2>Terms me badlaav</h2>
+    <p>
+      Ye terms kabhi bhi update ho sakte hain; updated version yahin publish hogi.
+      Site ka continued use updated terms ki acceptance mana jayega.
+    </p>
+
+    <h2>Sampark</h2>
+    <p>
+      Terms se juda koi sawal ho to:
+      <a href="mailto:hello@affiliatebharat.com">hello@affiliatebharat.com</a>
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .page { max-width: 760px; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .lede { font-size: 1.12rem; color: var(--muted); margin-bottom: 2rem; }
+  .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
+  .page p, .page li { font-size: 1.02rem; }
+  .page ul { padding-left: 1.4rem; }
+  .page li { margin-bottom: 0.5rem; }
+</style>

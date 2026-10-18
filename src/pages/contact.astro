@@ -1,0 +1,58 @@
+---
+import Layout from '../components/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="Contact Us"
+  description="AffiliateBharat se sampark karo — corrections, deal tips, ya partnership ke liye hello@affiliatebharat.com par email karo."
+  canonicalPath="/contact/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Contact' }]} />
+  <article class="page">
+    <h1>Contact Us</h1>
+    <p class="lede">Sawaal, correction ya deal tip — seedha likho, jawab milega.</p>
+
+    <h2>Email</h2>
+    <p>
+      Har tarah ke sawalon ke liye:
+      <a href="mailto:hello@affiliatebharat.com">hello@affiliatebharat.com</a>
+    </p>
+
+    <h2>Kya bhejna useful hai</h2>
+    <ul>
+      <li><strong>Corrections:</strong> kisi article me galat price ya purani info dikhe to screenshot ke saath bhejo — hum verify karke update karte hain.</li>
+      <li><strong>Deal tips:</strong> koi genuine offer dikhi jo humne cover nahi ki? Link bhejo, hum check karke likhenge.</li>
+      <li><strong>Topic requests:</strong> kis product ya comparison par guide chahiye, batao.</li>
+      <li><strong>Partnership:</strong> brand ya agency queries ke liye bhi yahi email hai — lekin yaad rahe, paid placement hamari rankings ko affect nahi karta.</li>
+    </ul>
+
+    <h2>Response time</h2>
+    <p>
+      Hum chhoti team hain — aam taur par 2–3 din me jawab mil jata hai.
+      Urgent correction ho to subject me "Correction" likh dena, use priority milti hai.
+    </p>
+
+    <h2>Social media</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/@fkdigitalmedia" rel="noopener">YouTube — @fkdigitalmedia</a></li>
+      <li><a href="https://www.instagram.com/rtibyfiroz" rel="noopener">Instagram — @rtibyfiroz</a></li>
+      <li><a href="https://github.com/fkdigitalmedia" rel="noopener">GitHub — fkdigitalmedia</a></li>
+    </ul>
+
+    <h2>Kya na bhejein</h2>
+    <p>
+      Spam, bulk promotional emails aur "guest post for backlink" wale proposals ka jawab nahi diya jata.
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .page { max-width: 760px; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .lede { font-size: 1.12rem; color: var(--muted); margin-bottom: 2rem; }
+  .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
+  .page p, .page li { font-size: 1.02rem; }
+  .page ul { padding-left: 1.4rem; }
+  .page li { margin-bottom: 0.5rem; }
+</style>

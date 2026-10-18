@@ -1,0 +1,81 @@
+---
+import Layout from '../../components/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="Terms of Use"
+  description="AffiliateBharat's terms of use — how to use our content, price accuracy, affiliate disclosure and liability."
+  lang="en"
+  canonicalPath="/en/terms/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/en/' }, { label: 'Terms' }]} />
+  <article class="page">
+    <h1>Terms of Use</h1>
+    <p class="lede">Using this site means you accept these terms.</p>
+    <p><em>Last updated: 18 October 2026</em></p>
+
+    <h2>What our content is for</h2>
+    <p>
+      Everything on AffiliateBharat is <strong>informational and research-based</strong> —
+      not professional, legal or financial advice. Always verify prices and terms on the
+      official site before making a purchase decision.
+    </p>
+
+    <h2>Prices and offers</h2>
+    <ul>
+      <li>Prices change fast. Every article carries a <strong>last verified date</strong> — prices may have changed after it.</li>
+      <li>We verify prices against official sources, but can't guarantee 100% accuracy.</li>
+      <li>Aggregator-reported offers in deal articles are clearly labeled as such.</li>
+    </ul>
+
+    <h2>Affiliate links</h2>
+    <p>
+      Some links are affiliate links — buying through them may earn us a commission
+      at no extra cost to you. Read the full policy on our <a href="/en/disclosure/">disclosure page</a>.
+      Paid placements never affect our rankings or verdicts.
+    </p>
+
+    <h2>Content ownership</h2>
+    <p>
+      The site's text, design and screenshots belong to AffiliateBharat.
+      Reading and sharing for personal, non-commercial use is fine —
+      republishing full articles without permission is not.
+      Short quotes with attribution are okay.
+    </p>
+
+    <h2>No warranty</h2>
+    <p>
+      The site is provided "as is". We don't guarantee the content is always
+      error-free, complete or up to date.
+    </p>
+
+    <h2>Limitation of liability</h2>
+    <p>
+      AffiliateBharat isn't liable for losses from decisions based on our content —
+      whether that's a wrong price, an expired offer, or an issue with a third-party site.
+    </p>
+
+    <h2>Changes to these terms</h2>
+    <p>
+      These terms may be updated at any time; the updated version will be published here.
+      Continued use of the site counts as acceptance of the updated terms.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about these terms:
+      <a href="mailto:hello@affiliatebharat.com">hello@affiliatebharat.com</a>
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .page { max-width: 760px; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .lede { font-size: 1.12rem; color: var(--muted); margin-bottom: 2rem; }
+  .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
+  .page p, .page li { font-size: 1.02rem; }
+  .page ul { padding-left: 1.4rem; }
+  .page li { margin-bottom: 0.5rem; }
+</style>

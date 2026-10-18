@@ -1,0 +1,59 @@
+---
+import Layout from '../../components/Layout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+---
+
+<Layout
+  title="Contact Us"
+  description="Contact AffiliateBharat — corrections, deal tips or partnerships at hello@affiliatebharat.com."
+  lang="en"
+  canonicalPath="/en/contact/"
+>
+  <Breadcrumb items={[{ label: 'Home', href: '/en/' }, { label: 'Contact' }]} />
+  <article class="page">
+    <h1>Contact Us</h1>
+    <p class="lede">Questions, corrections or deal tips — write in, you'll get a reply.</p>
+
+    <h2>Email</h2>
+    <p>
+      For everything:
+      <a href="mailto:hello@affiliatebharat.com">hello@affiliatebharat.com</a>
+    </p>
+
+    <h2>What's useful to send</h2>
+    <ul>
+      <li><strong>Corrections:</strong> spotted a wrong price or outdated info in an article? Send it with a screenshot — we verify and update.</li>
+      <li><strong>Deal tips:</strong> found a genuine offer we haven't covered? Send the link and we'll check it out.</li>
+      <li><strong>Topic requests:</strong> tell us which product or comparison you'd like a guide on.</li>
+      <li><strong>Partnerships:</strong> brand or agency queries go to the same email — but note that paid placements never affect our rankings.</li>
+    </ul>
+
+    <h2>Response time</h2>
+    <p>
+      We're a small team — most emails get a reply within 2–3 days.
+      For urgent corrections, put "Correction" in the subject line and it gets priority.
+    </p>
+
+    <h2>Social media</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/@fkdigitalmedia" rel="noopener">YouTube — @fkdigitalmedia</a></li>
+      <li><a href="https://www.instagram.com/rtibyfiroz" rel="noopener">Instagram — @rtibyfiroz</a></li>
+      <li><a href="https://github.com/fkdigitalmedia" rel="noopener">GitHub — fkdigitalmedia</a></li>
+    </ul>
+
+    <h2>Please don't send</h2>
+    <p>
+      Spam, bulk promotional emails and "guest post for backlink" proposals don't get replies.
+    </p>
+  </article>
+</Layout>
+
+<style>
+  .page { max-width: 760px; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); margin: 0 0 0.8rem; }
+  .lede { font-size: 1.12rem; color: var(--muted); margin-bottom: 2rem; }
+  .page h2 { margin: 2.2rem 0 0.8rem; font-size: 1.4rem; }
+  .page p, .page li { font-size: 1.02rem; }
+  .page ul { padding-left: 1.4rem; }
+  .page li { margin-bottom: 0.5rem; }
+</style>
