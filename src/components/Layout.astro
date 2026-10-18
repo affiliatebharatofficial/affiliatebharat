@@ -1,6 +1,15 @@
 ---
 import Header from './Header.astro';
 import Footer from './Footer.astro';
+import CookieConsent from './CookieConsent.astro';
+
+// gtag/dataLayer are loaded via the Google tag script in <head>.
+declare global {
+  interface Window {
+    dataLayer: any[];
+    gtag: (...args: any[]) => void;
+  }
+}
 
 interface Props {
   title: string;
@@ -36,13 +45,30 @@ const locale = lang === 'hi' ? 'hi_IN' : 'en_US';
     <link rel="canonical" href={canonical} />
     <meta name="google-site-verification" content="lRoM3BorsopmbxQysxksq2MtxQgYH2576k-kQtJI5oA" />
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) with Consent Mode: analytics stays off until the visitor accepts the cookie banner -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ESLY3J913"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied'
+      });
       gtag('js', new Date());
       gtag('config', 'G-8ESLY3J913');
+      // Re-apply a choice saved on an earlier visit.
+      try {
+        if (localStorage.getItem('ab_cookie_consent') === 'granted') {
+          gtag('consent', 'update', {
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted',
+            'ad_user_data': 'granted',
+            'ad_personalization': 'granted'
+          });
+        }
+      } catch (e) {}
     </script>
 
     <!-- Open Graph -->
@@ -82,6 +108,7 @@ const locale = lang === 'hi' ? 'hi_IN' : 'en_US';
       <slot />
     </main>
     <Footer lang={lang} />
+    <CookieConsent lang={lang} />
   </body>
 </html>
 

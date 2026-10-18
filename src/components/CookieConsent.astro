@@ -1,0 +1,110 @@
+---
+// Cookie consent banner: shows once per visitor, stores the choice in
+// localStorage, and applies it to Google Consent Mode (analytics only
+// loads when the visitor accepts).
+interface Props {
+  lang?: 'hi' | 'en';
+}
+const { lang = 'hi' } = Astro.props;
+const hi = lang === 'hi';
+const privacyHref = hi ? '/privacy/' : '/en/privacy/';
+---
+
+<div id="cookie-banner" class="cookie-banner" hidden>
+  <p class="cookie-text">
+    {hi
+      ? 'Hum anonymous analytics cookies use karte hain taaki samajh sakein kaunse articles useful hain. '
+      : 'We use anonymous analytics cookies to understand which articles are useful. '}
+    <a href={privacyHref}>{hi ? 'Privacy policy padhein' : 'Read the privacy policy'}</a>
+  </p>
+  <div class="cookie-actions">
+    <button id="cookie-accept" class="cookie-btn accept" type="button">
+      {hi ? 'Theek hai' : 'Accept'}
+    </button>
+    <button id="cookie-decline" class="cookie-btn decline" type="button">
+      {hi ? 'Nahi chahiye' : 'Decline'}
+    </button>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var KEY = 'ab_cookie_consent';
+    var banner = document.getElementById('cookie-banner');
+    if (!banner) return;
+
+    function applyConsent(granted) {
+      if (typeof window.gtag === 'function') {
+        window.gtag('consent', 'update', {
+          'ad_storage': granted ? 'granted' : 'denied',
+          'analytics_storage': granted ? 'granted' : 'denied',
+          'ad_user_data': granted ? 'granted' : 'denied',
+          'ad_personalization': granted ? 'granted' : 'denied'
+        });
+      }
+    }
+
+    var stored = null;
+    try { stored = localStorage.getItem(KEY); } catch (e) {}
+
+    if (stored === 'granted' || stored === 'denied') {
+      // Choice already made on an earlier visit — just re-apply, keep banner hidden.
+      applyConsent(stored === 'granted');
+      return;
+    }
+
+    // First visit — show the banner.
+    banner.hidden = false;
+
+    function choose(value) {
+      try { localStorage.setItem(KEY, value); } catch (e) {}
+      applyConsent(value === 'granted');
+      banner.hidden = true;
+    }
+
+    document.getElementById('cookie-accept').addEventListener('click', function () { choose('granted'); });
+    document.getElementById('cookie-decline').addEventListener('click', function () { choose('denied'); });
+  })();
+</script>
+
+<style>
+  .cookie-banner {
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 1000;
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--surface, #ffffff);
+    border: 1px solid var(--border, #ece4d4);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.14);
+    padding: 1rem 1.25rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .cookie-banner[hidden] { display: none; }
+  .cookie-text { margin: 0; font-size: 0.92rem; color: var(--ink, #1c1a17); flex: 1 1 280px; }
+  .cookie-text a { color: var(--accent, #d9480f); }
+  .cookie-actions { display: flex; gap: 0.6rem; }
+  .cookie-btn {
+    border: 1px solid var(--border, #ece4d4);
+    border-radius: 8px;
+    padding: 0.55rem 1.1rem;
+    font-size: 0.92rem;
+    cursor: pointer;
+    background: #fff;
+    color: var(--ink, #1c1a17);
+  }
+  .cookie-btn.accept {
+    background: var(--accent, #d9480f);
+    border-color: var(--accent, #d9480f);
+    color: #fff;
+    font-weight: 600;
+  }
+  .cookie-btn.accept:hover { background: var(--accent-dark, #b03a0c); }
+  .cookie-btn.decline:hover { border-color: var(--muted, #6b6459); }
+</style>
