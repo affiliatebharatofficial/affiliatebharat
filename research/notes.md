@@ -761,3 +761,22 @@ slug: `domain-renewal-coupon-india-godaddy-alternative`, target keyword: "domain
 - Commit: `article: domain-renewal-coupon-india-godaddy-alternative` (deploy done by parent)
 
 Sources: https://www.godaddy.com/en-in/tlds/com-domain · https://www.godaddy.com/resources/in/skills/the-best-domain-registrars-in-india · https://affmaven.com/godaddy-renewal-coupons-2016/ · https://etemora.com/domain-renewal-price-increase/ · https://medium.com/@etemora/your-com-costs-every-registrar-10-46-heres-what-they-charge-you-to-renew-it-499c06ae5677 · https://devtoolpicks.com/blog/namecheap-vs-porkbun-vs-cloudflare-registrar-vs-godaddy-indie-hackers-2026 · https://www.desidime.com/news/diwali-sale-offers-india-2026
+
+## 2026-10-18 (evening, ~18:35 IST) — DEALS article: diwali-brand-sale-offers-2026-laptops-electronics (published)
+
+### Verified-live (18 Oct 2026, DesiDime Diwali page updated ~12h ago + fresh browser.search)
+- **Asus Festive Dhamaka: LIVE, valid till 20 Oct (reported).** Zenbook S16 ₹91,000 off headline; Zenbook A14 ₹86,990 + ₹11,000 bank discount → effective ₹75,990 (mysmartprice-verified); up to 60% off select items; 0% NCEMI + 24-mo Low-Cost EMI + ASUS Assurance (captured on asus.com offer page).
+- **Lenovo Diwali Tech Utsav: LIVE, but third-party reports say ends 18 Oct (today).** Up to 55% off + up to ₹20,000 cashback; IdeaPad Slim 3 from ₹75,491; ThinkBook 14 Gen 9 (Ryzen 7, 1TB) ₹85,990; ThinkPad E14 Gen 7 ₹99,991 (60% off); 12M NCEMI, ₹15K exchange bonus, 10% student discount (marvelof, 3 days ago). Dedicated page: lenovo.com/in/en/deals/diwali-sale/.
+- **HP Diwali Sale: LIVE** — 6 AI subscriptions free on select laptops; OmniBook 7 Aero ₹89,809 (Ryzen AI 7 350) press-verified.
+- **Acer Wow Wali Diwali: LIVE** — min 50% off laptops (limited-time, reported).
+- **Realme Big Diwali Sale: LIVE** — Diwali Lucky Spin, win Realme 16 Pro 5G Harry Potter Edition (reported).
+- **OnePlus Diwali Sale: LIVE** — price drops, up to 95% off add-ons (reported).
+- **Upcoming (expected, NOT confirmed):** Amazon Diwali Oct 25, Flipkart Diwali Oct 29, Myntra Oct 23 (all expected; no official announcement from either marketplace).
+
+### Article details
+- Screenshots: /screenshots/asus-diwali-sale-2026.png (Asus Festive Dhamaka offer page, captured today by parent browser task, resized 1293px) + /screenshots/lenovo-diwali-tech-utsav-2026.png (Lenovo Tech Utsav deals page, 1600px). Both embedded with captions.
+- Angle: buy on brand stores NOW (Asus ends 20 Oct, Lenovo possibly today) vs wait for Amazon/Flipkart waves (expected only). Honesty framing: all offers reported-by-aggregators, not personally tested — stated in intro + methodology.
+- New affiliates.ts entries: asus, lenovo, hp, acer, realme, oneplus (official URLs, empty affiliateUrl).
+- Astro check: 5 pre-existing Layout.astro errors, zero new; build passed.
+
+Sources: https://www.desidime.com/news/diwali-sale-offers-india-2026 · https://www.desidime.com/stores/asus · https://marvelof.com/laptop-savings/lenovo-tech-utsav-sale-2026-best-laptop-deals-under-1-lakh · https://www.mysmartprice.com/gear/others/others-features/best-thin-and-light-laptop-deals-under-%e2%82%b91-5-lakh-in-india-festive-sale-picks-for-2026/ · https://www.lenovo.com/in/en/deals/diwali-sale/
