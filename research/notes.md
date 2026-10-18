@@ -699,3 +699,27 @@ Target keyword (English rewrite): "flipkart big billion days vs amazon great ind
 - No specific product deal prices printed (sale prices change by the hour).
 
 Sources: https://www.desidime.com/news/flipkart-big-billion-days-sale-end-date-2026-offers-to-buy-before · https://www.herzindagi.com/your-picks/gadget-zone/flipkart-big-billion-days-sale-2026-ending-soon-explore-unmissable-deals-on-i7-laptops-17202 · http://zoutons.com/news/amazon-great-indian-festival · https://blog.monzy.co/offers/amazon-great-indian-festival-2026-bank-offers · https://financechecks.com/business-startups/amazon-flipkart-festive-sale-2026-best-card-offers/ · https://www.dmifinance.in/personal-loan/online-sales-india/
+
+## 2026-10-18 (afternoon) — DIWALI WAVE ESTIMATES RE-CHECKED + new deals-calendar entry (brand electronics)
+
+### Freshest Diwali estimate sweep (browser.search, 2026-10-18 ~13:55 IST)
+- **DesiDime Diwali sale offers page, updated ~8h ago (freshest single source):** Amazon Diwali Sale 2026 → **October 25 (expected)**, deal on iPhone 16; **Flipkart Diwali Sale 2026 → October 29 (expected)**, Sale Pass for extra discount on electronics, deal on iPhone 17; Myntra Diwali Oct 23 (expected); Ajio Mega Diwali Nov 5 (expected); Nykaa Nov 1; Vijay Sales Nov 1. Source: https://www.desidime.com/news/diwali-sale-offers-india-2026
+- **Older/weaker "Oct 20" signals, now superseded:** paisawapas (11 days old, "Flipkart Seller Hub calendar" claim: Diwali Sale starting Oct 20); dmifinance.in sale calendar (10 days old: Flipkart Diwali "Around October 20 | Expected"); technosports/cashify "from Oct 20". These read like Dussehra/Big Shopping Utsav noise — the repo's Oct 17 convergence (Oct 28–Nov 8) still holds and DesiDime's freshest update agrees.
+- **NO official announcement yet** from Flipkart or Amazon for their Diwali waves. "Expected" framing mandatory on all articles.
+- **flipshope claims Flipkart "Big Bang Diwali Sale" live Oct 15 – Nov 5** — conflicts with BBD running Oct 9–18; aggregator noise, do NOT treat as fact. Its SBI/Kotak 10% bank-offer claim for the Diwali wave is also unverified.
+- **Bank-offer note for the wave articles:** DesiDime's upcoming-sales page mentions Flipkart Diwali bank discounts "10% to 15% instant via SBI or ICICI" — third-party claim, re-verify at publish time against flipkart.com banners.
+- **Implication for the calendar:** the `flipkart-big-bang-diwali-sale-vs-amazon-great-diwali-2026` ~Oct 27–28 publish date stays valid (lands between Amazon Diwali Oct 25 expected and Flipkart Diwali Oct 29 expected — best possible window). No calendar move needed; entry already mandates live-verification before publishing.
+
+### NEW deals-calendar entry: brand Diwali sales already LIVE (electronics)
+- **Why now:** DesiDime's page (updated 8h ago) marks these as LIVE today — brand-store Diwali sales the site hasn't covered yet, and electronics is the highest-revenue Diwali category. Fills the Oct 20–26 gap between the domain-renewal article (Oct 19) and the Diwali comparison (Oct 27–28). Target keyword: "diwali sale 2026 laptop offers india" / "diwali laptop offers 2026 best".
+- **Live-verified-as-reported offers (all DesiDime, 2026-10-18 — WRITER MUST re-verify at publish time; prices change fast):**
+  - Asus Diwali Sale: Asus Zenbook S16 laptop "Rs.91,000 OFF" headline deal
+  - Lenovo Diwali Tech Utsav: up to 55% off + up to ₹20,000 cashback
+  - HP Diwali Sale: 6 AI subscriptions free on select laptop purchases*
+  - Realme Big Diwali Sale: Diwali Lucky Spin, win Realme 16 Pro 5G Harry Potter Edition
+  - Acer Wow Wali Diwali: minimum 50% off on laptop deals (limited-time)
+  - OnePlus Diwali Sale: limited-time price drops, up to 95% off on add-ons
+- **Writer angle:** honest comparison frame — brand-store Diwali sales vs waiting for Amazon (Oct 25 exp.) / Flipkart (Oct 29 exp.) waves; laptop-focused (student/freelancer/creator audience match); bank-offer stacking on brand stores (No-Cost EMI availability per brand); 18% GST note where India invoices apply. Screenshot rule: 1–2 screenshots of brand sale pages (skip if CAPTCHA-blocked, note in article). Mark every offer as "as reported 2026-10-18, check live at checkout".
+- Content integrity: these are advertiser/aggregator-reported offers, NOT personally tested — article must say so explicitly (site's honesty rule).
+
+Sources: https://www.desidime.com/news/diwali-sale-offers-india-2026 · https://www.desidime.com/news/flipkart-upcoming-sales · https://www.paisawapas.com/shoptalk/flipkart-upcoming-sale/ · https://flipshope.com/blog/flipkart-big-diwali-sale/ · https://www.dmifinance.in/personal-loan/online-sales-india/
