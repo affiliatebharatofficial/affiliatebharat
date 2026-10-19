@@ -780,3 +780,21 @@ Sources: https://www.godaddy.com/en-in/tlds/com-domain · https://www.godaddy.co
 - Astro check: 5 pre-existing Layout.astro errors, zero new; build passed.
 
 Sources: https://www.desidime.com/news/diwali-sale-offers-india-2026 · https://www.desidime.com/stores/asus · https://marvelof.com/laptop-savings/lenovo-tech-utsav-sale-2026-best-laptop-deals-under-1-lakh · https://www.mysmartprice.com/gear/others/others-features/best-thin-and-light-laptop-deals-under-%e2%82%b91-5-lakh-in-india-festive-sale-picks-for-2026/ · https://www.lenovo.com/in/en/deals/diwali-sale/
+
+## 2026-10-19 (morning) — CRON RUN: English version of `diwali-hosting-offers-india-genuine` → `/en/diwali-hosting-offers-india-genuine/`
+
+Rotation rule: H=12 E=8, gap 4 ≥ 3 → English run. Oldest Hinglish article without an English counterpart = `diwali-hosting-offers-india-genuine` (2026-10-15). Rewritten (not translated) for English keywords: "diwali hosting offers india 2026" / "hostinger diwali sale" / "milesweb diwali offer".
+
+### Fresh verification (browser.search, 2026-10-19 morning)
+- **Hostinger festive window REPORTED to open today (Oct 19 → Dec 14)** — hostingguider.com Black Friday 2026 deals page (crawled ~2h ago, updated 5 days ago): "Hostinger | Up to 75% Off | Oct 19, 2026 → Dec 14, 2026 | Auto Applied", and its text says "Hostinger's 2026 sale, for example, opened on October 19". zoutons.com sales calendar (crawled 5h ago) still lists Diwali sale only as "October–November (centred on Diwali)" — NO official announcement from Hostinger itself. Article frames as reported/unverified per honesty rule; the Oct 15 "rumor watch" note is now live.
+- **Diwali 2026 = 8 November (Lakshmi Puja)**; BBD ended yesterday (Oct 18, tracker consensus; Flipkart never officially confirmed); Amazon GIF live, end date unannounced.
+- MilesWeb/Hostinger plan numbers: reused the Oct 17 officially-verified figures (see 2026-10-17 notes — same-renewal claim gone from MilesWeb cards; Premium renewal ₹289/mo in their own table; Hostinger renewals Single ₹289/Premium ₹449/Unlimited ₹649/Cloud ₹1,599). No new numbers surfaced today; article is explicit that prices were last verified Oct 17 and state is current as of Oct 19.
+- Third-party noise ignored: desidime "up to 87% off" = sale-calendar aggregator content; dontpayfull coupon codes (CYBERSALE, SEOPAVAN etc.) = community-reported, not printed.
+
+### Article details
+- 1,846 body words; 6 FAQs; verdict; lastVerified 2026-10-19; products [hostinger, milesweb]; tools [hosting-compare].
+- Screenshots REUSED from Oct 17 (2 days old, still current): /screenshots/milesweb-plans-2026.png + /screenshots/hostinger-renewal-prices-2026.png — captions carry capture dates. Honesty call: Oct 15's milesweb-diwali-offers-2026.png would mislead (shows old same-renewal framing), so it was NOT reused.
+- Key content delta vs the Hindi original (Oct 15): MilesWeb renewal-guarantee disappearance (the story changed — Oct 15 claim would now be dishonest); Hostinger Oct 19–Dec 14 window reported-but-unverified (was pure rumor on Oct 15); BBD now over.
+- astro check: 5 errors, all pre-existing Layout.astro (baseline); npm run build passed (40 pages).
+
+Sources: https://hostingguider.com/blog/black-friday-deals/ · https://zoutons.com/news/hostinger-sales-calendar-2026 · https://www.desidime.com/stores/hostinger
