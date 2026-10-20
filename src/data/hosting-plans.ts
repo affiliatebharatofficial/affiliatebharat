@@ -123,7 +123,17 @@ export const HOSTING_PLANS: HostingPlan[] = [
     freeDomain: null, freeSSL: null,
     hindiSupport: null,
     bestFor: ['hindi-blog', 'portfolio'], affiliateId: 'hostgator-in',
-    note: 'UNVERIFIED: hostgator.com showed blank price placeholders on 2026-10-09. Third-party (insidehost.net, older data) reported Hatchling ₹199/mo intro, renews ₹399 — not confirmed.',
+    note: 'Updated 2026-10-20: HostGator India has merged into BigRock (hostgator.in banner: "Effective July 15, 2025"; BigRock FAQ says from 1 July 2025). hostgator.in now shows the BigRock & HostGator India merger notice — new customers purchase on BigRock.in, existing customer accounts migrated to BigRock. HostGator India plans are no longer sold, so no official pricing exists (prices kept null). Previously: hostgator.com showed blank price placeholders on 2026-10-09.',
+  },
+  // ---- BigRock — HostGator India's successor; official prices verified from bigrock.in homepage (2026-10-20); renewal prices are NOT published on the official site -> null ----
+  {
+    id: 'bigrock-shared', provider: 'BigRock', plan: 'Shared', type: 'shared',
+    introMonthly: 69, renewalMonthly: null, currency: 'INR',
+    storage: '20 GB NVMe', websites: '1 website',
+    freeDomain: null, freeSSL: true,
+    hindiSupport: null,
+    bestFor: ['hindi-blog', 'portfolio'], affiliateId: 'bigrock',
+    note: 'Verified 2026-10-20 (bigrock.in homepage). Shared ₹69/mo ("Best Value 65% off") — offer price; renewal price NOT published on official page -> null. Plan card: 1 website, 20 GB NVMe SSD, 200 GB transfer, 10 email accounts, unlimited databases, daily backups, free Let\'s Encrypt SSL. Prices exclude 18% GST. HostGator India\'s successor — new customers buy here.',
   },
   {
     id: 'hostgator-baby', provider: 'HostGator India', plan: 'Baby', type: 'shared',
@@ -132,7 +142,7 @@ export const HOSTING_PLANS: HostingPlan[] = [
     freeDomain: null, freeSSL: null,
     hindiSupport: null,
     bestFor: ['business', 'hindi-blog'], affiliateId: 'hostgator-in',
-    note: 'UNVERIFIED: hostgator.com showed blank price placeholders on 2026-10-09. Third-party (insidehost.net, older data) reported Baby ₹249/mo intro, renews ₹499 — not confirmed.',
+    note: 'Updated 2026-10-20: HostGator India has merged into BigRock (hostgator.in banner: "Effective July 15, 2025"; BigRock FAQ says from 1 July 2025). hostgator.in now shows the BigRock & HostGator India merger notice — new customers purchase on BigRock.in, existing customer accounts migrated to BigRock. HostGator India plans are no longer sold, so no official pricing exists (prices kept null). Previously: hostgator.com showed blank price placeholders on 2026-10-09. Third-party (insidehost.net, older data) reported Baby ₹249/mo intro, renews ₹499 — superseded by the merger.',
   },
   // ---- A2 Hosting — official pricing page not accessible 2026-10-09; third-party conflicts ----
   {
@@ -156,4 +166,4 @@ export const HOSTING_PLANS: HostingPlan[] = [
 ];
 
 /** Last date the plan data was verified against official pricing pages. */
-export const lastVerified = '2026-10-17';
+export const lastVerified = '2026-10-20';
