@@ -814,3 +814,49 @@ Sources: https://hostingguider.com/blog/black-friday-deals/ · https://zoutons.c
 - HOSTGATOR.IN (live browser view): loads HostGator content + "IMPORTANT UPDATE — Effective July 15, 2025, HostGator India and BigRock will be joining forces" banner + modal "BigRock & HostGator India have joined forces" with "Redirecting to BigRock in 25 seconds…" countdown → auto-redirect to bigrock.in?utm_source=hgi&utm_medium=referral&utm_campaign=migration with "You've been redirected from HostGator India" banner. Explains the Oct-17 vs Oct-20 text-fetch confusion (text fetch doesn't wait out the countdown). Merger confirmed real.
 - Screenshots: browser tool could NOT export PNGs (views only, no file export) — reused Oct 17 PNGs with dated captions, per precedent.
 - Article text rewritten to match: Hostinger renewals re-verified live Oct 20; MilesWeb section corrected (no same-renewal wording; table ₹289 row); HostGator→BigRock mechanism explained; Premium intro ₹139/mo Black Friday noted in math.
+
+## 2026-10-21 (morning) — Flipkart Diwali wave claims re-checked (feeds `flipkart-big-bang-diwali-sale-vs-amazon-great-diwali-2026`, ~Oct 27–28)
+
+### Tracker claims are now multiplying AND contradicting each other
+- **flipshope** (page updated 2026-10-08): claims "Flipkart Big Diwali Sale 2026 … live from 15th October and will last till 5th November" — up to 85% off; SBI + Kotak cardholders "eligible for an instant 10% discount on all purchases"; extra 10% off SBI credit-card + EMI transactions; No-cost EMI, SuperCoins, exchange offers. Source: https://flipshope.com/blog/flipkart-big-diwali-sale/
+- **gopaisa** (page crawled 2026-10-20): claims "The Flipkart Big Diwali Sale 2026 will kickstart from 24th October onwards" for electronics; mobile category "live from 24th October 2026 at midnight". Source: https://www.gopaisa.com/flipkart-big-diwali-sale-offers-deals
+- **DesiDime (2026-10-18, freshest single source):** Flipkart Diwali wave → **Oct 29 (expected)**; Amazon Diwali ~Oct 25 (expected). Source: https://www.desidime.com/news/diwali-sale-offers-india-2026
+- Three-way conflict: **Oct 15 (claimed live) vs Oct 24 (claimed start) vs Oct 29 (expected)**. The Oct 15 "already live" claim is implausible alongside BBD running Oct 9–18 and now-confirmed ended.
+
+### Direct check today (flipkart.com homepage, 2026-10-21 ~10:55 IST)
+- Fetched flipkart.com homepage directly — **generic homepage content, NO Diwali sale banner/event name visible**. Neither the Oct 15 "live" nor Oct 24 "starts" claim is confirmable on Flipkart's own site today. No official announcement from Flipkart for any Diwali wave as of this morning.
+
+### Implication for the calendar
+- The ~Oct 27–28 `flipkart-big-bang-diwali-sale-vs-amazon-great-diwali-2026` publish date stays valid; **"expected framing mandatory" stands and is now stronger** — writer must verify live on flipkart.com + amazon.in before publishing, and must NOT print any of the three tracker dates as fact. Re-verify SBI/Kotak 10% bank-offer claim at write time.
+- Also relevant to today's 11:19 IST run (`diwali-brand-sale-offers-2026-laptops-electronics` publishes ~Oct 21–24): its "buy now vs wait for Flipkart wave" framing must note the wave timing is tracker-conflicted (Oct 15 vs 24 vs 29), not officially announced — the honest anchor is "Amazon GIF live since Oct 8; Flipkart's Diwali wave not announced yet."
+- Lesson reinforced (Oct 15 BBD glitch, Oct 18 false "25 Oct expected" line): never carry a tracker's date as fact; the flipkart.com homepage check takes 30 seconds and is the ground truth.
+
+## 2026-10-21 (morning) — CRON RUN: `hostinger-black-friday-deal-india-real-discount` (Hinglish, deals)
+
+### Topic (calendar pick, first unchecked; seasonal item slated for ~Nov 10–15 but banner already live)
+slug: `hostinger-black-friday-deal-india-real-discount`, target keyword: "hostinger black friday deal india real discount", category: deals, Hinglish (Roman script). H=12 E=10 → Hinglish new topic per rotation rule.
+
+### FRESH VERIFICATION (live browser render + text fetch, 2026-10-21)
+**Hostinger India (hostinger.com/in) — OFFICIAL, verified today:**
+- Hero: "Sale Season / UP TO 83% OFF / Get your idea online today from ₹139/mo. / Claim deal / 30-day money-back guarantee". Banner is festive "Sale Season" branding (Oct 20 render showed "Black Friday" label — the hero branding rotates).
+- Plan cards (verified verbatim, 48-mo term): Single ₹69/mo (83% off badge, ₹399 struck, 48-mo ₹3,312, regular ₹19,152, Renews at ₹289/mo); Premium ₹139/mo (80% off, ₹679 struck, 48-mo ₹6,672, regular ₹32,592, Renews at ₹449/mo); third tier ₹199/mo (Special offer 75% off, ₹799 struck, 48-mo ₹9,552, regular ₹38,352, Renews at ₹649/mo); Cloud Startup ₹599/mo (65% off, ₹1,699 struck, 48-mo ₹28,752, regular ₹81,552, Renews at ₹1,599/mo).
+- **Third-tier label rotates: "Unlimited" (Oct 17) → "Business" (Oct 20) → "Unlimited" (Oct 21).** Same price/specs; flagged in article.
+- Single: no free domain/mailbox (feature list); Premium: domain free 1 yr; JSON-LD Product.offers Price: 69 INR (today's text fetch).
+- No official end date on Hostinger's own page. Aggregator consensus (hostingguider, elitecontentmarketer, googiehost, digitalprahlad, vpsdex, wpblogging101): sale window Oct 19 → Dec 14, 2026 — printed as tracker-reported, NOT official.
+- Coupon claims (bloggingden: BLACKFRIDAY extra 10%; bloggingbeats: Premium ₹129+3mo free, Cloud ₹549) = aggregator-reported, unverified on official page — NOT printed as fact.
+**MilesWeb (milesweb.in) — OFFICIAL, verified today via live render:**
+- Hero: "Up to 83% Off Hosting This Diwali", top banner "Big Diwali Savings Start Here! Ends in 15d 23h 59m, View Deals" (≈ 5 Nov end) — official countdown, i.e. published end date for MilesWeb.
+- Plan cards (36-month term): Starter ₹69 (83% OFF, ₹399 struck), Advance ₹99 (80% OFF, ₹499 struck), Premium ₹129 (80% OFF, ₹649 struck, MOST POPULAR), Unlimited Cloud ₹189 (75% OFF, ₹749 struck). "Free migration included", "Choose monthly or long-term", Google 4.6/5 (7,148 reviews), "Indian company since 2012".
+- Renewal rows still NOT on cards; "same price at renewal" wording absent; their own comparison table Premium renewal ₹289/mo (from Oct 17/20 verification).
+
+### Screenshots (captured today, converted JPG→PNG 1600px)
+- public/screenshots/hostinger-blackfriday-2026.png (hero banner)
+- public/screenshots/hostinger-plans-blackfriday-2026.png (plan cards, renewal rows)
+- public/screenshots/milesweb-diwali-plans-2026.png (MilesWeb plan cards)
+NOTE: browser agent reported it could not export viewport PNGs directly; the look.0.jpg render snapshots it captured were converted with PIL. Same effective result (actual page renders).
+
+### Article
+- `src/content/articles/hostinger-black-friday-deal-india-real-discount.md` (1,494 body words, 6 FAQs, verdict, methodology, lastVerified 2026-10-21). products [hostinger, milesweb, bigrock]; tools [hosting-compare, website-cost-calculator]. 3 fresh screenshots embedded with dated captions.
+- Verification: astro check 5 errors, all pre-existing Layout.astro (baseline); npm run build passed (42 pages).
+
+Sources: https://www.hostinger.com/in · https://www.milesweb.in/hosting/web-hosting · https://bloggingden.com/hostinger-black-friday/ · https://bloggertutor.com/hostinger-black-friday-hosting-deals-and-offers/ · https://digitalprahlad.com/best-black-friday-web-hosting-deals/ · https://www.elitecontentmarketer.com/deals/hostinger-black-friday/ · https://googiehost.com/blog/best-wordpress-hosting-black-friday-deals/ · https://vpsdex.com/en/activity/black-friday-vps-deals-timeline-2026/
