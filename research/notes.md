@@ -906,6 +906,21 @@ Sources: https://www.hostinger.com/in · https://www.milesweb.in/hosting/web-hos
 - Suggested structure: (1) what changed since the Oct 13 BBD-vs-GIF piece — Utsav was the Dussehra bridge (Oct 20–27, HDFC 10%); (2) BBD Oct 28–Nov 8 with SBI 10% — category buying guide + bank stacking rules; (3) Amazon Great Diwali wave Nov 1–8 (expected) vs GIF Reloaded live now (Axis/ICICI) — "buy now vs wait" decision table.
 - Screenshot rule: 1 screenshot each of flipkart.com and amazon.in sale pages at write time (skip if CAPTCHA-blocked, note in article).
 
+## 2026-10-22 (evening, ~20:05 IST) — Flipkart's official BBD video read DIRECTLY: Oct 28 start confirmed at source level
+
+### What this adds over the 11:00 IST entry
+- The 11:00 IST entry said the "officially confirmed" claim rested on DesiDime's reading of Flipkart's official video (their schedule table still carried an "[ Expected ]" header). This evening the video page itself was opened and its metadata read directly:
+  - Title: "Flipkart Big Bang Diwali - Sale starts 28th October!"
+  - Description: "Let the neighbors turn green with envy as you bring home the latest appliances, stunning décor and hottest fashion from Flipkart's Big Bang Diwali Sale. Starts 28th October."
+  - Video ID from DesiDime's embed URL (https://www.youtube.com/embed/cIh718vpwio — presented as Flipkart's official announcement video); watch page read: https://www.youtube.com/watch?v=cIh718vpwio
+- Net effect: the **Oct 28 start date is now confirmed by Flipkart's own announcement**, not merely tracker-reported. The [Expected]-header caveat is resolved for the start date. End date (Nov 8 11:59 PM) and SBI 10% bank offer remain DesiDime-reported — keep them labeled as reported until flipkart.com shows them live.
+- No press/newsroom coverage found anywhere (news-vertical search returned only trackers) — the video is the official evidence. Amazon's Nov 1–8 "Great Diwali Sale" remains expected/unconfirmed on every source.
+- DealLooto (updated 2026-10-21, https://www.deallooto.com/p/big-billion-days-great-indian-festival-2026.html) stays consistent: GIF Reloaded 21–27 Oct, Axis & ICICI 10%, per-order cap ₹9,500 / per-card ₹11,250, base bank offer refreshes Oct 24.
+
+### For the ~Oct 27–28 article
+- The article can now print "Flipkart ne officially announce kiya — Big Bang Diwali Sale 28 October se" as CONFIRMED (cite the official video). End date + SBI 10%: frame as reported, verify live at write time.
+- content-calendar.md entry updated to this verified state (this run).
+
 ## 2026-10-22 (~11:30 IST) — English version of `diwali-brand-sale-offers-2026-laptops-electronics` (rotation rule H=13 E=10, oldest-no-EN by date+alpha)
 
 ### Verified deltas vs the 2026-10-18 Hindi original
@@ -914,3 +929,12 @@ Sources: https://www.hostinger.com/in · https://www.milesweb.in/hosting/web-hos
 - **Amazon GIF Reloaded**: 21–27 Oct, Axis & ICICI 10% reported (per 2026-10-22 morning Flipkart pre-research entry).
 - **Flipkart Big Bang Diwali Sale**: DesiDime (updated 22 Oct 10:40 IST) reports CONFIRMED by Flipkart (official video embedded): 28 Oct 12:00 AM – 8 Nov 11:59 PM, SBI 10%, premium laptops from ₹59,999. HONESTY CAVEAT: their own schedule table still carries "[ Expected ]" header; not independently verified on flipkart.com at write time. Frame as "reported confirmed by Flipkart via announcement video, verify live". Ignore conflicting tracker noise (flipshope stale, cashify 4-day-old expected-Oct-30).
 - Screenshots: reused asus-diwali-sale-2026.png + lenovo-diwali-tech-utsav-2026.png (both captured 18 Oct; captions state capture date + Phase 2 context).
+
+## 2026-10-23 — topic: blog-ke-liye-domain-hosting-combo-offer ("blog ke liye domain hosting combo offer", hosting)
+Sources accessed 2026-10-23 ~11:45 IST:
+- https://www.hostinger.com/in — top banner verbatim: "Free domain for 1 year included with yearly plans". Hero today: "Sale Season — Up to 80% OFF — from ₹139/mo" (banner branding rotates; 21 Oct ko "Up to 83% OFF" tha). JSON-LD Product offer: Web hosting, 69 INR. Free domain qualifying plans (third-party consistent): Premium/Business/Cloud — Single plan me free domain nahi (21 Oct ko plan cards par crossed-out verify kiya tha). TLDs per reviews: .com/.net/.org/.in qualifying; renewal year 2 se standard rate.
+- https://www.milesweb.in/web-hosting — hero verbatim: "Up to 85% Off Hosting This Diwali" (21 Oct ko "83%" tha — percentage rotates) + "₹69/mo" + "Same price at renewal - Guaranteed." Plan cards TODAY: Starter ₹69/mo (83% OFF, struck ₹399, "Free domain for 1 year", 1 website, 10GB NVMe, daily backups, free SSL, AI Builder); Unlimited ₹149/mo (80% OFF, struck ₹749, +2 mo free, "Free domain for 1 year", unlimited websites, 75GB NVMe); Cloud Startup ₹299/mo (80% OFF, struck ₹1,499, +2 mo free, "Free domain for 1 year", 100GB NVMe). NOTE: lineup phir badal gaya — 21 Oct wale Advance ₹99 / Premium ₹129 / Unlimited Cloud ₹189 cards GAYAB, ab Unlimited ₹149 + Cloud Startup ₹299. "Displayed prices do not include GST (18%)." Own "MilesWeb vs Others" table: MilesWeb ₹99/mo vs Hostinger ₹139/mo vs GoDaddy ₹219/mo; renewal rows: ₹289/mo vs ₹449/mo vs ₹599/mo ("Prices are indicative and based on publicly available information"). Hindi+English 24/7 support confirmed on page. 30-day money-back.
+- Third-party conflicts (flag in article, not smoothed): kripeshadwani.com (17 days ago) — free domain on "all web, Cloud, WordPress plans", TLDs .com/.in/.co.in; infobits.in — entry "Ignite" plan me NO free domain, Elite/Stellar me yes; gauravtiwari.org — entry "Tyro" me no free domain. OFFICIAL page (2026-10-23) Starter card par "Free domain for 1 year" LIKHA HAI — official page = source of truth, plan names/offers rotate frequently.
+- Hostinger plan-card renewals (21 Oct verified, unchanged assumption): Single ₹69→₹289, Premium ₹139→₹449, Unlimited ₹199→₹649, Cloud Startup ₹599→₹1,599; 18% GST extra. Premium 48-mo upfront ₹6,672 + GST = ₹7,873.
+- Screenshots: browser task 51c4ae78 (hostinger.com/in + milesweb.in homepages, 2026-10-23) — pending at note time.
+UNVERIFIED / do-not-print-as-fact: Hostinger free-domain eligible TLD list (third-party only); MilesWeb domain renewal rate year 2 (not on page); exact Hostinger "yearly plans" definition for free domain (banner says yearly plans; monthly/short terms unclear).
