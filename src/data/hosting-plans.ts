@@ -67,7 +67,7 @@ export const HOSTING_PLANS: HostingPlan[] = [
     bestFor: ['hindi-blog', 'business', 'ecommerce'], affiliateId: 'hostinger',
     note: 'Verified 2026-10-09 (hostinger.com/in). Top shared tier — the old "Business" plan no longer appears on the India homepage. Intro ₹249/mo on 48-mo term; renews ₹649/mo. Daily backups; free domain 1 year.',
   },
-  // ---- MilesWeb India — verified from milesweb.in (2026-10-09) ----
+  // ---- MilesWeb India — verified from milesweb.in (2026-10-27) ----
   {
     id: 'milesweb-starter', provider: 'MilesWeb', plan: 'Starter', type: 'shared',
     introMonthly: 69, renewalMonthly: null, currency: 'INR',
@@ -78,22 +78,31 @@ export const HOSTING_PLANS: HostingPlan[] = [
     note: 'Re-verified 2026-10-17 (milesweb.in/web-hosting). Intro ₹69/mo (36-mo, 83% OFF) unchanged. Renewal set to null: plan cards no longer display the same-renewal claim (checked 2026-10-17), while the official "MilesWeb vs Others" table lists a separate renewal price (₹289/mo against a ₹129/mo offer) — contradicting the guarantee still shown in hero/trust/FAQ text. Prices exclude 18% GST. 30-day money-back.',
   },
   {
-    id: 'milesweb-advance', provider: 'MilesWeb', plan: 'Advance', type: 'shared',
+    id: 'milesweb-premium', provider: 'MilesWeb', plan: 'Premium', type: 'shared',
     introMonthly: 99, renewalMonthly: null, currency: 'INR',
-    storage: '15 GB NVMe', websites: '1 website',
+    storage: '50 GB NVMe', websites: '25 websites',
     freeDomain: true, freeSSL: true,
     hindiSupport: true,
     bestFor: ['business', 'hindi-blog'], affiliateId: 'milesweb',
-    note: 'Re-verified 2026-10-17 (milesweb.in/web-hosting). 80% OFF, ₹499→₹99/mo on 36-mo term unchanged. Renewal set to null: plan cards no longer display the same-renewal claim (checked 2026-10-17), while the official "MilesWeb vs Others" table lists a separate renewal price (₹289/mo against a ₹129/mo offer) for its Premium tier — contradicting the guarantee still shown in hero/trust/FAQ text. Shared lineup is now Starter/Advance/Unlimited — the old "Business ₹199/mo" plan no longer appears on the official page. Prices exclude 18% GST. Free domain 1 yr, 2 mailboxes, daily backups.',
+    note: 'Verified 2026-10-27 (milesweb.in/hosting/web-hosting). The old Advance plan (1 website, 15 GB NVMe) no longer exists — the second shared plan is now Premium: ₹99/mo on 36-mo term (₹3,564 total, 85% OFF, +2 mo free), 25 websites, 50 GB NVMe, 50 email accounts, daily backups, free domain 1 yr. No renewal price printed on the card, so renewal is null. Prices exclude 18% GST.',
+  },
+  {
+    id: 'milesweb-unlimited', provider: 'MilesWeb', plan: 'Unlimited', type: 'shared',
+    introMonthly: 149, renewalMonthly: null, currency: 'INR',
+    storage: '75 GB NVMe', websites: 'Unlimited websites',
+    freeDomain: true, freeSSL: true,
+    hindiSupport: true,
+    bestFor: ['business', 'ecommerce'], affiliateId: 'milesweb',
+    note: 'Verified 2026-10-27 (milesweb.in/hosting/web-hosting). ₹149/mo on 36-mo term (₹5,364 total, 80% OFF), unlimited websites, 75 GB NVMe, unlimited email accounts, daily & on-demand backups, free domain 1 yr. No renewal price printed on the card, so renewal is null. Prices exclude 18% GST.',
   },
   {
     id: 'milesweb-cloud-startup', provider: 'MilesWeb', plan: 'Cloud Startup', type: 'cloud',
-    introMonthly: 499, renewalMonthly: 979, currency: 'INR',
+    introMonthly: 299, renewalMonthly: null, currency: 'INR',
     storage: '100 GB NVMe', websites: 'Unlimited websites',
     freeDomain: true, freeSSL: true,
     hindiSupport: true,
     bestFor: ['business', 'ecommerce'], affiliateId: 'milesweb',
-    note: 'Re-verified 2026-10-14 (milesweb.in/hosting/cloud-hosting). ₹1,499→₹499/mo intro on 36-mo term (+2 mo free); renews ₹979/mo. Same-renewal claim REMOVED — live page lists a separate renewal price. Prices exclude 18% GST. Plan card: 100 GB NVMe, 5 GB RAM, 5 CPU cores, unlimited websites.',
+    note: 'Re-verified 2026-10-27 (milesweb.in/hosting/cloud-hosting). ₹1,499→₹299/mo intro on 36-mo term (₹10,764 total, 80% OFF, +2 mo free) — down from ₹499/mo. No renewal price printed on the card (the struck-through ₹1,499 is not labelled as renewal), so renewal set to null; the old ₹979/mo renewal is NOT carried forward. Prices exclude 18% GST. Plan card: 100 GB NVMe, 5 GB RAM, 5 CPU cores, unlimited websites.',
   },
   // ---- Bluehost India — intro prices verified from bluehost.in help page (2026-10-09);
   // renewal prices are NOT published on the official page -> null ----
@@ -166,4 +175,4 @@ export const HOSTING_PLANS: HostingPlan[] = [
 ];
 
 /** Last date the plan data was verified against official pricing pages. */
-export const lastVerified = '2026-10-20';
+export const lastVerified = '2026-10-27';
