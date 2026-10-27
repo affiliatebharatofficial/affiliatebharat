@@ -17,9 +17,11 @@ faq:
     a: "Sabse simple tareeqa WhatsApp button hai — customer tap kare, seedha aapke WhatsApp par message aaye. Thoda advanced setup chahiye to WordPress par free booking plugins mil jaate hain jo appointment slot manage karte hain. Shuruaat WhatsApp button se karo, booking badhne par plugin par shift ho jao."
   - q: "Renewal price check karna kyun zaroori hai?"
     a: "Kyunki intro price aur renewal price me 3–4x tak ka farq ho sakta hai — Hostinger ka Premium plan ₹149/mo intro se renew hokar ₹449/mo ho jaata hai. Pehle saal ka sasta kharcha dekhkar plan mat chuno; dusre saal ka kharcha bhi budget me rakho."
-verdict: "Salon website ke liye shared hosting kaafi hai — Hostinger Premium (₹149/mo intro) budget pick hai, aur non-technical owners ke liye MilesWeb Advance (₹99/mo, same renewal + Hindi support) sabse tension-free option hai. Pehle saal ka total kharcha ₹2,000–3,000 ke andar aa jaata hai."
-lastVerified: "2026-10-14"
+verdict: "Salon website ke liye shared hosting kaafi hai — Hostinger Premium (₹149/mo intro) budget pick hai, aur non-technical owners ke liye MilesWeb Premium (₹99/mo, 25 websites, 50 GB + Hindi support) sabse tension-free option hai. Pehle saal ka total kharcha ₹2,000–3,000 ke andar aa jaata hai. Renewal price MilesWeb ke plan card par printed nahi hai, isliye saal 2 ka budget buffer ke saath banao."
+lastVerified: "2026-10-27"
 ---
+
+**Update (27 October 2026):** MilesWeb ka Advance plan ab nahi milta — uski jagah Premium plan hai (₹99/mo, 25 websites, 50 GB NVMe). Purana "renewal bhi ₹99" wala daava ab plan card par nahi dikhta; renewal price card par printed nahi hai, isliye neeche ka MilesWeb section isi naye plan ke hisaab se update kiya gaya hai.
 
 ## Salon website ko asal me kya chahiye
 
@@ -63,19 +65,19 @@ Ye unke liye best hai jo khud thoda technical kaam sambhal sakte hain aur pehle 
 
 {{aff:hostinger|Hostinger Premium ki aaj ki price dekho}}
 
-### Pick 2: MilesWeb Advance — tension-free pick (₹99/mo, renewal bhi wahi)
+### Pick 2: MilesWeb Premium — tension-free pick (₹99/mo, 25 websites)
 
-- 1 website, 15 GB NVMe storage — salon site + photo gallery ke liye kaafi gunjaish
-- Free domain 1 saal, free SSL, 2 free mailboxes, daily backups
-- **Renewal price same ₹99/mo — guaranteed, koi shock nahi** (18% GST alag se)
+- 25 websites, 50 GB NVMe storage — salon site + photo gallery ke liye kaafi gunjaish, aur aage aur sites bhi isi plan par chal sakti hain
+- Free domain 1 saal, free SSL, 50 email accounts, daily backups
+- **Renewal price plan card par printed nahi hai** — checkout par renewal terms confirm kar lo aur saal 2 ke budget me buffer rakho (18% GST alag se)
 - **Hindi me 24/7 support (verified)** — non-technical salon owners ke liye ye sabse bada plus hai
 
 Agar aapko "site me kuch gadbad hui to kisse poochhunga" wali tension hai, to Hindi support wala ye option seriously consider karo. Raat ko site down ho to Hindi me baat karke problem solve karwana English ticket se kahin easy hai.
 
 ![MilesWeb ka homepage](/screenshots/milesweb-home.png)
-*MilesWeb.in ka homepage — Hindi support aur same-price renewal iski sabse badi strengths hain*
+*MilesWeb.in ka homepage — Hindi support iski sabse badi strength hai; renewal price card par printed nahi hai*
 
-{{aff:milesweb|MilesWeb Advance plan ki details dekho}}
+{{aff:milesweb|MilesWeb Premium plan ki details dekho}}
 
 Dono ko feature-by-feature compare karna ho to [hosting compare tool](/tools/hosting-compare/) kholo.
 
@@ -83,19 +85,19 @@ Dono ko feature-by-feature compare karna ho to [hosting compare tool](/tools/hos
 
 Salon owner ke taur par aapko 2 saal ka kharcha ek saath dekhna chahiye. Neeche official sites par 2026-10-14 ko verified prices ke hisaab se:
 
-| Kharcha | Hostinger Premium | MilesWeb Advance |
+| Kharcha | Hostinger Premium | MilesWeb Premium |
 |---|---|---|
 | Hosting (saal 1, intro) | ₹149 × 12 = ₹1,788 | ₹99 × 12 = ₹1,188 (+ 18% GST ≈ ₹1,402) |
 | Domain (saal 1) | Free (1 saal included) | Free (1 saal included) |
 | SSL | Free | Free |
 | **Saal 1 total (lagbhag)** | **~₹1,788** | **~₹1,402** |
-| Hosting (renewal/saal) | ₹449 × 12 = ₹5,388 | ₹99 × 12 = ₹1,188 (+ GST ≈ ₹1,402) |
+| Hosting (renewal/saal) | ₹449 × 12 = ₹5,388 | Card par printed nahi — checkout par confirm karo, budget me buffer rakho |
 | Domain renewal (saal 2 se) | ~₹1,000–1,500/saal (approx) | ~₹1,000–1,500/saal (approx) |
 
 Do baatein dhyan do:
 
 1. **Hostinger saal 1 me sasta, saal 2 se mehenga** padta hai — 48-month term lene par intro price lambe time tak lock rehta hai, jo is gap ko kam karta hai.
-2. **MilesWeb dono saal same** rehta hai — budgeting simple hai, koi surprise nahi.
+2. **MilesWeb ka renewal card par printed nahi hai** — isliye saal 2 ka kharcha pakka mat maano; checkout par renewal terms padhkar hi budget banao.
 
 Domain renewal ka kharcha (.in ya .com ke hisaab se ~₹1,000–1,500/saal) dono me saal 2 se lagega — ye har host ke saath hota hai, isme koi bachat ka tareeqa nahi hai.
 
