@@ -55,16 +55,16 @@ This is where beginners overpay or get trapped. Verified shared-hosting prices (
 |---|---|---|---|---|
 | Hostinger Single | ₹69/mo (48-mo) | ₹289/mo | 1 | 10 GB SSD |
 | Hostinger Premium | ₹149/mo (48-mo) | ₹449/mo | 3 | 20 GB SSD |
-| MilesWeb Starter | ₹69/mo | ₹69/mo (guaranteed) | 1 | 10 GB NVMe |
-| MilesWeb Advance | ₹99/mo (36-mo) | ₹99/mo (guaranteed) | 1 | 15 GB NVMe |
+| MilesWeb Starter | ₹69/mo | not published on card | 1 | 10 GB NVMe |
+| MilesWeb Premium | ₹99/mo (36-mo) | not published on card | 25 | 50 GB NVMe |
 
 MilesWeb prices exclude 18% GST — add it when budgeting (₹69 becomes ~₹81.42).
 
 **Year-1 math for the cheapest serious setup:**
-- MilesWeb Starter: ₹69 × 12 ≈ ₹828 + GST ≈ **₹977/year**, domain free, renewal identical.
+- MilesWeb Starter: ₹69 × 12 ≈ ₹828 + GST ≈ **₹977/year**, domain free, renewal not published on the card.
 - Hostinger Single (48-mo): ₹69 × 48 ≈ ₹3,312 + GST upfront — cheap per month, but you are prepaying 4 years and renewal jumps to ₹289/mo.
 
-{{aff:hostinger|Check Hostinger's current pricing}} or {{aff:milesweb|See MilesWeb's renewal-guaranteed plans}}
+{{aff:hostinger|Check Hostinger's current pricing}} or {{aff:milesweb|See MilesWeb's plans}}
 
 For a detailed head-to-head, read [Hostinger vs Bluehost for Hindi Blogs (2026)](/en/hostinger-vs-bluehost-hindi-blog/) and compare interactively with the [hosting comparison tool](/tools/hosting-compare/).
 
@@ -117,7 +117,7 @@ Interesting — over exactly 4 years they tie, because Hostinger's 48-month intr
 
 **Comfortable starter (~₹4,000–6,000 year 1):** Hostinger Premium 12-month (~₹1,788 + GST) + free domain year 1 + free theme/plugins. Room for 3 sites if you experiment.
 
-**Growing blog (~₹8,000–12,000/year):** MilesWeb Advance or Hostinger Unlimited at renewal rates + paid theme + one premium plugin (e.g., Rank Math Pro). Only spend this when traffic or income justifies it.
+**Growing blog (~₹8,000–12,000/year):** MilesWeb Premium or Hostinger Unlimited at renewal rates + paid theme + one premium plugin (e.g., Rank Math Pro). Only spend this when traffic or income justifies it.
 
 Run your own scenario: [website cost calculator](/tools/website-cost-calculator/).
 

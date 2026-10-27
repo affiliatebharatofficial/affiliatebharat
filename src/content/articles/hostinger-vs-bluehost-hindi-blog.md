@@ -93,7 +93,7 @@ Sach ye hai:
 
 Agar aap aise blogger hain jisko technical cheezon me English me baat karne me dikkat hoti hai, to ye factor price se bhi bada ho sakta hai. Ek baar socho: raat ko 11 baje site down hai, kal subah ek important post publish karni hai — us time Hindi me baat kar paana kitna valuable hai.
 
-Iske alawa MilesWeb ke plans same-price-at-renewal guarantee ke saath aate hain: Starter ₹69/mo (1 site, 10 GB NVMe), Advance ₹99/mo (1 site, 15 GB NVMe). Har plan me free domain (1 saal) aur free SSL included hai. Prices me 18% GST alag se judta hai — ye baat company khud batati hai.
+Iske alawa MilesWeb ke current plans (27 Oct 2026 ko verify kiya): Starter ₹69/mo (1 site, 10 GB NVMe), Premium ₹99/mo (25 sites, 50 GB NVMe), Unlimited ₹149/mo (unlimited sites, 75 GB NVMe). Purana Advance plan band ho chuka hai. Renewal price plan cards par published nahi hai — checkout par confirm kar lena. Har plan me free domain (1 saal) aur free SSL included hai. Prices me 18% GST alag se judta hai — ye baat company khud batati hai.
 
 {{aff:milesweb|MilesWeb par Hindi support wale plans dekho}}
 

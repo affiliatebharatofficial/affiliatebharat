@@ -20,8 +20,10 @@ faq:
   - q: "GST aur domain renewal ke hidden costs ka kya scene hai?"
     a: "Dono brands ki listed prices me 18% GST included nahi hai — MilesWeb apne page par ye saaf likhta hai ('displayed prices do not include GST'), Hostinger ki India pricing bhi pre-GST dikhti hai. Matlab ₹99/mo ka plan actually ~₹117/mo padega. Free domain sirf pehle saal ke liye hota hai; dusre saal se domain renewal (~₹800–1,200/saal .com ke liye) alag se lagega. In dono ko total cost me jodkar hi deal compare karo."
 verdict: "15 October tak koi host Diwali-2026 branded dhamaka sale announce nahi ki hai — MilesWeb ki flash sale (shared 80% tak off + same-price renewal) aur Hostinger ke regular intro prices hi live reality hain. Pehle saal dono saste hain; 3-saal ka hisaab lagao to MilesWeb ka predictable renewal jeetta hai. Diwali week tak ek aur check karo — aur checkout se pehle renewal price + 18% GST zaroor jodo."
-lastVerified: "2026-10-15"
+lastVerified: "2026-10-27"
 ---
+
+> **27 Oct 2026 update:** MilesWeb ka lineup badal gaya hai — Advance plan band ho gaya hai. Current lineup: Starter ₹69/mo, Premium ₹99/mo (25 websites, 50 GB NVMe), Unlimited ₹149/mo, Cloud Startup ₹299/mo. Renewal prices plan cards par published nahi hain. Is article ke 15 Oct wale lineup references purane hain — current prices ke liye [hosting compare tool](/tools/hosting-compare/) dekhein.
 
 ## Diwali aa rahi hai — hosting deal ka asli scene kya hai?
 

@@ -20,8 +20,10 @@ faq:
   - q: "Hostinger Black Friday deal par GST lagega?"
     a: "Haan. Hostinger ke page par saaf likha hai 'Prices are listed without GST' — listed sab prices par checkout par 18% GST alag se lagega. Single ka ₹3,312 (48-mo) asli me ₹3,908 hota hai, Premium ka ₹6,672 asli me ₹7,873. Budget banate time hamesha GST add karke dekho."
 verdict: "Sale live hai aur prices verified hain — 'Up to 83% OFF' ka real matlab 48-month intro pricing + clearly published renewal prices hai. Sabse smart move: lamba term lock karo, renewal ka math pehle banao, aur GST jodkar budget dekho. Agar transparent renewal pricing chahiye to Hostinger ab bhi India ka sabse predictable option hai."
-lastVerified: "2026-10-21"
+lastVerified: "2026-10-27"
 ---
+
+> **27 Oct 2026 update:** MilesWeb ka purana Diwali lineup (Advance ₹99, Premium ₹129, Unlimited Cloud ₹189) khatam ho gaya hai. Current lineup: Starter ₹69, Premium ₹99, Unlimited ₹149, Cloud Startup ₹299. Renewal prices plan cards par published nahi hain. Is article ke 21 Oct wale MilesWeb references purane hain.
 
 ## Sale live hai — par "83% OFF" ka real matlab samjho
 

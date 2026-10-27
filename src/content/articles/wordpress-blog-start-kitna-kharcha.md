@@ -59,15 +59,15 @@ Intro deal buri nahi hai — lekin sach yeh hai ki aap **₹3,312 upfront** de r
 
 | Plan | Price | Renewal | Note |
 |---|---|---|---|
-| Starter | ₹69/mo | ₹69/mo (same) | 1 website, free domain + SSL |
-| Advance | ₹99/mo (36-mo term) | ₹99/mo (same) | 1 website, free domain + 2 mailboxes |
-| Cloud Startup | ₹499/mo | ₹979/mo | Cloud hosting |
+| Starter | ₹69/mo | card par published nahi | 1 website, free domain + SSL |
+| Premium | ₹99/mo (36-mo term) | card par published nahi | 25 websites, free domain + 50 emails |
+| Cloud Startup | ₹299/mo | card par published nahi | Cloud hosting |
 
-MilesWeb ka **same-price-at-renewal guarantee** inki sabse badi khasiyat hai: jo price aap aaj de rahe hain, wahi renewal par bhi lagega. Ek aur verified plus point: **"Support in English or Hindi, 24/7"** — Hindi me support beginners ke liye bada advantage hai. Note karein: inki prices me **18% GST extra** lagta hai.
+MilesWeb ke plan cards par ab renewal price printed nahi hota — purana same-price-at-renewal guarantee wala Advance plan band ho chuka hai, uski jagah Premium ₹99/mo (25 websites, 50 GB NVMe) hai. Ek aur verified plus point: **"Support in English or Hindi, 24/7"** — Hindi me support beginners ke liye bada advantage hai. Note karein: inki prices me **18% GST extra** lagta hai.
 
 {{aff:hostinger}}
 
-**Hamari honest take:** Features aur free domain combo ke liye Hostinger Premium achha hai, lekin agar aapko renewal price shock se dar lagta hai to MilesWeb ka same-renewal model budget-planning ke liye zyada honest hai. Dono ki detailed comparison ke liye padhein [Hostinger vs Bluehost Hindi guide](/hostinger-vs-bluehost-hindi-blog/) aur plans ko side-by-side compare karne ke liye [hosting compare tool](/tools/hosting-compare/).
+**Hamari honest take:** Features aur free domain combo ke liye Hostinger Premium achha hai, lekin agar aapko renewal price shock se dar lagta hai to MilesWeb ke plans ke renewal card par published nahi hote — checkout par confirm karna hoga. Dono ki detailed comparison ke liye padhein [Hostinger vs Bluehost Hindi guide](/hostinger-vs-bluehost-hindi-blog/) aur plans ko side-by-side compare karne ke liye [hosting compare tool](/tools/hosting-compare/).
 
 ## Kharcha #3: Theme — Free vs Premium
 
@@ -141,7 +141,7 @@ Har blog alag hota hai — kisi ko 1 website chahiye, kisi ko 3, kisi ko domain 
 Shared hosting se shuruaat karna bilkul sahi hai. Upgrade tab karein jab:
 
 - Roz ke **2,000–3,000 visitors** par site noticeably slow hone lage
-- Aapko **3 se zyada websites** chalani hon (tab Hostinger Premium/Unlimited ya MilesWeb Advance (₹99/mo) samajh aata hai)
+- Aapko **3 se zyada websites** chalani hon (tab Hostinger Premium/Unlimited ya MilesWeb Premium (₹99/mo) samajh aata hai)
 - Blog se itni income aane lage ki ₹400–500/mo ka cloud hosting justified ho
 
 Upgrade ka poora framework samajhne ke liye padhein: [Shared vs VPS vs Cloud Hosting — Beginners Guide](/shared-vs-vps-vs-cloud-hosting-beginners-guide/).

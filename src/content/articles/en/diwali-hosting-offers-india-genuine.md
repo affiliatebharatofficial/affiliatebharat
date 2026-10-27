@@ -20,8 +20,10 @@ faq:
   - q: "What about GST and hidden costs on these 'deal' prices?"
     a: "Neither brand includes 18% GST in its displayed prices — MilesWeb states this on its page, and Hostinger India's footer says prices are listed without GST. So a ₹99/mo plan actually costs about ₹117/mo at checkout. The free domain is for the first year only; from year two, .com renewal (~₹800–1,200/year) is charged separately. Factor both into your total cost before comparing deals."
 verdict: "As of 19 October, no host has announced an official Diwali-2026 branded sale — MilesWeb's current plans and Hostinger's regular intro prices are the live reality. Year one is cheap on both; the real cost shows up at renewal, where Hostinger jumps 2.6–4.2x and MilesWeb's old same-price guarantee no longer appears on its plan cards. Do the multi-year math before you buy."
-lastVerified: "2026-10-19"
+lastVerified: "2026-10-27"
 ---
+
+> **27 Oct 2026 update:** MilesWeb's lineup has changed — the Advance plan is discontinued. Current lineup: Starter ₹69/mo, Premium ₹99/mo (25 websites, 50 GB NVMe), Unlimited ₹149/mo, Cloud Startup ₹299/mo. Renewal prices are not published on the plan cards. The 19 Oct lineup references in this article are dated — see the [hosting comparison tool](/tools/hosting-compare/) for current prices.
 
 ## Diwali is close — but where are the hosting sales?
 

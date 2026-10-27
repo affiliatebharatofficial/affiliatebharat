@@ -16,10 +16,10 @@ faq:
   - q: "What are Bluehost India's renewal prices?"
     a: "Bluehost India's official help page lists intro prices but does not publish renewal prices. This is a red flag for budget planning — you should confirm renewal cost with Bluehost support before buying."
   - q: "Which hosting is best for a Hindi news blog with high traffic?"
-    a: "For growing traffic, look at renewal-price plans: Hostinger's Unlimited (₹649/mo renewal) or MilesWeb Unlimited (₹229/mo, same price at renewal, 50 GB NVMe, unlimited websites). Start cheap, upgrade when traffic justifies it."
+    a: "For growing traffic, look at renewal-price plans: Hostinger's Unlimited (₹649/mo renewal) or MilesWeb Unlimited (₹149/mo intro, unlimited websites, 75 GB NVMe — renewal not published on the card). Start cheap, upgrade when traffic justifies it."
   - q: "Can I use these hosts for a blog written fully in Hindi (Devanagari)?"
     a: "Yes. All three hosts run standard WordPress, which fully supports Hindi in Devanagari script. Your blog's language is a WordPress/CMS matter, not a hosting limitation."
-verdict: "For Hindi bloggers on a budget, Hostinger wins on intro price (₹69/mo) but renews at ₹289/mo. Bluehost India starts at ₹299/mo with unpublished renewals. MilesWeb matches Hostinger's ₹69/mo and guarantees the same price at renewal — plus verified Hindi support."
+verdict: "For Hindi bloggers on a budget, Hostinger wins on intro price (₹69/mo) but renews at ₹289/mo. Bluehost India starts at ₹299/mo with unpublished renewals. MilesWeb matches Hostinger's ₹69/mo intro — plus verified Hindi support — but its renewal prices are not published on the plan cards, so confirm them at checkout."
 lastVerified: "2026-10-14"
 ---
 
@@ -58,17 +58,17 @@ If your English is comfortable, this may not matter to you. But for many first-t
 
 MilesWeb is an Indian hosting company, and it deserves a spot in this comparison because of two verified facts:
 
-| | MilesWeb Starter | MilesWeb Advance |
+| | MilesWeb Starter | MilesWeb Premium |
 |---|---|---|
 | **Price** | ₹69/mo | ₹99/mo |
-| **Renewal price** | ₹69/mo (guaranteed same) | ₹99/mo (guaranteed same) |
-| **Websites** | 1 | 1 |
-| **Storage** | 10 GB NVMe | 15 GB NVMe |
+| **Renewal price** | Not published on card | Not published on card |
+| **Websites** | 1 | 25 |
+| **Storage** | 10 GB NVMe | 50 GB NVMe |
 | **Hindi support** | Yes, verified 24/7 | Yes, verified 24/7 |
 
-Note: MilesWeb prices exclude 18% GST, so the real billed amount is slightly higher. Even with GST, the renewal guarantee is rare and valuable — most international hosts survive on renewal-price hikes.
+Note: MilesWeb prices exclude 18% GST, so the real billed amount is slightly higher. The old Advance plan is discontinued (27 Oct 2026) — the current lineup is Starter ₹69/mo, Premium ₹99/mo, Unlimited ₹149/mo. Renewal prices are not printed on the plan cards, so confirm at checkout.
 
-**MilesWeb pros:** same price at renewal, verified Hindi support, Indian company (payments in INR, familiar billing).
+**MilesWeb pros:** verified Hindi support, Indian company (payments in INR, familiar billing).
 **MilesWeb cons:** smaller brand than Hostinger/Bluehost, fewer third-party tutorials in English, datacenter options more limited.
 
 {{aff:milesweb|See MilesWeb's plans}}
