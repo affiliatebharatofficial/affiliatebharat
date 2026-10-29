@@ -1051,3 +1051,38 @@ Sources: https://www.hostinger.com/in · https://www.milesweb.in
 - Article: src/content/articles/en/hostgator-vs-milesweb-hindi-support.md (2,123 body words, title 54 chars, description 145 chars, 5 FAQs 66–80 words, tools: hosting-compare, products: milesweb + bigrock + hostgator-in — all already in affiliates.ts).
 - UNVERIFIED (stated as such in article): BigRock Hindi support (no official claim found); merger exact date (HostGator.in 15 July vs BigRock blog 1 July vs 23 July 2025); MilesWeb "under 30 seconds" claim (claim, not measured); live-chat Hindi quality NOT personally tested.
 Sources: https://www.milesweb.in · https://www.bigrock.in · https://www.bigrock.in/support/contact-us · https://www.hostgator.in
+
+## 2026-10-29 (evening) — SAAS-TOOLS RUN: `semrush-free-alternative-indian-bloggers` (Hinglish, saas-tools)
+
+### Topic (assigned, not calendar-picked)
+slug `semrush-free-alternative-indian-bloggers`, keyword "semrush free alternative indian bloggers". Calendar line 29 marked [x]. Article file did not exist before writing (verified).
+
+### OFFICIAL PAGE VERIFICATION (fetched 2026-10-29)
+**Semrush pricing page (semrush.com/pricing/seo/, fetched 2026-10-29 15:31 UTC):**
+- Current ladder: SEO (5 websites, 500 keywords/day, basic keyword research + competitor analysis, Position Tracking, Site Audit, AI visibility basics), Starter SEO+AI (5 websites, 500 keywords, 50 prompts/day, 1 domain AI brand performance, 300 AI visibility reports/day), Pro+ (15 websites, 1,500 keywords, historical data, content optimization, 100 prompts/day), Advanced custom (40+ websites, 5,000+ keywords, API, unlimited prompts).
+- Free tier on official page: 1 demo project, 10 reports/day across vital tools, Help Center & Basic Onboarding, AI Visibility features.
+- Add-ons: Additional Users from $45/mo, Lead Generation $90/mo, Base Report $10/mo, Pro Report $20/mo. Annual billing "save up to 17%".
+- Screenshot (pricing page, captured 2026-10-29): SEO $117.33/mo billed annually (struck $139), Starter $165.17/mo (struck $199), Pro+ $248.17/mo (struck $299), Advanced Custom. This is the pricing evidence used in the article.
+- Classic ladder (Pro $139.95 / Guru $249.95 / Business $499.95) appears only in third-party coverage now; official page leads with SEO/Starter/Pro+/Advanced. Article presents current ladder as primary.
+- Official free-account page: Domain Overview 10 queries/day, Keyword Research 10/day, Competitor Research 10/day, Site Audit 100 pages, Position Tracking 10 keywords, Backlinks 10/day, SEO Ideas limited.
+
+**Ubersuggest (neilpatel.com/ubersuggest/, fetched 2026-10-29):**
+- Official: 7-day free trial (card required), free plan for light research, lifetime option, 2.2B+ keyword database, Chrome extension, AI Search Visibility on paid plans.
+- Free-tier limits NOT on official page — from third-party coverage (Zapier, Backlinko, theaitrickslab checked 2026-10-15): 3 searches/day, 1 project, ~25 tracked keywords, Chrome extension ~40 overlay searches/day. Labeled third-party-reported in article methodology.
+- Paid Individual $29/mo per third-party coverage (promo $12/mo reported elsewhere) — article says "third-party coverage ke mutabiq $29/mo se" and advises confirming on official pricing page.
+
+**Google Search Console:** free, unlimited, own verified sites only. Dashboard behind Google login → no screenshot (noted honestly in article); public page search.google.com/search-console.
+
+**Ahrefs Webmaster Tools (bonus mention):** free for own verified sites, 5,000 crawl credits/project/month per third-party coverage (fokal, theaitrickslab).
+
+### Screenshots (both embedded, resized ≤1600px)
+- `semrush-home-2026.png` — official Semrush pricing page (annual prices visible).
+- `ubersuggest-home-2026.png` — Ubersuggest homepage ("Rank in Google. Get cited by AI." + free search box).
+- Neither site blocked; no CAPTCHA. GSC screenshot skipped (login-gated dashboard) with honest note in article.
+
+### UNVERIFIED / flagged in article
+- Ubersuggest free-tier exact limits (third-party only).
+- Ubersuggest Individual $29/mo (third-party only; promo prices vary).
+- Semrush trial-then-no-free-account eligibility (third-party guides only, flagged as reported/unverified).
+- Semrush GST treatment on India invoices (not claimed).
+- No sale/launch dates claimed anywhere in the article.

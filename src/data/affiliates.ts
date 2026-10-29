@@ -41,6 +41,8 @@ export const AFFILIATES: Affiliate[] = [
   { id: 'porkbun', name: 'Porkbun', category: 'deals', officialUrl: 'https://porkbun.com', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'cloudflare', name: 'Cloudflare Registrar', category: 'deals', officialUrl: 'https://www.cloudflare.com', affiliateUrl: '', payoutNote: 'No affiliate program for registrar' },
   { id: 'namecheap', name: 'Namecheap', category: 'deals', officialUrl: 'https://www.namecheap.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'ubersuggest', name: 'Ubersuggest', category: 'saas-tools', officialUrl: 'https://www.ubersuggest.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'google-search-console', name: 'Google Search Console', category: 'saas-tools', officialUrl: 'https://search.google.com/search-console', affiliateUrl: '', payoutNote: 'Free tool — no affiliate program' },
 ];
 
 /** Resolve the outbound URL for an affiliate id. Unknown id -> site root. */
