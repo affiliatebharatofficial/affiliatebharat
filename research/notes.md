@@ -1086,3 +1086,38 @@ slug `semrush-free-alternative-indian-bloggers`, keyword "semrush free alternati
 - Semrush trial-then-no-free-account eligibility (third-party guides only, flagged as reported/unverified).
 - Semrush GST treatment on India invoices (not claimed).
 - No sale/launch dates claimed anywhere in the article.
+
+## 2026-10-29 — SAAS-TOOLS RUN: `getresponse-vs-kit-email-marketing-beginners-india` (Hinglish)
+
+### OFFICIAL PAGE VERIFICATION (browser.open, 2026-10-29)
+**GetResponse pricing page (getresponse.com/pricing):**
+- Starter $19/mo, $15.58/mo annual (-18%, save $41/yr); Marketer $59/mo, $48.38/mo annual (save $127/yr); Creator $69/mo, $56.58/mo annual (save $149/yr); Enterprise custom. Prices are net amounts — local taxes may apply.
+- Starter: unlimited sends, AI content generators, welcome series, 1 custom automation workflow, landing page builder, signup forms/popups, free custom domain on yearly plan, 3 users (AI tools limited to 3 uses per FAQ).
+- Marketer adds: unlimited workflows, advanced segmentation, abandoned cart recovery, sales funnels, promo codes, revenue reports, unlimited web push, 5 users.
+- Creator adds: webinars (up to 100 attendees), website builder, course creator (up to 500 students), premium newsletter subscriptions, 5 users.
+- Free account: 14-day premium trial; after 14 days premium features lost; GetResponse badge on free messages; landing page visits limited to 1,000 unique visitors/mo; webinars limited to 10 people in trial; dynamic segment filter not available on free.
+- List sizes: 1k, 2.5k, 5k, 10k, 25k, 50k, 100k.
+**Kit pricing page (kit.com/pricing) + homepage:**
+- Free (Newsletter): $0, up to 10,000 subscribers (unique + active only), unlimited landing pages/forms/broadcasts, tagging & segmentation, sell digital products/subscriptions, newsletter feed & website.
+- Creator: $33/mo annual-equivalent ($390 billed yearly, save $78/yr); $39/mo monthly (third-party consensus); unlimited visual automations, unlimited sequences, 100+ integrations, Kit MCP, A/B subject lines, remove branding, 2 users.
+- Creator Pro: $50/mo first year ($593 billed first year, save $355, "EXTRA 25% OFF FIRST YEAR" limited-time offer on page today); standard $66/mo annual-equivalent ($79/mo monthly); adds Subscriber Signals, Growth Concierge, engagement analytics, insights dashboard, unlimited users, advanced A/B (5 subject lines), deliverability reporting.
+- Annual billing = 2 months free (homepage FAQ). Free migration on paid plans (homepage FAQ).
+- Commerce fee (official pricing page): 3.5% + 30c per sale, Kit's share 0.6%; Paid Recommendations fee 23.5%.
+- Official comparison table: visual automation builder + automated sequences = Creator/Pro only (NOT on free plan). Older guides claiming 1 free automation are stale — flagged in article.
+- Kit bands (monthly, third-party consensus Oct 2026): Creator 1K $39, 3K $59, 5K $89, 10K $139; Pro 1K $79, 3K $99, 5K $139, 10K $189. Free-plan cliff: $0 → $139/mo at 10,001 subscribers.
+**Payments (India):**
+- GetResponse official help page: Visa, MasterCard, Discover, Maestro, JCB, Amex; Apple Pay, Google Pay; PayPal accepted in India; PayU in Poland and India. Card must support recurring + international transactions. UPI NOT on official payment list — not claimed.
+- Kit: plans paid by card via Stripe; UPI not confirmed — international card needed.
+**Free-plan limits attribution:**
+- GetResponse 500 contacts / 2,500 newsletters per month: NOT on official pricing page; consistent across multiple independent Oct 2026 reviews (profitsanity, javisreview, saaszap) — presented in article as reported limits, with official-page limits (badge, 1,000 visits, 14-day trial) stated separately.
+
+### Screenshots (captured 2026-10-29, parent browser task, resized ≤1600px)
+- `getresponse-home-2026.png` — GetResponse pricing page, 1,000 list, yearly -18%: Starter $15.58, Marketer $48.38, Creator $56.58.
+- `kit-home-2026.png` — Kit pricing page, 1,000 subscribers: Free $0 (up to 10,000), Creator $33/mo annual, Pro $50/mo first-year offer.
+- Neither site blocked. Old 2026-10-09 getresponse-home.png NOT reused (stale).
+
+### UNVERIFIED (omitted or labeled in article)
+1. GetResponse free 500/2,500 limits — third-party consensus only, labeled as reported.
+2. Kit monthly prices ($39/$79) — pricing page shows annual-equivalent by default; monthly figures from third-party consensus.
+3. UPI for either tool — not on official pages, not claimed.
+4. Pro first-year offer end date — page shows limited-time offer, no end date printed; none claimed.

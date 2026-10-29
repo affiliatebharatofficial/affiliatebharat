@@ -25,7 +25,7 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 
 ## SaaS Tools (8)
 
-- [ ] slug: `getresponse-vs-kit-email-marketing-beginners-india` — Target keyword: "getresponse vs kit email marketing beginners india" (saas-tools)
+- [x] slug: `getresponse-vs-kit-email-marketing-beginners-india` — Target keyword: "getresponse vs kit email marketing beginners india" (saas-tools) — PUBLISHED 2026-10-29
 - [x] slug: `semrush-free-alternative-indian-bloggers` — Target keyword: "semrush free alternative indian bloggers" (saas-tools)
 - [ ] slug: `jasper-ai-hindi-content-quality-review` — Target keyword: "jasper ai hindi content quality" (saas-tools)
 - [ ] slug: `systeme-io-vs-clickfunnels-course-creators-india` — Target keyword: "systeme io vs clickfunnels course creators india" (saas-tools)
