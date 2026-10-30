@@ -1121,3 +1121,15 @@ slug `semrush-free-alternative-indian-bloggers`, keyword "semrush free alternati
 2. Kit monthly prices ($39/$79) — pricing page shows annual-equivalent by default; monthly figures from third-party consensus.
 3. UPI for either tool — not on official pages, not claimed.
 4. Pro first-year offer end date — page shows limited-time offer, no end date printed; none claimed.
+
+### 2026-10-30 — ENGLISH VERSION: bluehost-india-basic-vs-choice-plus (rotation rule H=19 E=15, gap 4; oldest Hinglish article without en version, date 2026-10-27)
+**Sources (accessed 2026-10-30):** bluehost.com/in/web-hosting — text fetch (crawled 2026-10-30 05:49 UTC) + live browser render of Standard tab (browser task 11:20–11:24 IST).
+**KEY FINDING — two price sets served by the same page, same day, same tab (websites/storage/term identical):**
+- Main/final load: Starter ₹383/mo (Save 60%), renews ₹960/mo; Business ₹672/mo (Save 50%), renews ₹1,345/mo; eCommerce Essentials ₹1,441/mo (Save 32%), renews ₹2,113/mo — all 36-mo. Matches 27 Oct verification exactly.
+- Earlier load: Starter ₹199/mo (Save 43%), renews ₹349/mo; Business ₹279/mo (Save 47%), renews ₹529/mo; eCommerce ₹649/mo (Save 50%), renews ₹1,299/mo — all 36-mo.
+- Likely A/B test or uneven promo rollout; article presents main set as headline and flags second set + checkout-check advice throughout.
+**Other live observations 30 Oct:** Basic/Plus/Choice Plus still not sold; old bluehost.in/shared-hosting still 404; no sale banner/terms visible on page (27 Oct sale terms 1 Oct–30 Nov + bundle discount NOT re-verifiable today — not claimed); page title still "Save 70%" but no card shows 70%.
+**GST conflict (flagged, not resolved):** text fetch showed "1VAT not included / 1GST not included" footnotes under each card; rendered-page search found NO GST note on cards. 27 Oct check found only generic "taxes and fees extra". Article states the conflict and advises checkout tax-line check.
+**High Performance tab NOT re-checked today** — 27 Oct figures (Pro ₹939/₹1,603, Premium ₹1,327/₹1,990, Enhanced ₹1,611/₹2,370, Elite ₹1,896/₹2,749) carried over labelled as 27 Oct.
+**Screenshot:** fresh capture 30 Oct from live browser (Standard tab, main price set) → public/screenshots/bluehost-plans-2026-en.png (1600px wide). Old 27 Oct bluehost-plans-2026.png NOT reused.
+**UNVERIFIED (omitted or labeled):** which price set a reader will be served; bundle-discount stacking; fate of existing Basic/Choice Plus customers; third-party coupon figures.
