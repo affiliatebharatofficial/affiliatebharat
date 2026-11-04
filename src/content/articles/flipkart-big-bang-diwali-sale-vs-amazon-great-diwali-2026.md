@@ -22,6 +22,12 @@ verdict: "1 November 2026 ko jawab ye hai: dono platforms par Diwali sale live h
 lastVerified: "2026-11-01"
 ---
 
+## Update — 4 November 2026: Amazon HDFC offer 5 November tak reported hai
+
+**Note (4 Nov check): Amazon HDFC 10% offer tracker reports me 28 Oct–5 Nov tak hai — Dhanteras (6 Nov) ko HDFC discount checkout par confirm karein; Flipkart SBI 10% 10 Nov tak reported hai.**
+
+Ye end date Amazon ki official announcement se nahi, deal trackers ki reporting se hai — Amazon ka page pehle bot-gate ke peeche raha tha, isliye live checkout verify nahi hua hai. Isliye Dhanteras (6 November) ko Amazon par HDFC discount milega ya nahi, ye checkout/payment page par hi pakka hoga, aur 5 November ka exact time pata nahi hai — 5 November end tak maan kar chalo. Flipkart ki taraf koi badlav nahi hai: SBI 10% 10 November tak reported hai, isliye Dhanteras wale din bank-offer route Flipkart/SBI banta hai.
+
 ## Update — 1 November 2026: Amazon ki Diwali sale bhi live hai, bas naam alag hai
 
 1 November ki subah ke check me article ki sabse badi baat badal gayi hai. **Amazon par Diwali sale live hai — lekin "1–8 November Great Diwali Sale" ke naam se nahi.** Amazon ki apni newsroom announcement ke mutabik **Great Indian Festival Diwali Edition 28 October 2026 se live hai**, HDFC Bank credit cards aur credit card EMI par **10% instant discount** ke saath, plus Prime members ko select products par extra ₹250 cashback. Matlab 28–31 October ka "Amazon gap" wali baat ab purani ho gayi hai: Diwali Edition 28 October se hi chal rahi thi, bas us waqt article likhte waqt uski announcement humari nazar se chhoot gayi thi — is galti ko yahan khulkar sudhara ja raha hai.
