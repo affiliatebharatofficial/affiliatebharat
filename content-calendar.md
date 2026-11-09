@@ -1,6 +1,6 @@
 # Content Calendar — AffiliateBharat
 
-23 long-tail topics. Flank strategy: specific use-cases, comparisons, cost questions.
+35 long-tail topics. Flank strategy: specific use-cases, comparisons, cost questions.
 (Finance category removed 2026-10-09 — SEBI/YMYL risk; revisit after domain authority builds.)
 NO head keywords like "best hosting" — every topic targets a concrete buyer question.
 
@@ -27,7 +27,7 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 
 - [x] slug: `getresponse-vs-kit-email-marketing-beginners-india` — Target keyword: "getresponse vs kit email marketing beginners india" (saas-tools) — PUBLISHED 2026-10-29. ENGLISH VERSION published 2026-11-02 → `/en/getresponse-vs-kit-email-marketing-beginners-india/` (rotation rule H=20 E=17, oldest-date + alphabetical tiebreak over semrush piece; English rewrite targeting "getresponse vs kit email marketing beginners india" — refreshed vs Hindi original: headline 1,000-band prices re-verified live today (GetResponse page shows INR for Indian visitors: Starter ₹1,479.43/mo yearly; Kit Creator $33/mo yearly, Pro $50/mo first year under extra 25% off offer); Kit growth bands re-verified via follow-up slider check (Creator $89 at 5,000, $139 at 10,000 — first session's $76/$109 reads discarded as mis-set slider); GetResponse growth ladder carried from 29 Oct + tracker corroboration; GetResponse free-account 500-contact figure flagged as reported since pricing page now shows trial only; 2 fresh screenshots; 1,784 words).
 - [x] slug: `semrush-free-alternative-indian-bloggers` — Target keyword: "semrush free alternative indian bloggers" (saas-tools) — ENGLISH VERSION published 2026-11-04 → `/en/semrush-free-alternative-indian-bloggers/` (rotation rule H=21 E=18, oldest-date; English rewrite targeting "semrush free alternative indian bloggers" — refreshed vs Hindi original: Semrush plan structure + free limits re-verified on official pricing page today (1 demo project, 10 reports/day, add-ons $45/$10/$20, Advanced Custom); dollar prices corroborated by Oct–3 Nov 2026 trackers (SEO $139/$117.33, Starter $199/$165.17, Pro+ $299/$248.17); Ubersuggest free 3/day + Individual $29 confirmed by recent trackers, labelled third-party-reported; 29 Oct screenshots reused with re-verification captions; 1,740 words).
-- [ ] slug: `jasper-ai-hindi-content-quality-review` — Target keyword: "jasper ai hindi content quality" (saas-tools)
+- [x] slug: `jasper-ai-hindi-content-quality-review` — Target keyword: "jasper ai hindi content quality" (saas-tools) — PUBLISHED 2026-11-09: live-verified today — Jasper official pricing page shows ONLY Pro $69/mo/seat monthly ($59 annual) + Business custom; Creator plan retired for new users (third-party reports agree); Translation Agent (27 languages incl. Hindi, 5-phase pipeline) is Business-only; Hindi quality per independent reviews degrades vs English ("thoda artificial", idioms/cultural nuance missing); Writesonic Starter $79/mo annual (10 Oct 2026 official-page reading), Hindi rated better than Jasper; ChatGPT Plus India ₹1,999/mo incl. GST, UPI accepted. 3 fresh screenshots (Jasper/Writesonic/ChatGPT homepages). 3,113 words.
 - [ ] slug: `systeme-io-vs-clickfunnels-course-creators-india` — Target keyword: "systeme io vs clickfunnels course creators india" (saas-tools)
 - [ ] slug: `email-marketing-tool-10000-subscribers-cost-india` — Target keyword: "email marketing tool 10000 subscribers cost india" (saas-tools)
 - [ ] slug: `free-crm-small-business-india-hindi` — Target keyword: "free crm small business india" (saas-tools)
@@ -40,6 +40,20 @@ NO head keywords like "best hosting" — every topic targets a concrete buyer qu
 - [x] slug: `diwali-brand-sale-offers-2026-laptops-electronics` — Target keyword: "diwali sale 2026 laptop offers india" (deals) — PUBLISH ~Oct 21–24: brand-store Diwali sales ALREADY LIVE (Asus Zenbook S16 ₹91,000 off; Lenovo up to 55% + ₹20k cashback; HP 6 AI subs free; Realme lucky spin; Acer min 50% off; OnePlus price drops — DesiDime, reported 2026-10-18, re-verify live at write time). Honest angle: buy on brand stores now vs wait for Amazon (Oct 25 exp.) / Flipkart (Oct 29 exp.) waves; laptop-focused for students/freelancers/creators. Offers framed as reported-not-tested. Pre-research in research/notes.md (2026-10-18 afternoon entry). Screenshot rule applies.
 - [ ] slug: `semrush-trial-vs-discount-students-india` — Target keyword: "semrush trial vs discount india" (deals)
 - [ ] slug: `getresponse-annual-vs-monthly-savings-india` — Target keyword: "getresponse annual vs monthly price india" (deals)
+
+## Added 2026-11-08 (12) — appended after the existing queue, in writer order
+- [ ] slug: `hostinger-vs-milesweb-india-beginners` — Target keyword: "hostinger vs milesweb india beginners" (hosting)
+- [ ] slug: `vps-hosting-india-beginners-cheap` — Target keyword: "cheap vps hosting india beginners" (hosting)
+- [ ] slug: `reseller-hosting-india-start-business` — Target keyword: "reseller hosting india start web hosting business" (hosting)
+- [ ] slug: `managed-wordpress-hosting-india-worth-it` — Target keyword: "managed wordpress hosting india worth it" (hosting)
+- [ ] slug: `hosting-multiple-websites-india-one-plan` — Target keyword: "one hosting plan multiple websites india" (hosting)
+- [ ] slug: `hosting-for-coaching-institute-website-india` — Target keyword: "coaching institute website hosting india" (hosting)
+- [ ] slug: `mailchimp-vs-brevo-email-marketing-india` — Target keyword: "mailchimp vs brevo india beginners" (saas-tools)
+- [ ] slug: `google-workspace-vs-zoho-mail-india-small-business` — Target keyword: "google workspace vs zoho mail india small business price" (saas-tools)
+- [ ] slug: `rank-math-vs-yoast-seo-indian-bloggers` — Target keyword: "rank math vs yoast seo india bloggers" (saas-tools)
+- [ ] slug: `teachable-vs-graphy-course-creators-india` — Target keyword: "teachable vs graphy india course creators" (saas-tools)
+- [ ] slug: `new-year-hosting-offers-india-2027` — Target keyword: "new year hosting offers india 2027" (deals) — publish late Dec, seasonal
+- [ ] slug: `in-domain-vs-com-domain-price-india-renewal` — Target keyword: "in domain vs com domain price india renewal" (deals)
 
 ## English versions published (rotation rule: H − E ≥ 3)
 
