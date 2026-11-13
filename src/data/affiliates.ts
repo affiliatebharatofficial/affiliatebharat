@@ -24,6 +24,8 @@ export const AFFILIATES: Affiliate[] = [
   { id: 'milesweb', name: 'MilesWeb', category: 'hosting', officialUrl: 'https://www.milesweb.in', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'a2hosting', name: 'A2 Hosting', category: 'hosting', officialUrl: 'https://www.a2hosting.com', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'getresponse', name: 'GetResponse', category: 'saas-tools', officialUrl: 'https://www.getresponse.com', affiliateUrl: '', payoutNote: '33% recurring' },
+  { id: 'mailchimp', name: 'Mailchimp', category: 'saas-tools', officialUrl: 'https://mailchimp.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'brevo', name: 'Brevo', category: 'saas-tools', officialUrl: 'https://www.brevo.com', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'semrush', name: 'Semrush', category: 'saas-tools', officialUrl: 'https://www.semrush.com', affiliateUrl: '', payoutNote: '$200/sale (public info)' },
   { id: 'kit', name: 'Kit (ConvertKit)', category: 'saas-tools', officialUrl: 'https://kit.com', affiliateUrl: '', payoutNote: 'Up to 30% recurring for 24 months' },
   { id: 'jasper', name: 'Jasper', category: 'saas-tools', officialUrl: 'https://www.jasper.ai', affiliateUrl: '', payoutNote: 'TBD' },
