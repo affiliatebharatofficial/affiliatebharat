@@ -46,6 +46,11 @@ export const AFFILIATES: Affiliate[] = [
   { id: 'ubersuggest', name: 'Ubersuggest', category: 'saas-tools', officialUrl: 'https://www.ubersuggest.com', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'writesonic', name: 'Writesonic', category: 'saas-tools', officialUrl: 'https://writesonic.com', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'google-search-console', name: 'Google Search Console', category: 'saas-tools', officialUrl: 'https://search.google.com/search-console', affiliateUrl: '', payoutNote: 'Free tool — no affiliate program' },
+  { id: 'hubspot', name: 'HubSpot', category: 'saas-tools', officialUrl: 'https://www.hubspot.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'zoho-crm', name: 'Zoho CRM', category: 'saas-tools', officialUrl: 'https://www.zoho.com/crm', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'bigin', name: 'Zoho Bigin', category: 'saas-tools', officialUrl: 'https://www.bigin.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'bitrix24', name: 'Bitrix24', category: 'saas-tools', officialUrl: 'https://www.bitrix24.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'freshsales', name: 'Freshsales (Freshworks CRM)', category: 'saas-tools', officialUrl: 'https://www.freshworks.com/crm', affiliateUrl: '', payoutNote: 'TBD' },
 ];
 
 /** Resolve the outbound URL for an affiliate id. Unknown id -> site root. */
