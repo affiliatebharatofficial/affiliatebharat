@@ -52,6 +52,8 @@ export const AFFILIATES: Affiliate[] = [
   { id: 'bitrix24', name: 'Bitrix24', category: 'saas-tools', officialUrl: 'https://www.bitrix24.com', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'freshsales', name: 'Freshsales (Freshworks CRM)', category: 'saas-tools', officialUrl: 'https://www.freshworks.com/crm', affiliateUrl: '', payoutNote: 'TBD' },
   { id: 'canva', name: 'Canva', category: 'saas-tools', officialUrl: 'https://www.canva.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'notion', name: 'Notion', category: 'saas-tools', officialUrl: 'https://www.notion.com', affiliateUrl: '', payoutNote: 'TBD' },
+  { id: 'google-workspace', name: 'Google Workspace', category: 'saas-tools', officialUrl: 'https://workspace.google.com', affiliateUrl: '', payoutNote: 'TBD' },
 ];
 
 /** Resolve the outbound URL for an affiliate id. Unknown id -> site root. */
